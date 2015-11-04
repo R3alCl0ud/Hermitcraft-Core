@@ -48,7 +48,7 @@ public class ObjHandler {
 	        ItemStack recipeResult = tmpRecipe.getRecipeOutput();
 	        if(recipeResult != null) 
 	        {
-	            //recipeResult.stackSize = 1;
+	            recipeResult.stackSize = 1;
 	            recipeResult.setItemDamage(0);
 	        }
 
@@ -59,7 +59,7 @@ public class ObjHandler {
 	    }
 
 	}
-	public static void addRecipes () 
+	public static void craftingRecipes () 
 	{
 		
 	}
