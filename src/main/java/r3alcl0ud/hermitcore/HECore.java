@@ -29,11 +29,11 @@ import r3alcl0ud.hermitcore.common.IProxy;
 
 import java.io.File;
 
-@Mod(modid = HECore.MODID, name = HECore.MODNAME, version = HECore.$VERSION)
+@Mod(modid = HECore.MODID, name = HECore.MODNAME, version = HECore.$version)
 public class HECore {
 	public static final String MODID = "HermitcraftCore";
 	public static final String MODNAME = "Hermitcraft Core";
-	public static final String $VERSION = "1.0.0";
+	public static final String $version = "1.0.1";
 
 	public static File CONFIG_DIR;
 
@@ -53,41 +53,11 @@ public class HECore {
 		}
 		HermitCoreConfig.init(new File(CONFIG_DIR, "HECore.cfg"));
 
-		//Removes Diamond tools
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveDAxe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveDHoe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveDPick);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveDSpade);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveDSword);
 		
-		//Removes Gold tools
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveGAxe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveGHoe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveGPick);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveGSpade);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveGSword);
-		
-		//Removes Iron tools
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveIAxe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveIHoe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveIPick);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveISpade);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveISword);
-
-		//Removes Stone tools
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveSAxe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveSHoe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveSPick);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveSSpade);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveSSword);
-		
-		//Removes Wooden tools
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveWAxe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveWHoe);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveWPick);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveWSpade);
-		ObjHandler.removeRecipes(HermitCoreConfig.RemoveWSword);
-	
+		for (int i = 0; i < (HermitCoreConfig.toDelete.length); i++)
+		{
+		ObjHandler.removeRecipes(HermitCoreConfig.toDelete[i]);
+		}
 	}
 
 	@EventHandler
