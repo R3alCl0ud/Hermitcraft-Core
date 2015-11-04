@@ -1,0 +1,8 @@
+package r3alcl0ud.hermitcore.common;
+
+import net.minecraft.entity.player.EntityPlayer;
+
+public interface IProxy 
+{
+	EntityPlayer getClientPlayer();
+}

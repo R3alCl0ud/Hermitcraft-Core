@@ -1,0 +1,11 @@
+package r3alcl0ud.hermitcore.common;
+
+
+
+
+public class ClientProxy implements IProxy
+{
+
+
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+<fullyQualifiedTypeName name="net.minecraft.item.crafting.ShapedRecipes"/>
+<fullyQualifiedTypeName name="net.minecraft.item.crafting.IRecipe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.crafting.CraftingManager"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="net.minecraft.item.crafting.ShapelessRecipes"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="r3alcl0ud.hermitcore.config.HermitCoreConfig"/>
+</qualifiedTypeNameHistroy>

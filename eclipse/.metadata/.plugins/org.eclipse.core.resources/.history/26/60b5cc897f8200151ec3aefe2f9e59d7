@@ -1,0 +1,13 @@
+package r3alcl0ud.hermitcore.common;
+
+import cpw.mods.fml.relauncher.Side;
+
+
+public class ServerProxy 
+{
+	public void registerHandlers()
+	{
+		
+	}
+
+}

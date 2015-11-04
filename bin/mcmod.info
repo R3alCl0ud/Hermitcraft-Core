@@ -1,0 +1,16 @@
+[
+{
+  "modid": "HermitcraftCore",
+  "name": "Hermitcraft Core",
+  "description": "Core game modifications for Hermitcraft Explorers modpack.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["R3alCl0ud", "Wagyourtail"],
+  "credits": "Mojang for making Minecraft.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

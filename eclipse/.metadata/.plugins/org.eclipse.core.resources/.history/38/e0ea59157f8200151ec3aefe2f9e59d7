@@ -1,0 +1,5 @@
+package r3alcl0ud.hermitcore.common;
+
+public interface IProxy {
+
+}

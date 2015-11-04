@@ -1,0 +1,14 @@
+package r3alcl0ud.hermitcore.common;
+
+
+import cpw.mods.fml.relauncher.Side;
+
+public class ClientProxy implements IProxy
+{
+	@Override
+	public void registerHandlers()
+	{
+		
+	}
+
+}
