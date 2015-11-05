@@ -25,6 +25,7 @@ import net.minecraft.item.Item;
 import hermitcore.common.ServerProxy;
 import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.ObjHandler;
+import hermitcore.library.crafting.LiquidCasting;
 import hermitcore.tcon.smeltery.HermitSmeltery;
 import hermitcore.common.IProxy;
 import mantle.pulsar.config.ForgeCFG;
@@ -32,7 +33,8 @@ import mantle.pulsar.control.PulseManager;
 
 import java.io.File;
 
-import tconstruct.smeltery.TinkerSmeltery;
+//import tconstruct.library.crafting.LiquidCasting;
+//import tconstruct.smeltery.TinkerSmeltery;
 
 @SuppressWarnings("unused")
 @Mod(modid = HECore.MODID, name = HECore.MODNAME, version = "${version}")
@@ -68,12 +70,16 @@ public class HECore {
 		}
 		ObjHandler.register();
 		pulsar.registerPulse(new HermitSmeltery());
+		
+        tableCasting = new LiquidCasting();
+        basinCasting = new LiquidCasting();
 
 	}
 
 	@EventHandler
-	public void load(FMLPreInitializationEvent event) {
+	public void Init(FMLInitializationEvent event) {
 		
+		pulsar.init(event);
 	}
 
 	@EventHandler

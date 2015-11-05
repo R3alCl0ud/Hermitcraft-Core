@@ -7,6 +7,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.util.IIcon;
 import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.fluids.Fluid;
+import hermitcore.library.HermitRegistery;
 
 public class HermitFluid extends BlockFluidClassic
 {
@@ -65,6 +66,4 @@ public class HermitFluid extends BlockFluidClassic
     public void setFluid(Fluid fluid) {
         this.fluid = fluid;
     }
-
-
 }

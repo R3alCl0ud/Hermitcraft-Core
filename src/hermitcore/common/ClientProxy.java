@@ -27,20 +27,21 @@ public class ClientProxy implements IProxy
 	}
 
 	@Override
-	public void registerKeyBinds() {
-		// TODO Auto-generated method stub
+	public void registerKeyBinds() 
+	{
 		
 	}
 
 	@Override
-	public void registerRenderers() {
-		// TODO Auto-generated method stub
-		
+	public void registerRenderers() 
+	{
+	
 	}
 
 	@Override
-	public void registerClientOnlyEvents() {
-		// TODO Auto-generated method stub
+	public void registerClientOnlyEvents() 
+	{
+		
 		
 	}
 

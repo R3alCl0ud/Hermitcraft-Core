@@ -33,7 +33,7 @@ import tconstruct.TConstruct;
 import tconstruct.library.TConstructRegistry;
 import tconstruct.library.crafting.FluidType;
 import tconstruct.library.crafting.LiquidCasting;
-import tconstruct.library.crafting.Smeltery;
+//import tconstruct.library.crafting.Smeltery;
 import tconstruct.library.util.IPattern;
 import tconstruct.smeltery.TinkerSmeltery;
 import tconstruct.smeltery.TinkerSmelteryEvents;
@@ -44,18 +44,21 @@ import tconstruct.smeltery.items.MetalPattern;
 import tconstruct.smeltery.logic.*;
 import hermitcore.HECore;
 import hermitcore.gameObjs.ObjHandler;
+import hermitcore.library.HermitFluid;
+import hermitcore.library.crafting.Smeltery;
 
 import java.util.*;
 
 @SuppressWarnings("unused")
 @ObjectHolder(HECore.MODID)
-@Pulse(id = "Hermit Core' Smeltery", description = "Adds ability to use TConstruc's smeltery on AoA Ores and bars")
+@Pulse(id = "Hermit Core' Smeltery", description = "Adds ability to use TConstruct's smeltery on AoA Ores and bars")
 public class HermitSmeltery {
 	
 	
 	
 	
 	//Liquids
+	public static Material liquidMetal;
 	public static Fluid moltenLimoniteFluid;
 	public static Fluid moltenAmethystFluid;
 	public static Fluid moltenRositeFluid;
@@ -80,24 +83,37 @@ public class HermitSmeltery {
         TinkerSmelteryEvents smelteryEvents = new TinkerSmelteryEvents();
         MinecraftForge.EVENT_BUS.register(smelteryEvents);
         FMLCommonHandler.instance().bus().register(smelteryEvents);
+        
+        HermitSmeltery.liquidMetal = new MaterialLiquid(MapColor.tntColor);
     	
     	HermitSmeltery.moltenLimoniteFluid = registerFluid("limonite");
     	HermitSmeltery.moltenLimonite = HermitSmeltery.moltenLimoniteFluid.getBlock();
     	
     	
     	
-    	FluidType.registerFluidType("limonite", ObjHandler.oreLimonite, 0, 600, HermitSmeltery.moltenLimoniteFluid, true);
+    	FluidType.registerFluidType("Limonite", ObjHandler.oreLimonite, 0, 600, HermitSmeltery.moltenLimoniteFluid, false);
     }
     
     @Handler
     public void init (FMLInitializationEvent event)
     {
     	 addRecipesForSmeltery();
+    	 addRecipesForCastingBasin();
     }
     
     protected static void addRecipesForSmeltery ()
     {
+    	
+    	
+    	
+    	//Ores
     	Smeltery.addMelting(ObjHandler.oreLimonite, 0, 600, new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.ingotLiquidValue * 2));
+    }
+    
+    protected void addRecipesForCastingBasin () 
+    {
+    	LiquidCasting basinCasting = TConstructRegistry.getBasinCasting();
+    	basinCasting.addCastingRecipe(new ItemStack(ObjHandler.oreLimonite,  1 , 10), new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue), null, true, 100);
     }
     
     public static Fluid registerFluid(String name) {
@@ -121,7 +137,7 @@ public class HermitSmeltery {
 
         // register our fluid block for the fluid
         // this constructor implicitly does fluid.setBlock to it, that's why it's not called separately
-        TConstructFluid block = new TConstructFluid(fluid, material, texture);
+        HermitFluid block = new HermitFluid(fluid, material, texture);
         block.setBlockName(blockName);
         GameRegistry.registerBlock(block, blockName);
 
@@ -160,6 +176,18 @@ public class HermitSmeltery {
         }
 
         return fluid;
+        
+    }
+    private void registerIngotCasting(FluidType ft, String name) 
+    {
+        ItemStack pattern = new ItemStack(TinkerSmeltery.metalPattern, 1, 0);
+        LiquidCasting tableCasting = TConstructRegistry.instance.getTableCasting();
+        for (ItemStack ore : OreDictionary.getOres(name))
+        {
+            tableCasting.addCastingRecipe(pattern, new FluidStack(TinkerSmeltery.moltenAlubrassFluid, TConstruct.ingotLiquidValue), new ItemStack(ore.getItem(), 1, ore.getItemDamage()), false, 50);
+            tableCasting.addCastingRecipe(pattern, new FluidStack(TinkerSmeltery.moltenGoldFluid, TConstruct.ingotLiquidValue * 2), new ItemStack(ore.getItem(), 1, ore.getItemDamage()), false, 50);
+            tableCasting.addCastingRecipe(new ItemStack(ore.getItem(), 1, ore.getItemDamage()), new FluidStack(ft.fluid, TConstruct.ingotLiquidValue), pattern, 80);
+        }
     }
     
 }
