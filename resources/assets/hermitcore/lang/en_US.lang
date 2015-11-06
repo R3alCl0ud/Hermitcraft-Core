@@ -1,0 +1,4 @@
+tile.Limonite Ore.name=Limonite Ore
+item.null.name=Limonite Ingot
+tile.fluid.molten.limonite.name= Molten Limonite
+item.hermitcore.bucket.limonite.name=Molten Limonite Bucket

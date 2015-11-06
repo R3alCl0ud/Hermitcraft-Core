@@ -11,7 +11,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.*;
 import net.minecraft.util.IIcon;
 
-public class HermitBlock extends MantleBlock{
+public class HermitBlock extends MantleBlock
+{
 
 	
     public String[] textureNames;

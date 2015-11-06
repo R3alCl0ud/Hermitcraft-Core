@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 
 import java.io.File;
 
+import hermitcore.HECore;
 import hermitcore.utils.HELogger;
 
 @SuppressWarnings("unused")
@@ -23,7 +24,7 @@ public final class HermitCoreConfig
 			config.load();
 			
 			
-			enableDebugLog = config.getBoolean("debugLogging", "misc", true, "Enable a more verbose debug logging");
+			enableDebugLog = config.getBoolean("debugLogging", "misc", false, "Enable a more verbose debug logging");
 		
 			toDelete = config.get("removeItems", "recipes", new String[] {"minecraft:iron_hoe",  "minecraft:iron_pickaxe", "minecraft:iron_shovel", "minecraft:iron_sword", "minecraft:iron_axe", "minecraft:stone_hoe",  "minecraft:stone_pickaxe", "minecraft:stone_shovel", "minecraft:stone_sword", "minecraft:stone_axe", "minecraft:golden_hoe",  "minecraft:golden_pickaxe", "minecraft:golden_shovel", "minecraft:golden_sword", "minecraft:golden_axe"}, "Put Items to remove crafting recipes here. Format: modname:itemname").getStringList();
 			HELogger.logInfo("Loaded configuration file.");
@@ -41,4 +42,6 @@ public final class HermitCoreConfig
 			}
 		}
 	}
+    public static File configFile(String fileName) { return new File(HECore.CONFIG_DIR, fileName); }
 }
+

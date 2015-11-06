@@ -1,13 +1,12 @@
-package hermitcore.library;
+package hermitcore.tcon.smeltery.blocks;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.util.IIcon;
 import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.fluids.Fluid;
-import hermitcore.library.HermitRegistery;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 public class HermitFluid extends BlockFluidClassic
 {
@@ -17,7 +16,6 @@ public class HermitFluid extends BlockFluidClassic
     public IIcon flowIcon;
     boolean overwriteFluidIcons = true;
     private Fluid fluid = null;
-    
     
 	public HermitFluid(Fluid fluid, Material material, String texture) {
 		super(fluid, material);
@@ -39,8 +37,8 @@ public class HermitFluid extends BlockFluidClassic
     @Override
     public void registerBlockIcons (IIconRegister iconRegister)
     {
-        stillIcon = iconRegister.registerIcon("hermit:" + texture);
-        flowIcon = iconRegister.registerIcon("hermit:" + texture + "_flow");
+        stillIcon = iconRegister.registerIcon("hermitcore:" + texture);
+        flowIcon = iconRegister.registerIcon("hermitcore:" + texture + "_flow");
 
         if (overwriteFluidIcons)
             this.getFluid().setIcons(stillIcon, flowIcon);

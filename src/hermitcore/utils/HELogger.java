@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 public final class HELogger 
 {
-	private static Logger logger = LogManager.getLogger(HECore.MODID);
+	public static Logger logger = LogManager.getLogger(HECore.MODID);
 	
 	public static void log(Level level, String msg)
 	{

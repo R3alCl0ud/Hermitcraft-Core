@@ -1,48 +1,37 @@
 package hermitcore;
 
-import com.google.common.base.Throwables;
-import com.google.common.collect.Lists;
-
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.Mod.Instance;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLInterModComms;
-import cpw.mods.fml.common.event.FMLMissingMappingsEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.event.FMLServerStartingEvent;
-import cpw.mods.fml.common.event.FMLServerStoppedEvent;
-import cpw.mods.fml.common.event.FMLServerStoppingEvent;
-import cpw.mods.fml.common.network.NetworkRegistry;
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import hermitcore.common.ServerProxy;
+import hermitcore.common.IProxy;
 import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.ObjHandler;
 import hermitcore.library.crafting.LiquidCasting;
 import hermitcore.tcon.smeltery.HermitSmeltery;
-import hermitcore.common.IProxy;
-import mantle.pulsar.config.ForgeCFG;
-import mantle.pulsar.control.PulseManager;
 
 import java.io.File;
+import java.util.Random;
 
-//import tconstruct.library.crafting.LiquidCasting;
-//import tconstruct.smeltery.TinkerSmeltery;
+import mantle.pulsar.config.ForgeCFG;
+import mantle.pulsar.config.IConfiguration;
+import mantle.pulsar.control.PulseManager;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+
 
 @SuppressWarnings("unused")
-@Mod(modid = HECore.MODID, name = HECore.MODNAME, version = "${version}")
+@Mod(modid = HECore.MODID, name = HECore.MODNAME, version = "${version}",
+dependencies = "required-after:TConstruct@[1.7.10-1.8.3,);after:ForgeMultipart@[1.1.1.321,);after:*")
 public class HECore {
-	public static final String MODID = "HermitcraftCore";
+	public static final String MODID = "hermitcore";
 	public static final String MODNAME = "Hermitcraft Core";
 	public static final String modVersion = "${version}";
 
+	public static Random random = new Random();
+	
 	public static File CONFIG_DIR;
 
 	@Instance(MODID)
@@ -51,8 +40,9 @@ public class HECore {
 	@SidedProxy(clientSide = "hermitcore.common.ClientProxy", serverSide = "hermitcore.common.ServerProxy")
 	public static IProxy proxy;
 	
-	public static PulseManager pulsar = new PulseManager(MODID, new ForgeCFG("TinkersModules", "Modules: Disabling these will disable a chunk of the mod"));
-
+    private IConfiguration pulseCFG;
+	public static PulseManager pulsar;
+	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		CONFIG_DIR = new File(event.getModConfigurationDirectory(),
@@ -61,6 +51,13 @@ public class HECore {
 		if (!CONFIG_DIR.exists()) {
 			CONFIG_DIR.mkdirs();
 		}
+		
+		
+        pulseCFG = new PulsarCFG(HermitCoreConfig.configFile("Modules.cfg"), "Tinker's Construct Addon: Hermitcraft Core addon for Tinkers Construct");
+        pulseCFG.load();
+        pulsar = new PulseManager(MODID, pulseCFG);
+		
+		
 		HermitCoreConfig.init(new File(CONFIG_DIR, "HECore.cfg"));
 
 		
@@ -69,10 +66,13 @@ public class HECore {
 		ObjHandler.removeRecipes(HermitCoreConfig.toDelete[i]);
 		}
 		ObjHandler.register();
+		
 		pulsar.registerPulse(new HermitSmeltery());
 		
         tableCasting = new LiquidCasting();
         basinCasting = new LiquidCasting();
+        
+        pulsar.preInit(event);
 
 	}
 
@@ -83,8 +83,26 @@ public class HECore {
 	}
 
 	@EventHandler
-	public void postInit(FMLPreInitializationEvent event) {
+	public void postInit(FMLPostInitializationEvent event) {
 
+		
+		
+        //proxy.initialize();
+        pulsar.postInit(event);
 	}
+	
+    public static LiquidCasting getTableCasting ()
+    {
+        return tableCasting;
+    }
+
+    public static LiquidCasting getBasinCasting ()
+    {
+        return basinCasting;
+    }
+    
+    
+    public static LiquidCasting tableCasting;
+    public static LiquidCasting basinCasting;
 
 }

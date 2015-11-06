@@ -2,8 +2,9 @@ package hermitcore.gameObjs;
 
 import hermitcore.HECore;
 import hermitcore.config.HermitCoreConfig;
+import hermitcore.gameObjs.block.blockLimonite;
 import hermitcore.gameObjs.block.oreLimonite;
-
+import hermitcore.gameObjs.item.ingotLimonite;
 import cpw.mods.fml.common.IFuelHandler;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -25,6 +26,9 @@ import net.minecraftforge.oredict.RecipeSorter.Category;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 
+
+
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -39,13 +43,13 @@ public class ObjHandler
 	
 	
 	public static Block oreLimonite;
-	
+	public static Block blockLimonite;
 	
 	public static void register() 
 	{
 		GameRegistry.registerBlock(oreLimonite = new oreLimonite("Limonite Ore", Material.iron), "Limonite Ore");
-		
-
+		GameRegistry.registerBlock(blockLimonite = new blockLimonite("Limonite Block", Material.iron), "Limonite Block");
+		GameRegistry.registerItem(ingotLimonite = new ingotLimonite("Limonite Ingot"), "Limonite Ingot");
 	}
 
 	@SuppressWarnings("unchecked")
@@ -71,8 +75,5 @@ public class ObjHandler
 	    }
 
 	}
-	public static void addRecipes () 
-	{
-		
-	}
+
 }

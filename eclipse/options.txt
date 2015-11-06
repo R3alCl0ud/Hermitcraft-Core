@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:true
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 clouds:false
@@ -27,7 +27,7 @@ snooperEnabled:true
 fullscreen:false
 enableVsync:false
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
@@ -91,11 +91,11 @@ key_key.tbelt:48
 key_key.tzoom:44
 key_key.control:29
 soundCategory_master:0.11258278
-soundCategory_music:0.2746479
-soundCategory_record:0.2112676
-soundCategory_weather:0.2535211
-soundCategory_block:0.24647887
-soundCategory_hostile:0.30985916
+soundCategory_music:0.13380282
+soundCategory_record:0.2535211
+soundCategory_weather:0.52112675
+soundCategory_block:0.2746479
+soundCategory_hostile:0.5492958
 soundCategory_neutral:0.2535211
-soundCategory_player:0.30985916
-soundCategory_ambient:0.23943663
+soundCategory_player:0.57746476
+soundCategory_ambient:0.33802816
