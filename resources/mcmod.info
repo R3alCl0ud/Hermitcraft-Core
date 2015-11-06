@@ -1,6 +1,6 @@
 [
 {
-  "modid": "HermitcraftCore",
+  "modid": "hermitcore",
   "name": "Hermitcraft Core",
   "description": "Core game modifications for Hermitcraft Explorers modpack.",
   "version": "${version}",
