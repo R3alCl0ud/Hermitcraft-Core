@@ -3,8 +3,6 @@ package hermitcore.tcon.smeltery;
 import hermitcore.HECore;
 import hermitcore.gameObjs.ObjHandler;
 import hermitcore.library.HermitRegistry;
-//import hermitcore.library.crafting.LiquidCasting;
-import hermitcore.library.crafting.Smeltery;
 import hermitcore.tcon.smeltery.blocks.HermitFluid;
 import hermitcore.tcon.smeltery.items.FilledBucket;
 import hermitcore.utils.HELogger;
@@ -30,6 +28,7 @@ import tconstruct.TConstruct;
 import tconstruct.library.TConstructRegistry;
 import tconstruct.library.crafting.FluidType;
 import tconstruct.library.crafting.LiquidCasting;
+import tconstruct.library.crafting.Smeltery;
 import tconstruct.smeltery.TinkerSmeltery;
 import tconstruct.smeltery.items.MetalPattern;
 import tconstruct.world.items.OreBerries;
@@ -70,8 +69,8 @@ public class HermitSmeltery {
 	public static Block moltenVarsium;
 	
 	
-    public static Fluid[] fluids = new Fluid[1];
-    public static Block[] fluidBlocks = new Block[1];
+    public static Fluid[] fluids = new Fluid[3];
+    public static Block[] fluidBlocks = new Block[3];
 	
 	
     @Handler
@@ -90,12 +89,19 @@ public class HermitSmeltery {
     	HermitSmeltery.moltenLimoniteFluid = registerFluid("limonite");
     	HermitSmeltery.moltenLimonite = HermitSmeltery.moltenLimoniteFluid.getBlock();
     	
+    	HermitSmeltery.moltenAmethystFluid = registerFluid("amethyst");
+    	HermitSmeltery.moltenAmethyst = HermitSmeltery.moltenAmethystFluid.getBlock();
+    	
+    	HermitSmeltery.moltenRositeFluid = registerFluid("rosite");
+    	HermitSmeltery.moltenRosite = HermitSmeltery.moltenRositeFluid.getBlock();
+
     	
     	
-    	FluidType.registerFluidType("limonite", HermitSmeltery.moltenLimonite, 0, 600, HermitSmeltery.moltenLimoniteFluid, true);
+    	FluidType.registerFluidType("Limonite", HermitSmeltery.moltenLimonite, 0, 600, HermitSmeltery.moltenLimoniteFluid, true);
+    	FluidType.registerFluidType("Amethyst", HermitSmeltery.moltenAmethyst, 0, 600, HermitSmeltery.moltenAmethystFluid, true);
     	
-    	HermitSmeltery.fluids = new Fluid[] { HermitSmeltery.moltenLimoniteFluid};
-    	HermitSmeltery.fluidBlocks = new Block[] {HermitSmeltery.moltenLimonite};
+    	HermitSmeltery.fluids = new Fluid[] { HermitSmeltery.moltenLimoniteFluid, HermitSmeltery.moltenAmethystFluid, HermitSmeltery.moltenRositeFluid};
+    	HermitSmeltery.fluidBlocks = new Block[] {HermitSmeltery.moltenLimonite, HermitSmeltery.moltenAmethyst, HermitSmeltery.moltenRosite};
     	
     	
         //Items
