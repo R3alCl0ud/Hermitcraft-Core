@@ -90,9 +90,9 @@ key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:44
 key_key.control:29
-soundCategory_master:0.11258278
-soundCategory_music:0.13380282
-soundCategory_record:0.2535211
+soundCategory_master:0.8774834
+soundCategory_music:1.0
+soundCategory_record:1.0
 soundCategory_weather:0.52112675
 soundCategory_block:0.2746479
 soundCategory_hostile:0.5492958

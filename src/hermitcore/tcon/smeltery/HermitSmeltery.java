@@ -2,7 +2,7 @@ package hermitcore.tcon.smeltery;
 
 import hermitcore.HECore;
 import hermitcore.gameObjs.ObjHandler;
-import hermitcore.library.HermitRegistry;
+//import hermitcore.library.HermitRegistry;
 import hermitcore.tcon.smeltery.blocks.HermitFluid;
 import hermitcore.tcon.smeltery.items.FilledBucket;
 import hermitcore.utils.HELogger;
@@ -105,14 +105,7 @@ public class HermitSmeltery {
     	
     	
         //Items
-        HermitSmeltery.metalPattern = new MetalPattern("cast_", "materials/").setUnlocalizedName("hermitcore.MetalPattern");
-        GameRegistry.registerItem(HermitSmeltery.metalPattern, "metalPattern");
-        HermitRegistry.addItemToDirectory("metalPattern", HermitSmeltery.metalPattern);
-        String[] patternTypes = { "ingot", "toolRod", "pickaxeHead", "shovelHead", "hatchetHead", "swordBlade", "wideGuard", "handGuard", "crossbar", "binding", "frypanHead", "signHead", "knifeBlade", "chiselHead", "toughRod", "toughBinding", "largePlate", "broadAxeHead", "scytheHead", "excavatorHead", "largeBlade", "hammerHead", "fullGuard" };
-        for (int i = 0; i < patternTypes.length; i++)
-        {
-            HermitRegistry.addItemStackToDirectory(patternTypes[i] + "Cast", new ItemStack(HermitSmeltery.metalPattern, 1, i));
-        }
+
     }
     
     @Handler
@@ -141,7 +134,7 @@ public class HermitSmeltery {
 
         //Item thermalBucket = GameRegistry.findItem("ThermalFoundation", "bucket");
 
-        for (int sc = 0; sc < 1; sc++)
+        for (int sc = 0; sc < 2; sc++)
         {
             if (HermitSmeltery.fluids[sc] != null) {
                 // TE support
@@ -154,14 +147,14 @@ public class HermitSmeltery {
     {
         LiquidCasting basinCasting = TConstructRegistry.getBasinCasting();
         // Block Casting
-        basinCasting.addCastingRecipe(new ItemStack(Blocks.iron_block), new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue), null, true, 100); // Iron
+        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockLimonite), new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue), null, true, 100); 
 
     }
     
 	protected static void addRecipesForSmeltery ()
     {
     	//Items   
-		Smeltery.addMelting(FluidType.getFluidType("limonite"), new ItemStack(ObjHandler.ingotLimonite), 0, TConstruct.ingotLiquidValue);
+		Smeltery.addMelting(FluidType.getFluidType("Limonite"), new ItemStack(ObjHandler.ingotLimonite), 0, TConstruct.ingotLiquidValue);
 		
     	//Ores
     	Smeltery.addMelting(ObjHandler.oreLimonite, 0, 600, new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.ingotLiquidValue * 2));
@@ -204,7 +197,7 @@ public class HermitSmeltery {
     {
         for (ItemStack ore : OreDictionary.getOres(name))
         {
-            HermitRegistry.getBasinCasting().addCastingRecipe(new ItemStack(ore.getItem(), 1, ore.getItemDamage()), new FluidStack(ft.fluid, TConstruct.blockLiquidValue), 100);
+            TConstructRegistry.getBasinCasting().addCastingRecipe(new ItemStack(ore.getItem(), 1, ore.getItemDamage()), new FluidStack(ft.fluid, TConstruct.blockLiquidValue), 100);
         }
     }
 

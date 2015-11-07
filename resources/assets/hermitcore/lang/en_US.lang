@@ -2,3 +2,7 @@ tile.Limonite Ore.name=Limonite Ore
 item.null.name=Limonite Ingot
 tile.fluid.molten.limonite.name= Molten Limonite
 item.hermitcore.bucket.limonite.name=Molten Limonite Bucket
+fluid.limonite.molten=Molten Limonite
+tile.fluid.molten.rosite.name= Molten Rosite
+fluid.rosite.molten=Molten Rosite
+tile.fluid.molten.amethyst.name= Molten Amethyst
