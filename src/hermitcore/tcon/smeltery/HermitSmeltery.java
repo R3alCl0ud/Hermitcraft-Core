@@ -109,7 +109,12 @@ public class HermitSmeltery {
 
     	HermitSmeltery.moltenSkeletalFluid = registerFluid("skeletal");
     	HermitSmeltery.moltenSkeletal = HermitSmeltery.moltenSkeletalFluid.getBlock();
-
+    	
+    	HermitSmeltery.moltenLyonFluid = registerFluid("lyon");
+    	HermitSmeltery.moltenLyon = HermitSmeltery.moltenLyonFluid.getBlock();
+    	
+    	HermitSmeltery.moltenVarsiumFluid = registerFluid("varsium");
+    	HermitSmeltery.moltenVarsium = HermitSmeltery.moltenVarsiumFluid.getBlock();
 
     	
     	
