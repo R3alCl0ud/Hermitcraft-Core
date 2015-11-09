@@ -27,8 +27,6 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 
 
-
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -47,9 +45,9 @@ public class ObjHandler
 	
 	public static void register() 
 	{
-		GameRegistry.registerBlock(oreLimonite = new oreLimonite("Limonite Ore", Material.iron), "Limonite Ore");
+		GameRegistry.registerBlock(oreLimonite = new oreLimonite("oreLimonite", Material.iron), "Limonite Ore");
 		GameRegistry.registerBlock(blockLimonite = new blockLimonite("Limonite Block", Material.iron), "Limonite Block");
-		GameRegistry.registerItem(ingotLimonite = new ingotLimonite("Limonite Ingot"), "Limonite Ingot");
+		GameRegistry.registerItem(ingotLimonite = new ingotLimonite("ingotLimonite"), "Limonite Ingot");
 	}
 
 	@SuppressWarnings("unchecked")

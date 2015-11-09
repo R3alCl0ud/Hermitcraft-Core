@@ -1,53 +1,53 @@
-[20:30:45] [main/INFO]: Extra: []
-[20:30:45] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
-[20:30:45] [main/INFO]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
-[20:30:45] [main/INFO]: Found and added coremod: codechicken.core.launch.DepLoader
-[20:30:45] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/perry/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[20:30:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[20:30:45] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[20:30:45] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[20:30:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[20:30:45] [main/INFO]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
-[20:30:45] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_79, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_79\jre
-[20:30:45] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[20:30:45] [main/INFO]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
-[20:30:45] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[20:30:45] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
-[20:30:46] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[20:30:46] [main/INFO]: Found a command line coremod : codechicken.core.launch.DepLoader
-[20:30:46] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[20:30:46] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[20:30:46] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[20:30:46] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[20:30:46] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
-[20:30:46] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
-[20:30:46] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
-[20:30:46] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
-[20:30:46] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:30:46] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[20:30:46] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[20:30:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:30:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:30:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:30:46] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[20:30:48] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[20:30:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:30:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:30:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:30:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:30:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:30:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[20:30:50] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[20:30:50] [main/INFO]: Remapping AccessTransformer rules...
-[20:30:50] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[20:30:50] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[20:30:50] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[20:30:53] [main/INFO]: Setting user: Player187
-[20:30:56] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:30:57] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// You're mean.
+[23:07:45] [main/INFO]: Extra: []
+[23:07:45] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
+[23:07:45] [main/INFO]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
+[23:07:45] [main/INFO]: Found and added coremod: codechicken.core.launch.DepLoader
+[23:07:45] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/perry/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[23:07:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[23:07:45] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[23:07:45] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[23:07:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[23:07:45] [main/INFO]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
+[23:07:45] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_79, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_79\jre
+[23:07:45] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[23:07:45] [main/INFO]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
+[23:07:45] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:07:45] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
+[23:07:45] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:07:46] [main/INFO]: Found a command line coremod : codechicken.core.launch.DepLoader
+[23:07:46] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:07:46] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[23:07:46] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[23:07:46] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[23:07:46] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[23:07:46] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
+[23:07:46] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[23:07:46] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
+[23:07:46] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:07:46] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:07:46] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:07:46] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[23:07:46] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:07:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:07:47] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[23:07:47] [main/INFO]: Remapping AccessTransformer rules...
+[23:07:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[23:07:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[23:07:47] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[23:07:49] [main/INFO]: Setting user: Player781
+[23:07:51] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:07:51] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Sorry :(
 
-Time: 11/6/15 8:30 PM
+Time: 11/8/15 11:07 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -62,147 +62,319 @@ Details:
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.7.0_79, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 239648464 bytes (228 MB) / 385875968 bytes (368 MB) up to 1890582528 bytes (1803 MB)
+	Memory: 415281872 bytes (396 MB) / 700973056 bytes (668 MB) up to 3804758016 bytes (3628 MB)
 	JVM Flags: 0 total; 
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
-	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 10.18.14.4029' Renderer: 'Intel(R) HD Graphics 4600'
-[20:30:57] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[20:30:57] [Client thread/INFO]: MinecraftForge v10.13.4.1448 Initialized
-[20:30:57] [Client thread/INFO]: Replaced 183 ore recipies
-[20:30:57] [Client thread/INFO]: Completed early MinecraftForge initialization
-[20:30:57] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[20:30:57] [Client thread/INFO]: Searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods for mods
-[20:30:57] [Client thread/INFO]: Also searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods\1.7.10 for mods
-[20:30:58] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[20:30:58] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[20:30:58] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[20:31:00] [Client thread/INFO]: Forge Mod Loader has identified 11 mods to load
-[20:31:01] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore] at CLIENT
-[20:31:01] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore] at SERVER
-[20:31:02] [Client thread/INFO]: Preparing to take over the world
-[20:31:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core
-[20:31:03] [Client thread/INFO]: Processing ObjectHolder annotations
-[20:31:03] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[20:31:03] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[20:31:03] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[20:31:03] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[20:31:03] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins187) -- Preparing for launch.
-[20:31:03] [Client thread/INFO]: Entering preinitialization phase.
-[20:31:03] [Client thread/INFO]: Loading configuration from disk.
-[20:31:03] [Client thread/INFO]: Configuration load completed.
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers Thaumcraft Compatibility; missing dependency: Thaumcraft
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers BuildCraft Compatibility; missing dependency: BuildCraft|Transport
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers AE2 Compatibility; missing dependency: appliedenergistics2
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers IC2 Compatibility; missing dependency: IC2
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers TE4 Compatibility; missing dependency: ThermalExpansion
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers Thermal Foundation Compatibility; missing dependency: ThermalFoundation
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers' Underground Biomes Compatiblity; missing dependency: UndergroundBiomes
-[20:31:03] [Client thread/INFO]: Skipping Pulse Tinkers RF-Tools Compatibility; missing dependency: rftools
-[20:31:04] [Client thread/INFO]: Gear module active. Adding gear cast.
-[20:31:06] [Client thread/INFO]: Loaded configuration file.
-[20:31:07] [Client thread/ERROR]: Couldn't register fluid container for amethyst
-[20:31:07] [Client thread/ERROR]: Couldn't register fluid container for rosite
-[20:31:07] [Client thread/INFO]: Applying holder lookups
-[20:31:07] [Client thread/INFO]: Holder lookups applied
-[20:31:07] [Client thread/INFO]: Injecting itemstacks
-[20:31:07] [Client thread/INFO]: Itemstack injection complete
-[20:31:07] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:31:07] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[20:31:07] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[20:31:07] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:31:07] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[20:31:07] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:31:07] [Sound Library Loader/INFO]: Sound engine started
-[20:31:09] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[20:31:09] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
-[20:31:09] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
-[20:31:10] [Client thread/INFO]: Entering initialization phase.
-[20:31:10] [Client thread/INFO]: ForgeMultipart detected. Registering TConstruct decorative blocks with FMP.
-[20:31:10] [Client thread/INFO]: Injecting itemstacks
-[20:31:10] [Client thread/INFO]: Itemstack injection complete
-[20:31:10] [Client thread/INFO]: Entering postinitialization phase.
-[20:31:10] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[20:31:10] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[20:31:10] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[20:31:10] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[20:31:10] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[20:31:10] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[20:31:10] [Client thread/WARN]: Could not find itemResourcefrom thaumcraft.common.config.ConfigItems
-[20:31:10] [Client thread/WARN]: Thaumcraft not detected.
-[20:31:10] [Client thread/INFO]: Forge Mod Loader has successfully loaded 11 mods
-[20:31:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core
-[20:31:11] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[20:31:12] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[20:31:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:31:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[20:31:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[20:31:12] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:31:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:31:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[20:31:12] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[20:31:12] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:31:13] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[20:31:13] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:31:13] [Sound Library Loader/INFO]: Sound engine started
-[20:31:13] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[20:31:13] [Client thread/ERROR]: The following texture errors were found.
-[20:31:13] [Client thread/ERROR]: ==================================================
-[20:31:13] [Client thread/ERROR]:   DOMAIN hermitcore
-[20:31:13] [Client thread/ERROR]: --------------------------------------------------
-[20:31:13] [Client thread/ERROR]:   domain hermitcore is missing 3 textures
-[20:31:13] [Client thread/ERROR]:     domain hermitcore has 1 location:
-[20:31:13] [Client thread/ERROR]:       mod hermitcore resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\build\libs\Hermitcraft Core-1.7.10-1.0.3.DEV.8ad5e87.jar
-[20:31:13] [Client thread/ERROR]: -------------------------
-[20:31:13] [Client thread/ERROR]:     The missing resources for domain hermitcore are:
-[20:31:13] [Client thread/ERROR]:       textures/blocks/liquid_amethyst.png
-[20:31:13] [Client thread/ERROR]:       textures/blocks/liquid_amethyst_flow.png
-[20:31:13] [Client thread/ERROR]:       textures/blocks/Limonite Block.png
-[20:31:13] [Client thread/ERROR]: -------------------------
-[20:31:13] [Client thread/ERROR]:     No other errors exist for domain hermitcore
-[20:31:13] [Client thread/ERROR]: ==================================================
-[20:31:13] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[20:31:56] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:31:56] [Server thread/INFO]: Generating keypair
-[20:31:56] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[20:31:56] [Server thread/INFO]: Applying holder lookups
-[20:31:56] [Server thread/INFO]: Holder lookups applied
-[20:31:57] [Server thread/INFO]: Loading dimension 0 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@5d896859)
-[20:31:57] [Server thread/INFO]: Loading dimension 1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@5d896859)
-[20:31:57] [Server thread/INFO]: Loading dimension -1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@5d896859)
-[20:31:57] [Server thread/INFO]: Preparing start region for level 0
-[20:31:58] [Server thread/INFO]: Changing view distance to 4, from 10
-[20:31:58] [Netty Client IO #0/INFO]: Server protocol version 2
-[20:31:58] [Netty IO #1/INFO]: Client protocol version 2
-[20:31:58] [Netty IO #1/INFO]: Client attempting to join with 11 mods : mcp@9.05,FML@7.10.99.99,NotEnoughItems@1.0.4.106,hermitcore@${version},McMultipart@1.1.2.334,Forge@10.13.4.1448,CodeChickenCore@1.0.6.43,ForgeMicroblock@1.1.2.334,ForgeMultipart@1.1.2.334,Mantle@1.7.10-0.3.2.jenkins187,TConstruct@1.7.10-1.8.7.build979
-[20:31:58] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[20:31:58] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[20:31:58] [Server thread/INFO]: [Server thread] Server side modded connection established
-[20:31:58] [Server thread/INFO]: Player187[local:E:6f490e46] logged in with entity id 313 at (105.83739884797309, 71.0, 256.0400265816254)
-[20:31:58] [Client thread/INFO]: [Client thread] Client side modded connection established
-[20:31:58] [Server thread/INFO]: Player187 joined the game
-[21:11:01] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1051815ms behind, skipping 21036 tick(s)
-[21:14:31] [Server thread/INFO]: Saving and pausing game...
-[21:14:31] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
-[21:14:31] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
-[21:14:31] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
-[21:14:32] [Server thread/INFO]: Stopping server
-[21:14:32] [Server thread/INFO]: Saving players
-[21:14:32] [Server thread/INFO]: Saving worlds
-[21:14:32] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
-[21:14:32] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
-[21:14:32] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
-[21:14:32] [Server thread/INFO]: Unloading dimension 0
-[21:14:32] [Server thread/INFO]: Unloading dimension -1
-[21:14:32] [Server thread/INFO]: Unloading dimension 1
-[21:14:32] [Server thread/INFO]: Applying holder lookups
-[21:14:32] [Server thread/INFO]: Holder lookups applied
-[21:14:33] [Client thread/INFO]: Stopping!
-[21:14:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[21:14:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[21:14:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[21:14:33] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 353.54' Renderer: 'GeForce GTX 760/PCIe/SSE2'
+[23:07:51] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[23:07:51] [Client thread/INFO]: MinecraftForge v10.13.4.1448 Initialized
+[23:07:51] [Client thread/INFO]: Replaced 183 ore recipies
+[23:07:51] [Client thread/INFO]: Completed early MinecraftForge initialization
+[23:07:52] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[23:07:52] [Client thread/INFO]: Searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods for mods
+[23:07:52] [Client thread/INFO]: Also searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods\1.7.10 for mods
+[23:07:52] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[23:07:52] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[23:07:52] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[23:07:54] [Client thread/INFO]: Forge Mod Loader has identified 12 mods to load
+[23:07:55] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore, nevermine] at CLIENT
+[23:07:55] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore, nevermine] at SERVER
+[23:07:55] [Client thread/INFO]: Preparing to take over the world
+[23:07:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core, FMLFileResourcePack:AdventOfAscension
+[23:07:56] [Client thread/INFO]: Processing ObjectHolder annotations
+[23:07:56] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[23:07:56] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[23:07:56] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[23:07:56] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[23:07:56] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins187) -- Preparing for launch.
+[23:07:56] [Client thread/INFO]: Entering preinitialization phase.
+[23:07:56] [Client thread/INFO]: Loading configuration from disk.
+[23:07:56] [Client thread/INFO]: Configuration load completed.
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers Thaumcraft Compatibility; missing dependency: Thaumcraft
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers BuildCraft Compatibility; missing dependency: BuildCraft|Transport
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers AE2 Compatibility; missing dependency: appliedenergistics2
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers IC2 Compatibility; missing dependency: IC2
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers TE4 Compatibility; missing dependency: ThermalExpansion
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers Thermal Foundation Compatibility; missing dependency: ThermalFoundation
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers' Underground Biomes Compatiblity; missing dependency: UndergroundBiomes
+[23:07:56] [Client thread/INFO]: Skipping Pulse Tinkers RF-Tools Compatibility; missing dependency: rftools
+[23:07:57] [Client thread/INFO]: Gear module active. Adding gear cast.
+[23:08:03] [Client thread/INFO]: Loaded configuration file.
+[23:08:03] [Client thread/INFO]: Applying holder lookups
+[23:08:03] [Client thread/INFO]: Holder lookups applied
+[23:08:03] [Client thread/INFO]: Injecting itemstacks
+[23:08:03] [Client thread/INFO]: Itemstack injection complete
+[23:08:03] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:08:03] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:08:03] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:08:03] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:08:03] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[23:08:03] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:08:03] [Sound Library Loader/INFO]: Sound engine started
+[23:08:05] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[23:08:05] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[23:08:05] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
+[23:08:05] [Client thread/INFO]: Entering initialization phase.
+[23:08:06] [Client thread/INFO]: ForgeMultipart detected. Registering TConstruct decorative blocks with FMP.
+[23:08:06] [Client thread/INFO]: Injecting itemstacks
+[23:08:06] [Client thread/INFO]: Itemstack injection complete
+[23:08:06] [Client thread/INFO]: Entering postinitialization phase.
+[23:08:06] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:08:06] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:08:06] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:08:06] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:08:06] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:08:06] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:08:06] [Client thread/WARN]: Could not find itemResourcefrom thaumcraft.common.config.ConfigItems
+[23:08:06] [Client thread/WARN]: Thaumcraft not detected.
+[23:08:06] [Client thread/WARN]: Caught exception in findAndInvokeHandlers: java.lang.reflect.InvocationTargetException
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.reflect.InvocationTargetException
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at mantle.pulsar.control.PulseManager.findAndInvokeHandlers(PulseManager.java:235)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at mantle.pulsar.control.PulseManager.postInit(PulseManager.java:214)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at hermitcore.HECore.postInit(HECore.java:91)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:742)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:311)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.Minecraft.startGame(Minecraft.java:552)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.Minecraft.run(Minecraft.java:878)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.client.main.Main.main(SourceFile:148)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at GradleStart.main(Unknown Source)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.NullPointerException
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.item.ItemStack.getItemDamage(ItemStack.java:217)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at tconstruct.library.crafting.CastingRecipe.matches(CastingRecipe.java:28)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at tconstruct.library.crafting.LiquidCasting.contains(LiquidCasting.java:18)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at tconstruct.library.crafting.LiquidCasting.addCastingRecipe(LiquidCasting.java:44)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at tconstruct.library.crafting.LiquidCasting.addCastingRecipe(LiquidCasting.java:103)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at hermitcore.tcon.smeltery.HermitSmeltery.registerIngotCasting(HermitSmeltery.java:276)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at hermitcore.tcon.smeltery.HermitSmeltery.addOreDictionarySmelteryRecipes(HermitSmeltery.java:161)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at hermitcore.tcon.smeltery.HermitSmeltery.postInit(HermitSmeltery.java:142)
+[23:08:06] [Client thread/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 45 more
+[23:08:06] [Client thread/INFO]: Forge Mod Loader has successfully loaded 12 mods
+[23:08:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core, FMLFileResourcePack:AdventOfAscension
+[23:08:08] [Client thread/INFO]: Created: 2048x1024 textures/items-atlas
+[23:08:09] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[23:08:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:08:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[23:08:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[23:08:09] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:08:09] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:08:09] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:08:09] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:08:09] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:08:09] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[23:08:09] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[23:08:09] [Client thread/ERROR]: The following texture errors were found.
+[23:08:09] [Client thread/ERROR]: ==================================================
+[23:08:09] [Client thread/ERROR]:   DOMAIN nevermine
+[23:08:09] [Client thread/ERROR]: --------------------------------------------------
+[23:08:09] [Client thread/ERROR]:   domain nevermine is missing 2 textures
+[23:08:09] [Client thread/ERROR]:     domain nevermine has 1 location:
+[23:08:09] [Client thread/ERROR]:       mod nevermine resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods\AoA-2.4.B.jar
+[23:08:09] [Client thread/ERROR]: -------------------------
+[23:08:09] [Client thread/ERROR]:     The missing resources for domain nevermine are:
+[23:08:09] [Client thread/ERROR]:       textures/items/candlefish.png
+[23:08:09] [Client thread/ERROR]:       textures/items/rocketfish.png
+[23:08:09] [Client thread/ERROR]: -------------------------
+[23:08:09] [Client thread/ERROR]:     No other errors exist for domain nevermine
+[23:08:09] [Client thread/ERROR]: ==================================================
+[23:08:09] [Client thread/ERROR]: ==================================================
+[23:08:09] [Client thread/ERROR]:   DOMAIN hermitcore
+[23:08:09] [Client thread/ERROR]: --------------------------------------------------
+[23:08:09] [Client thread/ERROR]:   domain hermitcore is missing 7 textures
+[23:08:09] [Client thread/ERROR]:     domain hermitcore has 1 location:
+[23:08:09] [Client thread/ERROR]:       mod hermitcore resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\build\libs\Hermitcraft Core-1.7.10-1.0.6.DEV.7404b82.jar
+[23:08:09] [Client thread/ERROR]: -------------------------
+[23:08:09] [Client thread/ERROR]:     The missing resources for domain hermitcore are:
+[23:08:09] [Client thread/ERROR]:       textures/blocks/liquid_sapphire.png
+[23:08:09] [Client thread/ERROR]:       textures/blocks/liquid_sapphire_flow.png
+[23:08:09] [Client thread/ERROR]:       textures/blocks/liquid_skeletal_flow.png
+[23:08:09] [Client thread/ERROR]:       textures/blocks/Limonite Block.png
+[23:08:09] [Client thread/ERROR]:       textures/blocks/liquid_mystite.png
+[23:08:09] [Client thread/ERROR]:       textures/blocks/liquid_mystite_flow.png
+[23:08:09] [Client thread/ERROR]:       textures/blocks/liquid_skeletal.png
+[23:08:09] [Client thread/ERROR]: -------------------------
+[23:08:09] [Client thread/ERROR]:     No other errors exist for domain hermitcore
+[23:08:09] [Client thread/ERROR]: ==================================================
+[23:08:09] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[23:08:09] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:08:09] [Sound Library Loader/INFO]: Sound engine started
+[23:08:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:08:42] [Server thread/INFO]: Generating keypair
+[23:08:42] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[23:08:42] [Server thread/INFO]: Applying holder lookups
+[23:08:42] [Server thread/INFO]: Holder lookups applied
+[23:08:42] [Server thread/INFO]: Loading dimension 0 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 30 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 29 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 28 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 27 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 26 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 25 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 24 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:42] [Server thread/INFO]: Loading dimension 23 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 22 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 21 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension -1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 20 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 19 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 18 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 17 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 16 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 15 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 14 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 13 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 12 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 11 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 10 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 9 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Loading dimension 1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1abe81a6)
+[23:08:43] [Server thread/INFO]: Preparing start region for level 0
+[23:08:43] [Server thread/INFO]: Changing view distance to 4, from 10
+[23:08:44] [Netty Client IO #0/INFO]: Server protocol version 2
+[23:08:44] [Netty IO #1/INFO]: Client protocol version 2
+[23:08:44] [Netty IO #1/INFO]: Client attempting to join with 12 mods : mcp@9.05,FML@7.10.99.99,NotEnoughItems@1.0.4.106,nevermine@2.3,hermitcore@${version},McMultipart@1.1.2.334,Forge@10.13.4.1448,CodeChickenCore@1.0.6.43,ForgeMicroblock@1.1.2.334,ForgeMultipart@1.1.2.334,Mantle@1.7.10-0.3.2.jenkins187,TConstruct@1.7.10-1.8.7.build979
+[23:08:44] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[23:08:44] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[23:08:44] [Server thread/INFO]: [Server thread] Server side modded connection established
+[23:08:44] [Server thread/INFO]: Player781[local:E:83270688] logged in with entity id 232 at (100.74586755097785, 71.0, 246.03605081163792)
+[23:08:44] [Server thread/INFO]: Player781 joined the game
+[23:08:44] [Client thread/INFO]: [Client thread] Client side modded connection established
+[23:08:44] [Server thread/INFO]: [net.nevermine.assist.UpdateChecker:getWiki:43]: Wiki is online.
+[23:08:48] [Server thread/INFO]: Player781 has just earned the achievement [Taking Inventory]
+[23:08:49] [Client thread/INFO]: [CHAT] Player781 has just earned the achievement [Taking Inventory]
+[23:11:16] [Client thread/INFO]: [CHAT] §dNight falls on the world.
+[23:11:16] [Client thread/INFO]: [CHAT] §7The gods are not impressed with your lack of contribution.
+[23:11:19] [Client thread/INFO]: [CHAT] §dStrange things are upon us.
+[23:11:50] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[23:11:51] [Client thread/INFO]: [CHAT] '-' is not a valid number
+[23:11:53] [Server thread/INFO]: [Player781: Set own game mode to Survival Mode]
+[23:11:53] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[23:12:47] [Client thread/INFO]: [CHAT] '`1' is not a valid number
+[23:12:49] [Server thread/INFO]: [Player781: Set own game mode to Creative Mode]
+[23:12:49] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[23:13:40] [Server thread/INFO]: Saving and pausing game...
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionImmortallis
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCreeponia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCandyland
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCrystevia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCeleve
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAncientCavern
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLelyetia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLabricon
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBarathos
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionRunandor
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionVoxponds
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBorean
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDustopia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGreckon
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGardencia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDeeplands
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLunalus
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionIromine
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionMysterium
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionPrecasia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionHaven
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAbyss
+[23:13:40] [Server thread/INFO]: Stopping server
+[23:13:40] [Server thread/INFO]: Saving players
+[23:13:40] [Server thread/INFO]: Saving worlds
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionImmortallis
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCreeponia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCandyland
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCrystevia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCeleve
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAncientCavern
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLelyetia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLabricon
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBarathos
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionRunandor
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionVoxponds
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBorean
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDustopia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGreckon
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGardencia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDeeplands
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLunalus
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionIromine
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionMysterium
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionPrecasia
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionHaven
+[23:13:40] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAbyss
+[23:13:40] [Server thread/INFO]: Unloading dimension 0
+[23:13:40] [Server thread/INFO]: Unloading dimension -1
+[23:13:40] [Server thread/INFO]: Unloading dimension 1
+[23:13:40] [Server thread/INFO]: Unloading dimension 30
+[23:13:40] [Server thread/INFO]: Unloading dimension 29
+[23:13:40] [Server thread/INFO]: Unloading dimension 28
+[23:13:40] [Server thread/INFO]: Unloading dimension 27
+[23:13:40] [Server thread/INFO]: Unloading dimension 26
+[23:13:40] [Server thread/INFO]: Unloading dimension 25
+[23:13:40] [Server thread/INFO]: Unloading dimension 24
+[23:13:40] [Server thread/INFO]: Unloading dimension 23
+[23:13:40] [Server thread/INFO]: Unloading dimension 22
+[23:13:40] [Server thread/INFO]: Unloading dimension 21
+[23:13:40] [Server thread/INFO]: Unloading dimension 20
+[23:13:40] [Server thread/INFO]: Unloading dimension 19
+[23:13:40] [Server thread/INFO]: Unloading dimension 18
+[23:13:40] [Server thread/INFO]: Unloading dimension 17
+[23:13:40] [Server thread/INFO]: Unloading dimension 16
+[23:13:40] [Server thread/INFO]: Unloading dimension 15
+[23:13:40] [Server thread/INFO]: Unloading dimension 14
+[23:13:40] [Server thread/INFO]: Unloading dimension 13
+[23:13:40] [Server thread/INFO]: Unloading dimension 12
+[23:13:40] [Server thread/INFO]: Unloading dimension 11
+[23:13:40] [Server thread/INFO]: Unloading dimension 10
+[23:13:40] [Server thread/INFO]: Unloading dimension 9
+[23:13:40] [Server thread/INFO]: Applying holder lookups
+[23:13:40] [Server thread/INFO]: Holder lookups applied
+[23:13:41] [Client thread/INFO]: Stopping!
+[23:13:41] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:13:41] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[23:13:42] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[23:13:42] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 

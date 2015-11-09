@@ -1,8 +1,11 @@
-tile.Limonite Ore.name=Limonite Ore
-item.null.name=Limonite Ingot
-tile.fluid.molten.limonite.name= Molten Limonite
+tile.oreLimonite.name=Limonite Ore
+item.ingotLimonite.name=Limonite Ingot
+tile.fluid.molten.limonite.name=Molten Limonite
 item.hermitcore.bucket.limonite.name=Molten Limonite Bucket
 fluid.limonite.molten=Molten Limonite
-tile.fluid.molten.rosite.name= Molten Rosite
+tile.fluid.molten.rosite.name=Molten Rosite
 fluid.rosite.molten=Molten Rosite
-tile.fluid.molten.amethyst.name= Molten Amethyst
+tile.fluid.molten.amethyst.name=Molten Amethyst
+fluid.amethyst.molten=Molten Amethyst
+item.hermitcore.bucket.rosite.name=Molten Rosite Bucket
+item.hermitcore.bucket.amethyst.name=Molten Amethyst Bucket

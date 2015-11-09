@@ -49,21 +49,7 @@ public class FilledBucket extends ItemBucket
         }
         else
         {
-            /*
-             * FillBucketEvent event = new FillBucketEvent(player, stack, world,
-             * position); if (MinecraftForge.EVENT_BUS.post(event)) { return
-             * stack; }
-             * 
-             * if (event.getResult() == Event.Result.ALLOW) { if
-             * (player.capabilities.isCreativeMode) { return stack; }
-             * 
-             * if (--stack.stackSize <= 0) { return event.result; }
-             * 
-             * if (!player.inventory.addItemStackToInventory(event.result)) {
-             * player.dropPlayerItem(event.result); }
-             * 
-             * return stack; }
-             */
+
 
             if (position.typeOfHit == MovingObjectPosition.MovingObjectType.BLOCK)
             {
@@ -186,8 +172,8 @@ public class FilledBucket extends ItemBucket
         return getUnlocalizedName() + "." + materialNames[arr];
     }
 
-    public static final String[] materialNames = new String[] { "limonite" };
+    public static final String[] materialNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal" };
 
-    public static final String[] textureNames = new String[] { "limonite" };
+    public static final String[] textureNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal" };
 
 }

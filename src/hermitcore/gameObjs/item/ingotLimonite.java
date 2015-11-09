@@ -7,6 +7,7 @@ import net.minecraft.item.Item;
 public class ingotLimonite extends Item 
 {
 	public ingotLimonite(String unlocalizedName){
+		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName(HECore.MODID + ":" + unlocalizedName);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
 	}
