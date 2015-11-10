@@ -5,6 +5,7 @@ import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.ObjHandler;
 import hermitcore.library.crafting.LiquidCasting;
 import hermitcore.tcon.smeltery.HermitSmeltery;
+import hermitcore.tcon.tools.HermitTools;
 
 import java.io.File;
 import java.util.Random;
@@ -68,6 +69,7 @@ public class HECore {
 		ObjHandler.register();
 		
 		pulsar.registerPulse(new HermitSmeltery());
+		pulsar.registerPulse (new HermitTools());
 		
         tableCasting = new LiquidCasting();
         basinCasting = new LiquidCasting();

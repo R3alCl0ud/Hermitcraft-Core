@@ -14,7 +14,7 @@ import net.minecraft.item.ItemStack;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import tconstruct.library.tools.ToolCore;
+import tconstruct.library.tools.*;
 
 public class HermitRegistry 
 {

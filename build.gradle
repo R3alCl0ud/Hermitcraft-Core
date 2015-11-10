@@ -33,6 +33,9 @@ repositories {
         name 'ForgeFS'
         url 'http://files.minecraftforge.net/maven'
     }
+	flatDir {
+	dirs 'libs'
+	}
 }
 
 apply plugin: 'forge'
@@ -63,7 +66,11 @@ dependencies {
     compile "codechicken:CodeChickenCore:${config.minecraft_version}-${config.ccc_version}:dev"
     compile "codechicken:NotEnoughItems:${config.minecraft_version}-${config.NEI_version}:dev"
     compile "codechicken:ForgeMultipart:${config.minecraft_version}-${config.fmp_version}:dev"
-	runtime fileTree(dir: 'libs', include: 'adventofascension-1.7.10-2.3.jar')
+	//runtime files('libs/AoA-2.4.B.jar')
+    //runtime fileTree(dir: 'libs', include: '*.jar')
+	//compile name: 'AoA-2.4.B'
+	compile files('libs/AoA-2.4.B.jar')
+	runtime fileTree(dir: 'libs', include: '*.jar')
 	//compile "nevermine:AoA:${config.minecraft_version}-${config.AoA_verison}"
     //compile "mcp.mobius.waila:Waila:${config.waila_version}"
     deployerJars 'org.apache.maven.wagon:wagon-ssh:2.2'
