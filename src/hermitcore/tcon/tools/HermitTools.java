@@ -224,7 +224,7 @@ public class HermitTools {
     public void init (FMLInitializationEvent event)
     {
         addPartMapping();
-        addRecipesForToolBuilder();
+        //addRecipesForToolBuilder();
         //addRecipesForChisel();
         //craftingTableRecipes();
         //setupToolTabs();
@@ -276,7 +276,7 @@ public class HermitTools {
     private void metalPartCraftingIntegration()
     {
 
-        String[] metals = {"Limonite", "Amethyst", "Rosite", "Sapphire", "Varsium", "Lyon", "Mystite"};
+        String[] metals = {"Limonite", "Amethyst", "Rosite", "Sapphire", "Varsium", "Lyon", "Mystite", "Skeletal"};
 
         for(String metal : metals) {
             HermitTools.registerPatternMaterial("ingot" + metal, 2, metal);
@@ -362,9 +362,10 @@ public class HermitTools {
     	TConstructRegistry.addToolMaterial(MaterialID.Sapphire, "Sapphire", 4, 925, 900, 10, 1.3F, 2, 0f, BLUE.toString(), 0x2554C7);
     	TConstructRegistry.addToolMaterial(MaterialID.Amethyst, "Amethyst", 4, 750, 900, 10, 1.3F, 2, 0f, BLUE.toString(), 0x6C2DC7);
     	TConstructRegistry.addToolMaterial(MaterialID.Rosite, "Rosite", 5, 750, 1500, 10, 1.3F, 2, 0f, RED.toString(), 0xF62217);
-    	TConstructRegistry.addToolMaterial(MaterialID.Varsium, "Varsium", 6, 1550, 900, 10, 1.3F, 2, 0f, BLUE.toString(), 0xFF8050);
-    	TConstructRegistry.addToolMaterial(MaterialID.Lyon, "Lyon", 6, 750, 1550, 10, 1.3F, 2, 0f, BLUE.toString(), 0x7E3517);
-    	TConstructRegistry.addToolMaterial(MaterialID.Mystite, "Mystite", 7, 750, 2000, 10, 1.3F, 2, 0f, BLUE.toString(), 0x93FFE8);
+    	TConstructRegistry.addToolMaterial(MaterialID.Varsium, "Varsium", 6, 1550, 900, 10, 1.3F, 2, 0f, GRAY.toString(), 0xFF8050);
+    	TConstructRegistry.addToolMaterial(MaterialID.Lyon, "Lyon", 6, 750, 1550, 10, 1.3F, 2, 0f, GRAY.toString(), 0x7E3517);
+    	TConstructRegistry.addToolMaterial(MaterialID.Mystite, "Mystite", 7, 750, 2000, 10, 1.3F, 2, 0f, AQUA.toString(), 0x93FFE8);
+    	TConstructRegistry.addToolMaterial(MaterialID.Skeletal, "Skeletal", 7, 750, 2000, 10, 1.3F, 2, 0f, GRAY.toString(), 0xEAE9E3);
     	
     	
     	TConstructRegistry.addDefaultToolPartMaterial(MaterialID.Limonite);
@@ -374,6 +375,7 @@ public class HermitTools {
     	TConstructRegistry.addDefaultToolPartMaterial(MaterialID.Varsium);
     	TConstructRegistry.addDefaultToolPartMaterial(MaterialID.Lyon);
     	TConstructRegistry.addDefaultToolPartMaterial(MaterialID.Mystite);
+    	TConstructRegistry.addDefaultToolPartMaterial(MaterialID.Skeletal);
     	
     	
     	
@@ -381,9 +383,7 @@ public class HermitTools {
     	
     }
     public static final class MaterialID
-    {
-
-        
+    {        
         public static final int Limonite = 40;
         public static final int Sapphire = 41;
         public static final int Amethyst = 42;
@@ -392,6 +392,8 @@ public class HermitTools {
         public static final int Lyon = 45;
         public static final int Mystite = 46;
         public static final int Skeletal = 47;
+        public static final int Jade = 48;
+        public static final int Emberstone = 49;
     }
     
 }

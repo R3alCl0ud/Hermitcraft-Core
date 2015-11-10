@@ -66,7 +66,6 @@ public class HECore {
 		{
 		ObjHandler.removeRecipes(HermitCoreConfig.toDelete[i]);
 		}
-		ObjHandler.register();
 		
 		pulsar.registerPulse(new HermitSmeltery());
 		pulsar.registerPulse (new HermitTools());
@@ -89,7 +88,7 @@ public class HECore {
 
 		
 		
-        //proxy.initialize();
+
         pulsar.postInit(event);
 	}
 	

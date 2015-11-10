@@ -1,11 +1,39 @@
 tile.oreLimonite.name=Limonite Ore
 item.ingotLimonite.name=Limonite Ingot
-tile.fluid.molten.limonite.name=Molten Limonite
-item.hermitcore.bucket.limonite.name=Molten Limonite Bucket
+
 fluid.limonite.molten=Molten Limonite
-tile.fluid.molten.rosite.name=Molten Rosite
-fluid.rosite.molten=Molten Rosite
-tile.fluid.molten.amethyst.name=Molten Amethyst
 fluid.amethyst.molten=Molten Amethyst
+fluid.rosite.molten=Molten Rosite
+fluid.mystite.molten=Molten Mystite
+fluid.sapphire.molten=Molten Sapphire
+fluid.skeletal.molten=Molten Skeletal
+fluid.varsium.molten=Molten Varsium
+fluid.lyon.molten=Molten Lyon
+
+tile.fluid.molten.amethyst.name=Molten Amethyst
+tile.fluid.molten.rosite.name=Molten Rosite
+tile.fluid.molten.limonite.name=Molten Limonite
+tile.fluid.molten.sapphire.name=Molten Sapphire
+tile.fluid.molten.mystite.name=Molten Mystite
+tile.fluid.molten.skeletal.name=Molten Skeletal
+tile.fluid.molten.varsium.name=Molten Varsium
+tile.fluid.molten.lyon.name=Molten Lyon
+
 item.hermitcore.bucket.rosite.name=Molten Rosite Bucket
 item.hermitcore.bucket.amethyst.name=Molten Amethyst Bucket
+item.hermitcore.bucket.sapphire.name=Molten Sapphire Bucket
+item.hermitcore.bucket.mystite.name=Molten Mystite Bucket
+item.hermitcore.bucket.skeletal.name=Molten Skeletal Bucket
+item.hermitcore.bucket.limonite.name=Molten Limonite Bucket
+item.hermitcore.bucket.varsium.name=Molten Varsium Bucket
+item.hermitcore.bucket.lyon.name=Molten Lyon Bucket
+
+amethyst.molten=Molten Amethyst
+
+material.amethyst=Amethyst
+material.limonite=Limonite
+material.lyon=Lyon
+material.rosite=Rosite
+material.varsium=Varsium
+material.mystite=Mystite
+material.sapphire=Sapphire

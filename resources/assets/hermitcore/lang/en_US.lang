@@ -29,6 +29,8 @@ item.hermitcore.bucket.varsium.name=Molten Varsium Bucket
 item.hermitcore.bucket.lyon.name=Molten Lyon Bucket
 
 amethyst.molten=Molten Amethyst
+limonite.molten=Molten Limonite
+
 
 material.amethyst=Amethyst
 material.limonite=Limonite
@@ -37,3 +39,4 @@ material.rosite=Rosite
 material.varsium=Varsium
 material.mystite=Mystite
 material.sapphire=Sapphire
+material.skeletal=Skeletal

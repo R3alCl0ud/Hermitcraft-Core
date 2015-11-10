@@ -26,7 +26,7 @@ public final class HermitCoreConfig
 			
 			enableDebugLog = config.getBoolean("debugLogging", "misc", false, "Enable a more verbose debug logging");
 		
-			toDelete = config.get("removeItems", "recipes", new String[] {"minecraft:iron_hoe",  "minecraft:iron_pickaxe", "minecraft:iron_shovel", "minecraft:iron_sword", "minecraft:iron_axe", "minecraft:stone_hoe",  "minecraft:stone_pickaxe", "minecraft:stone_shovel", "minecraft:stone_sword", "minecraft:stone_axe", "minecraft:golden_hoe",  "minecraft:golden_pickaxe", "minecraft:golden_shovel", "minecraft:golden_sword", "minecraft:golden_axe"}, "Put Items to remove crafting recipes here. Format: modname:itemname").getStringList();
+			toDelete = config.get("removeItems", "recipes", new String[] {"minecraft:iron_hoe",  "minecraft:iron_pickaxe", "minecraft:iron_shovel", "minecraft:iron_sword", "minecraft:iron_axe", "minecraft:stone_hoe",  "minecraft:stone_pickaxe", "minecraft:stone_shovel", "minecraft:stone_sword", "minecraft:stone_axe", "minecraft:golden_hoe",  "minecraft:golden_pickaxe", "minecraft:golden_shovel", "minecraft:golden_sword", "minecraft:golden_axe", "minecraft:diamond_hoe",  "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_sword", "minecraft:diamond_axe"}, "Put Items to remove crafting recipes here. Format: modname:itemname").getStringList();
 			HELogger.logInfo("Loaded configuration file.");
 		}
 		catch (Exception e)

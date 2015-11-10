@@ -66,6 +66,9 @@ public class HermitSmeltery {
 	public static Fluid moltenSkeletalFluid;
 	public static Fluid moltenLyonFluid;
 	public static Fluid moltenVarsiumFluid;
+	
+	
+	//Fluid Blocks
 	public static Block moltenLimonite;
 	public static Block moltenAmethyst;
 	public static Block moltenRosite;
@@ -126,12 +129,13 @@ public class HermitSmeltery {
     	FluidType.registerFluidType("Mystite", HermitSmeltery.moltenMystite, 0, 600, HermitSmeltery.moltenMystiteFluid, true);
     	FluidType.registerFluidType("Sapphire", HermitSmeltery.moltenSapphire, 0, 600, HermitSmeltery.moltenSapphireFluid, true);
     	FluidType.registerFluidType("Varsium", HermitSmeltery.moltenVarsium, 0, 600, HermitSmeltery.moltenVarsiumFluid, true);
-
+    	FluidType.registerFluidType("Skeletal", HermitSmeltery.moltenSkeletal, 0, 600, HermitSmeltery.moltenSkeletalFluid, true);
+    	FluidType.registerFluidType("Lyon", HermitSmeltery.moltenLyon, 0, 600, HermitSmeltery.moltenLyonFluid, true);
 
 
     	
-    	HermitSmeltery.fluids = new Fluid[] { HermitSmeltery.moltenLimoniteFluid, HermitSmeltery.moltenAmethystFluid, HermitSmeltery.moltenRositeFluid, HermitSmeltery.moltenSapphireFluid, HermitSmeltery.moltenMystiteFluid, HermitSmeltery.moltenSkeletalFluid, HermitSmeltery.moltenVarsiumFluid};
-    	HermitSmeltery.fluidBlocks = new Block[] {HermitSmeltery.moltenLimonite, HermitSmeltery.moltenAmethyst, HermitSmeltery.moltenRosite, HermitSmeltery.moltenSapphire, HermitSmeltery.moltenMystite, HermitSmeltery.moltenSkeletal, HermitSmeltery.moltenVarsium};
+    	HermitSmeltery.fluids = new Fluid[] { HermitSmeltery.moltenLimoniteFluid, HermitSmeltery.moltenAmethystFluid, HermitSmeltery.moltenRositeFluid, HermitSmeltery.moltenSapphireFluid, HermitSmeltery.moltenMystiteFluid, HermitSmeltery.moltenSkeletalFluid, HermitSmeltery.moltenVarsiumFluid, HermitSmeltery.moltenLyonFluid};
+    	HermitSmeltery.fluidBlocks = new Block[] {HermitSmeltery.moltenLimonite, HermitSmeltery.moltenAmethyst, HermitSmeltery.moltenRosite, HermitSmeltery.moltenSapphire, HermitSmeltery.moltenMystite, HermitSmeltery.moltenSkeletal, HermitSmeltery.moltenVarsium, HermitSmeltery.moltenLyon};
     	
     	
         //Items
@@ -152,96 +156,9 @@ public class HermitSmeltery {
     @Handler
     public void postInit (FMLPostInitializationEvent evt)
     {
-    	addOreDictionarySmelteryRecipes();
+    	
     }
-    public void addOreDictionarySmelteryRecipes ()
-    {
-        List<FluidType> exceptions = Arrays.asList(new FluidType[] { FluidType.getFluidType("Water"), FluidType.getFluidType("Stone"), FluidType.getFluidType("Emerald"), FluidType.getFluidType("Ender"), FluidType.getFluidType("Glass"), FluidType.getFluidType("Slime"), FluidType.getFluidType("Obsidian") });
-        Iterator iter = FluidType.fluidTypes.entrySet().iterator();
-        while (iter.hasNext())
-        {
-            Map.Entry pairs = (Map.Entry) iter.next();
-            FluidType ft = (FluidType) pairs.getValue();
-            if (exceptions.contains(ft))
-                continue;
-            String fluidTypeName = (String) pairs.getKey();
 
-            // Nuggets
-            Smeltery.addDictionaryMelting("nugget" + fluidTypeName, ft, -100, TConstruct.nuggetLiquidValue);
-            registerNuggetCasting(ft, "nugget" + fluidTypeName);
-
-            // Ingots, Dust
-            registerIngotCasting(ft, "ingot" + fluidTypeName);
-            Smeltery.addDictionaryMelting("ingot" + fluidTypeName, ft, -50, TConstruct.ingotLiquidValue);
-            Smeltery.addDictionaryMelting("dust" + fluidTypeName, ft, -75, TConstruct.ingotLiquidValue);
-
-            // Factorization support
-            Smeltery.addDictionaryMelting("crystalline" + fluidTypeName, ft, -50, TConstruct.ingotLiquidValue);
-
-            // Ores
-            Smeltery.addDictionaryMelting("ore" + fluidTypeName, ft, 0, (int) (TConstruct.ingotLiquidValue * PHConstruct.ingotsPerOre));
-
-            // NetherOres support
-            Smeltery.addDictionaryMelting("oreNether" + fluidTypeName, ft, 75, (int) (TConstruct.ingotLiquidValue * PHConstruct.ingotsPerOre * 2));
-
-            // DenseOres support
-            Smeltery.addDictionaryMelting("denseore" + fluidTypeName, ft, 75, (int) (TConstruct.ingotLiquidValue * PHConstruct.ingotsPerOre * 3));
-
-            // DenseOres support
-            Smeltery.addDictionaryMelting("orePoor" + fluidTypeName, ft, 75, (int) (TConstruct.nuggetLiquidValue * PHConstruct.ingotsPerOre));
-
-            // Blocks
-            registerBlockCasting(ft, "block" + fluidTypeName);
-            Smeltery.addDictionaryMelting("block" + fluidTypeName, ft, 100, TConstruct.blockLiquidValue);
-
-            if (ft.isToolpart)
-            {
-                TinkerTools.registerPatternMaterial("ingot" + fluidTypeName, 2, fluidTypeName);
-                TinkerTools.registerPatternMaterial("block" + fluidTypeName, 18, fluidTypeName);
-            }
-        }
-        // Obsidian, different dust amount
-        {
-            FluidType ft = FluidType.getFluidType("Obsidian");
-            String fluidTypeName = "Obsidian";
-            Smeltery.addDictionaryMelting("nugget" + fluidTypeName, ft, -100, TConstruct.nuggetLiquidValue);
-            registerNuggetCasting(ft, "nugget" + fluidTypeName);
-
-            // Ingots, Dust
-            registerIngotCasting(ft, "ingot" + fluidTypeName);
-            Smeltery.addDictionaryMelting("ingot" + fluidTypeName, ft, -50, TConstruct.ingotLiquidValue);
-            Smeltery.addDictionaryMelting("dust" + fluidTypeName, ft, -75, TConstruct.ingotLiquidValue / 4);
-
-            // Factorization support
-            Smeltery.addDictionaryMelting("crystalline" + fluidTypeName, ft, -50, TConstruct.ingotLiquidValue);
-
-            // Ores
-            Smeltery.addDictionaryMelting("ore" + fluidTypeName, ft, 0, ((int) TConstruct.ingotLiquidValue * (int) PHConstruct.ingotsPerOre));
-
-            // Poor ores
-            Smeltery.addDictionaryMelting("orePoor" + fluidTypeName, ft, 0, (int) (TConstruct.nuggetLiquidValue * PHConstruct.ingotsPerOre * 1.5f));
-
-            // NetherOres support
-            Smeltery.addDictionaryMelting("oreNether" + fluidTypeName, ft, 75, ((int) TConstruct.ingotLiquidValue * (int) PHConstruct.ingotsPerOre * 2));
-
-            // Blocks
-            Smeltery.addDictionaryMelting("block" + fluidTypeName, ft, 100, TConstruct.ingotLiquidValue*2);
-
-            if (ft.isToolpart)
-            {
-                TinkerTools.registerPatternMaterial("ingot" + fluidTypeName, 2, fluidTypeName);
-                TinkerTools.registerPatternMaterial("block" + fluidTypeName, 18, fluidTypeName);
-            }
-        }
-
-        // Compressed materials. max 4x because it's too much otherwise.
-        for (int i = 1; i <= 4; i++)
-        {
-            Smeltery.addDictionaryMelting("compressedCobblestone" + i + "x", FluidType.getFluidType("Stone"), 0, TConstruct.stoneLiquidValue * (int) Math.pow(9, i));
-        }
-        Smeltery.addDictionaryMelting("compressedSand1x", FluidType.getFluidType("Glass"), 175, FluidContainerRegistry.BUCKET_VOLUME * 9);
-        Smeltery.addDictionaryMelting("compressedSand2x", FluidType.getFluidType("Glass"), 175, FluidContainerRegistry.BUCKET_VOLUME * 9 * 9);
-    }
 
 
     private void addRecipesForTableCasting ()
@@ -270,8 +187,8 @@ public class HermitSmeltery {
             }
         }
         
-        HermitSmeltery.liquids = new FluidStack[] { new FluidStack(HermitSmeltery.moltenLimoniteFluid, 1), new FluidStack(HermitSmeltery.moltenSapphireFluid, 1), new FluidStack(HermitSmeltery.moltenAmethystFluid, 1), new FluidStack(HermitSmeltery.moltenRositeFluid, 1), new FluidStack(HermitSmeltery.moltenVarsiumFluid, 1), new FluidStack(HermitSmeltery.moltenLyonFluid, 1), new FluidStack(HermitSmeltery.moltenMystiteFluid, 1) };
-        int[] liquidDamages = new int[] { 40, 41, 42, 43, 44, 45, 46 }; // ItemStack
+        HermitSmeltery.liquids = new FluidStack[] { new FluidStack(HermitSmeltery.moltenLimoniteFluid, 1), new FluidStack(HermitSmeltery.moltenSapphireFluid, 1), new FluidStack(HermitSmeltery.moltenAmethystFluid, 1), new FluidStack(HermitSmeltery.moltenRositeFluid, 1), new FluidStack(HermitSmeltery.moltenVarsiumFluid, 1), new FluidStack(HermitSmeltery.moltenLyonFluid, 1), new FluidStack(HermitSmeltery.moltenMystiteFluid, 1), new FluidStack(HermitSmeltery.moltenSkeletalFluid, 1) };
+        int[] liquidDamages = new int[] { 40, 41, 42, 43, 44, 45, 46, 47 }; // ItemStack
                                                                                  // damage
                                                                                  // value
         int fluidAmount = 0;
@@ -283,35 +200,79 @@ public class HermitSmeltery {
 
 
 
-        /*for (int i = 0; i < 7; i++)
-        {
-        	
-            fs = HermitSmeltery.liquids[i].getFluid();
-            fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(pickaxe) * TConstruct.ingotLiquidValue / 2;
-            ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[2], 1, liquidDamages[i]);
-            tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), pickaxe, 50);
-            Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
-        }*/
-        
-        for (int iter = 0; iter < 21; iter++)
-        {
-            //if (HermitTools.patternOutputs[iter] != null)
-            //{
-                ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, iter + 1);
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[0].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 40);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[1].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 41);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[2].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 42);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[3].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;   		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 43);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[4].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 44);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[5].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 45);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[6].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 46);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[7].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 47);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    	}
 
-                //tableCasting.addCastingRecipe(cast, new FluidStack(TinkerSmeltery.moltenAlubrassFluid, TConstruct.ingotLiquidValue), new ItemStack(TinkerTools.patternOutputs[iter], 1, Short.MAX_VALUE), false, 50);
-                //tableCasting.addCastingRecipe(cast, new FluidStack(TinkerSmeltery.moltenGoldFluid, TConstruct.ingotLiquidValue * 2), new ItemStack(TinkerTools.patternOutputs[iter], 1, Short.MAX_VALUE), false, 50);
-
-                for (int iterTwo = 0; iterTwo < HermitSmeltery.liquids.length; iterTwo++)
-                {
-                    fs = HermitSmeltery.liquids[iterTwo].getFluid();
-                    fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;
-                    ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[iter], 1, liquidDamages[iterTwo]);
-                    tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
-                    Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
-                }
-        	//}
-        }
 
 
     }
@@ -330,6 +291,9 @@ public class HermitSmeltery {
 		Smeltery.addMelting(FluidType.getFluidType("Amethyst"), new ItemStack(Itemizer.AmethystIngot), 0, TConstruct.ingotLiquidValue);
 		Smeltery.addMelting(FluidType.getFluidType("Sapphire"), new ItemStack(Itemizer.IngotSapphire), 0, TConstruct.ingotLiquidValue);
 		Smeltery.addMelting(FluidType.getFluidType("Mystite"), new ItemStack(Itemizer.IngotMystite), 0, TConstruct.ingotLiquidValue);
+		Smeltery.addMelting(FluidType.getFluidType("Skeletal"), new ItemStack(Itemizer.SkullboneFragment), 0, TConstruct.ingotLiquidValue / 4);
+		Smeltery.addMelting(FluidType.getFluidType("Varsium"), new ItemStack(Itemizer.IngotVarsium), 0, TConstruct.ingotLiquidValue);
+		Smeltery.addMelting(FluidType.getFluidType("Lyon"), new ItemStack(Itemizer.IngotLyon), 0, TConstruct.ingotLiquidValue);
 
 
 
@@ -343,6 +307,7 @@ public class HermitSmeltery {
     	Smeltery.addMelting(Blockizer.oreMystite, 0, 600, new FluidStack(HermitSmeltery.moltenMystiteFluid, TConstruct.ingotLiquidValue * 2));
     	Smeltery.addMelting(Blockizer.OreVarsium, 0, 600, new FluidStack(HermitSmeltery.moltenVarsiumFluid, TConstruct.ingotLiquidValue * 2));
     	Smeltery.addMelting(Blockizer.OreLyon, 0, 600, new FluidStack(HermitSmeltery.moltenLyonFluid, TConstruct.ingotLiquidValue * 2));
+    	Smeltery.addMelting(Blockizer.oreSkullFragment, 0, 600, new FluidStack(HermitSmeltery.moltenSkeletalFluid, TConstruct.ingotLiquidValue * 2));
 
 
 
