@@ -2,6 +2,7 @@ package hermitcore.gameObjs;
 
 import hermitcore.HECore;
 import hermitcore.config.HermitCoreConfig;
+import hermitcore.gameObjs.block.blockJade;
 import hermitcore.gameObjs.block.blockLimonite;
 import hermitcore.gameObjs.block.blockRosite;
 import hermitcore.gameObjs.block.oreLimonite;
@@ -41,12 +42,20 @@ public class ObjHandler
 	
 	public static Block blockLimonite;
 	public static Block blockRosite;
-
+	public static Block blockJade;
+	public static Block blockAmethyst;
+	public static Block blockSapphire;
+	public static Block blockMystite;
+	public static Block blockVarsium;
+	public static Block blockLyon;
+	public static Block blockEmberstone;
 	
 	public static void register() 
 	{
 		
 		GameRegistry.registerBlock(blockLimonite = new blockLimonite("blockLimonite", Material.iron), "blockLimonite");
+		GameRegistry.registerBlock(blockRosite = new blockRosite("blockRosite", Material.iron), "blockRosite"); 
+		GameRegistry.registerBlock(blockJade = new blockJade("blockJade", Material.iron), "blockJade"); 
 		GameRegistry.registerBlock(blockRosite = new blockRosite("blockRosite", Material.iron), "blockRosite"); 
 
 	}

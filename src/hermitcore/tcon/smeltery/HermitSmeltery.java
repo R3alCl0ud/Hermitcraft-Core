@@ -84,8 +84,8 @@ public class HermitSmeltery {
 	public static Block moltenEmberstone;
 	
 	
-    public static Fluid[] fluids = new Fluid[7];
-    public static Block[] fluidBlocks = new Block[7];
+    public static Fluid[] fluids = new Fluid[9];
+    public static Block[] fluidBlocks = new Block[9];
     public static FluidStack[] liquids;
 	
 	
@@ -161,17 +161,12 @@ public class HermitSmeltery {
     	addRecipesForTableCasting();
     	addRecipesForBasinCasting();
     	
-    	//addRecipesForCastingBasin();
-
-
     }
     @Handler
     public void postInit (FMLPostInitializationEvent evt)
     {
     	
     }
-
-
 
     private void addRecipesForTableCasting ()
     {
@@ -183,6 +178,7 @@ public class HermitSmeltery {
     	tableCasting.addCastingRecipe(new ItemStack(Itemizer.AmethystIngot), new FluidStack(HermitSmeltery.moltenAmethystFluid, TConstruct.ingotLiquidValue), ingotcast, 80);
     	tableCasting.addCastingRecipe(new ItemStack(Itemizer.IngotRosite), new FluidStack(HermitSmeltery.moltenRositeFluid, TConstruct.ingotLiquidValue), ingotcast, 80);
     	tableCasting.addCastingRecipe(new ItemStack(Itemizer.IngotMystite), new FluidStack(HermitSmeltery.moltenMystiteFluid, TConstruct.ingotLiquidValue), ingotcast, 80);
+    	tableCasting.addCastingRecipe(new ItemStack(Itemizer.IngotJade), new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.ingotLiquidValue), ingotcast, 80);
 
     	//tableCasting
 
@@ -191,7 +187,7 @@ public class HermitSmeltery {
 
         //Item thermalBucket = GameRegistry.findItem("ThermalFoundation", "bucket");
 
-        for (int sc = 0; sc < 6; sc++)
+        for (int sc = 0; sc < 8; sc++)
         {
             if (HermitSmeltery.fluids[sc] != null) {
                //HC support
@@ -212,7 +208,7 @@ public class HermitSmeltery {
 
 
 
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[0].getFluid();
@@ -222,7 +218,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[1].getFluid();
@@ -232,7 +228,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[2].getFluid();
@@ -242,7 +238,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[3].getFluid();
@@ -252,7 +248,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[4].getFluid();
@@ -262,7 +258,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[5].getFluid();
@@ -272,7 +268,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[6].getFluid();
@@ -282,7 +278,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[7].getFluid();
@@ -292,7 +288,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[8].getFluid();
@@ -302,7 +298,7 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
-    	for (int i = 0; i < 25; i++)
+    	for (int i = 0; i < 28; i++)
     	{
     		
     		fs = HermitSmeltery.liquids[9].getFluid();

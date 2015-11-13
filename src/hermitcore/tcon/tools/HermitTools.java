@@ -40,14 +40,8 @@ public class HermitTools {
     public void postInit (FMLPostInitializationEvent evt)
     {
 
-
-        // Fix for chisels harvetslevel derp
-        if("chisel".equals(Blocks.stone.getHarvestTool(0)))
-            Blocks.stone.setHarvestLevel("pickaxe", 0, 0);
     }
-
     
-
     void registerMaterials ()
     {
     	TConstructRegistry.addToolMaterial(MaterialID.Limonite, "Limonite", 5, 1000, 1000, 7, 1.3F, 2, 0f, YELLOW.toString(), 0xFF8040);
@@ -58,8 +52,8 @@ public class HermitTools {
     	TConstructRegistry.addToolMaterial(MaterialID.Lyon, "Lyon", 6, 750, 1550, 16, 1.3F, 2, 0f, GRAY.toString(), 0x7E3517);
     	TConstructRegistry.addToolMaterial(MaterialID.Mystite, "Mystite", 7, 750, 2000, 20, 1.3F, 2, 0f, AQUA.toString(), 0x93FFE8);
     	TConstructRegistry.addToolMaterial(MaterialID.Skeletal, "Skeletal", 7, 750, 2000, 24, 1.3F, 3, 0f, GRAY.toString(), 0xEAE9E3);
-    	TConstructRegistry.addToolMaterial(MaterialID.Skeletal, "Jade", 7, 750, 2000, 11, 1.3F, 1, 1f, GRAY.toString(), 0x5EFB6E);
-    	TConstructRegistry.addToolMaterial(MaterialID.Skeletal, "Emberstone", 7, 750, 2000, 26, 1.3F, 3, 0f, GRAY.toString(), 0x800517);
+    	TConstructRegistry.addToolMaterial(MaterialID.Jade, "Jade", 7, 750, 2000, 11, 1.3F, 1, 1f, GRAY.toString(), 0x5EFB6E);
+    	TConstructRegistry.addToolMaterial(MaterialID.Emberstone, "Emberstone", 7, 750, 2000, 26, 1.3F, 3, 0f, RED.toString(), 0x800517);
     	
     	TConstructRegistry.addDefaultToolPartMaterial(MaterialID.Limonite);
     	TConstructRegistry.addDefaultToolPartMaterial(MaterialID.Sapphire);
