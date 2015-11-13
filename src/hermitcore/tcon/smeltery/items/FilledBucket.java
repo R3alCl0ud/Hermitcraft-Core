@@ -27,8 +27,6 @@ public class FilledBucket extends ItemBucket
     public FilledBucket(Block b)
     {
         super(b);
-        // setTextureFile(TRepo.craftingTexture);
-        // setIconIndex(224);
         setUnlocalizedName("hermitcore.bucket");
         setContainerItem(Items.bucket);
         this.setHasSubtypes(true);

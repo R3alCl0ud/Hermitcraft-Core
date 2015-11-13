@@ -67,6 +67,8 @@ public class HermitSmeltery {
 	public static Fluid moltenSkeletalFluid;
 	public static Fluid moltenLyonFluid;
 	public static Fluid moltenVarsiumFluid;
+	public static Fluid moltenJadeFluid;
+	public static Fluid moltenEmberstoneFluid;
 	
 	
 	//Fluid Blocks
@@ -78,6 +80,8 @@ public class HermitSmeltery {
 	public static Block moltenSkeletal;
 	public static Block moltenLyon;
 	public static Block moltenVarsium;
+	public static Block moltenJade;
+	public static Block moltenEmberstone;
 	
 	
     public static Fluid[] fluids = new Fluid[7];
@@ -121,6 +125,12 @@ public class HermitSmeltery {
     	
     	HermitSmeltery.moltenVarsiumFluid = registerFluid("varsium");
     	HermitSmeltery.moltenVarsium = HermitSmeltery.moltenVarsiumFluid.getBlock();
+    	
+    	HermitSmeltery.moltenJadeFluid = registerFluid("jade");
+    	HermitSmeltery.moltenJade = HermitSmeltery.moltenJadeFluid.getBlock();
+    	
+    	HermitSmeltery.moltenEmberstoneFluid = registerFluid("emberstone");
+    	HermitSmeltery.moltenEmberstone = HermitSmeltery.moltenEmberstoneFluid.getBlock();
 
     	
     	
@@ -132,11 +142,12 @@ public class HermitSmeltery {
     	FluidType.registerFluidType("Varsium", HermitSmeltery.moltenVarsium, 0, 600, HermitSmeltery.moltenVarsiumFluid, true);
     	FluidType.registerFluidType("Skeletal", HermitSmeltery.moltenSkeletal, 0, 600, HermitSmeltery.moltenSkeletalFluid, true);
     	FluidType.registerFluidType("Lyon", HermitSmeltery.moltenLyon, 0, 600, HermitSmeltery.moltenLyonFluid, true);
-
+    	FluidType.registerFluidType("Jade", HermitSmeltery.moltenJade, 0, 600, HermitSmeltery.moltenJadeFluid, true);
+    	FluidType.registerFluidType("Emberstone", HermitSmeltery.moltenEmberstone, 0, 600, HermitSmeltery.moltenEmberstoneFluid, true);
 
     	
-    	HermitSmeltery.fluids = new Fluid[] { HermitSmeltery.moltenLimoniteFluid, HermitSmeltery.moltenAmethystFluid, HermitSmeltery.moltenRositeFluid, HermitSmeltery.moltenSapphireFluid, HermitSmeltery.moltenMystiteFluid, HermitSmeltery.moltenSkeletalFluid, HermitSmeltery.moltenVarsiumFluid, HermitSmeltery.moltenLyonFluid};
-    	HermitSmeltery.fluidBlocks = new Block[] {HermitSmeltery.moltenLimonite, HermitSmeltery.moltenAmethyst, HermitSmeltery.moltenRosite, HermitSmeltery.moltenSapphire, HermitSmeltery.moltenMystite, HermitSmeltery.moltenSkeletal, HermitSmeltery.moltenVarsium, HermitSmeltery.moltenLyon};
+    	HermitSmeltery.fluids = new Fluid[] { HermitSmeltery.moltenLimoniteFluid, HermitSmeltery.moltenAmethystFluid, HermitSmeltery.moltenRositeFluid, HermitSmeltery.moltenSapphireFluid, HermitSmeltery.moltenMystiteFluid, HermitSmeltery.moltenSkeletalFluid, HermitSmeltery.moltenVarsiumFluid, HermitSmeltery.moltenLyonFluid, HermitSmeltery.moltenJadeFluid, HermitSmeltery.moltenEmberstoneFluid};
+    	HermitSmeltery.fluidBlocks = new Block[] {HermitSmeltery.moltenLimonite, HermitSmeltery.moltenAmethyst, HermitSmeltery.moltenRosite, HermitSmeltery.moltenSapphire, HermitSmeltery.moltenMystite, HermitSmeltery.moltenSkeletal, HermitSmeltery.moltenVarsium, HermitSmeltery.moltenLyon, HermitSmeltery.moltenJade, HermitSmeltery.moltenEmberstone};
     	
     	
         //Items
@@ -188,8 +199,8 @@ public class HermitSmeltery {
             }
         }
         
-        HermitSmeltery.liquids = new FluidStack[] { new FluidStack(HermitSmeltery.moltenLimoniteFluid, 1), new FluidStack(HermitSmeltery.moltenSapphireFluid, 1), new FluidStack(HermitSmeltery.moltenAmethystFluid, 1), new FluidStack(HermitSmeltery.moltenRositeFluid, 1), new FluidStack(HermitSmeltery.moltenVarsiumFluid, 1), new FluidStack(HermitSmeltery.moltenLyonFluid, 1), new FluidStack(HermitSmeltery.moltenMystiteFluid, 1), new FluidStack(HermitSmeltery.moltenSkeletalFluid, 1) };
-        int[] liquidDamages = new int[] { 40, 41, 42, 43, 44, 45, 46, 47 }; // ItemStack
+        HermitSmeltery.liquids = new FluidStack[] { new FluidStack(HermitSmeltery.moltenLimoniteFluid, 1), new FluidStack(HermitSmeltery.moltenSapphireFluid, 1), new FluidStack(HermitSmeltery.moltenAmethystFluid, 1), new FluidStack(HermitSmeltery.moltenRositeFluid, 1), new FluidStack(HermitSmeltery.moltenVarsiumFluid, 1), new FluidStack(HermitSmeltery.moltenLyonFluid, 1), new FluidStack(HermitSmeltery.moltenMystiteFluid, 1), new FluidStack(HermitSmeltery.moltenSkeletalFluid, 1), new FluidStack(HermitSmeltery.moltenJadeFluid, 1), new FluidStack(HermitSmeltery.moltenEmberstoneFluid, 1) };
+        int[] liquidDamages = new int[] { 40, 41, 42, 43, 44, 45, 46, 47, 48, 49 }; // ItemStack
                                                                                  // damage
                                                                                  // value
         int fluidAmount = 0;
@@ -281,6 +292,26 @@ public class HermitSmeltery {
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
     		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[8].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 48);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
+    	}
+    	for (int i = 0; i < 25; i++)
+    	{
+    		
+    		fs = HermitSmeltery.liquids[9].getFluid();
+    		ItemStack cast = new ItemStack(TinkerSmeltery.metalPattern, 1, i + 1);
+    		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
+    		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 49);
+    		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
+    	}
 
 
 
@@ -307,6 +338,7 @@ public class HermitSmeltery {
 		Smeltery.addMelting(FluidType.getFluidType("Skeletal"), new ItemStack(Itemizer.SkullboneFragment), 0, TConstruct.ingotLiquidValue / 4);
 		Smeltery.addMelting(FluidType.getFluidType("Varsium"), new ItemStack(Itemizer.IngotVarsium), 0, TConstruct.ingotLiquidValue);
 		Smeltery.addMelting(FluidType.getFluidType("Lyon"), new ItemStack(Itemizer.IngotLyon), 0, TConstruct.ingotLiquidValue);
+		Smeltery.addMelting(FluidType.getFluidType("Jade"), new ItemStack(Itemizer.IngotJade), 0, TConstruct.ingotLiquidValue);
 
 
 
@@ -321,6 +353,7 @@ public class HermitSmeltery {
     	Smeltery.addMelting(Blockizer.OreVarsium, 0, 600, new FluidStack(HermitSmeltery.moltenVarsiumFluid, TConstruct.ingotLiquidValue * 2));
     	Smeltery.addMelting(Blockizer.OreLyon, 0, 600, new FluidStack(HermitSmeltery.moltenLyonFluid, TConstruct.ingotLiquidValue * 2));
     	Smeltery.addMelting(Blockizer.oreSkullFragment, 0, 600, new FluidStack(HermitSmeltery.moltenSkeletalFluid, TConstruct.ingotLiquidValue * 2));
+    	Smeltery.addMelting(Blockizer.oreJade, 0, 600, new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.ingotLiquidValue * 2));
     	
     	//Blocks
     	Smeltery.addMelting(ObjHandler.blockLimonite, 0, 600, new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue));

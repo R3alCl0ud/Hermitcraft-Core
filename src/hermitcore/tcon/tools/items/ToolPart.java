@@ -59,9 +59,9 @@ public class ToolPart extends CraftingItem implements IToolPart
         return names;
     }
 
-    public static final String[] toolMaterialNames = new String[] { "Limonite", "Amethyst", "Rosite", "Sapphire", "Mystite", "Skeletal", "Varsium", "Lyon" };
+    public static final String[] toolMaterialNames = new String[] { "Limonite", "Amethyst", "Rosite", "Sapphire", "Mystite", "Skeletal", "Varsium", "Lyon", "Jade", "Emberstone" };
 
-    public static final String[] toolTextureNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal", "varsium", "lyon" };
+    public static final String[] toolTextureNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal", "varsium", "lyon", "jade", "emberstone" };
 
     @Override
     public void getSubItems (Item b, CreativeTabs tab, List list)
