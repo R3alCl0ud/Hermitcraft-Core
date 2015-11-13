@@ -1,6 +1,7 @@
 package hermitcore.tcon.smeltery;
 
 import hermitcore.HECore;
+import hermitcore.gameObjs.ObjHandler;
 import hermitcore.tcon.smeltery.blocks.HermitFluid;
 import hermitcore.tcon.smeltery.items.FilledBucket;
 import hermitcore.utils.HELogger;
@@ -196,7 +197,7 @@ public class HermitSmeltery {
         
         
         //ItemStack rod = new ItemStack(TinkerSmeltery.metalPattern, 1, 1);
-    	ItemStack pickaxe = new ItemStack(TinkerSmeltery.metalPattern, 1, 2);
+    	//ItemStack pickaxe = new ItemStack(TinkerSmeltery.metalPattern, 1, 2);
 
 
 
@@ -208,6 +209,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 40);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
     	for (int i = 0; i < 25; i++)
     	{
@@ -217,6 +219,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 41);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
     	for (int i = 0; i < 25; i++)
     	{
@@ -226,6 +229,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 42);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
     	for (int i = 0; i < 25; i++)
     	{
@@ -235,6 +239,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;   		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 43);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
     	for (int i = 0; i < 25; i++)
     	{
@@ -244,6 +249,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 44);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
     	for (int i = 0; i < 25; i++)
     	{
@@ -253,6 +259,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 45);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
     	for (int i = 0; i < 25; i++)
     	{
@@ -262,6 +269,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 46);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
     	for (int i = 0; i < 25; i++)
     	{
@@ -271,6 +279,7 @@ public class HermitSmeltery {
     		fluidAmount = ((IPattern) TinkerSmeltery.metalPattern).getPatternCost(cast) * TConstruct.ingotLiquidValue / 2;    		
     		ItemStack metalCast = new ItemStack(TinkerTools.patternOutputs[i], 1, 47);
     		tableCasting.addCastingRecipe(metalCast, new FluidStack(fs, fluidAmount), cast, 50);
+    		//Smeltery.addMelting(FluidType.getFluidType(fs), metalCast, 0, fluidAmount);
     	}
 
 
@@ -279,7 +288,11 @@ public class HermitSmeltery {
     protected void addRecipesForBasinCasting ()
     {
         LiquidCasting basinCasting = TConstructRegistry.getBasinCasting();
+        
         // Block Casting
+        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockLimonite), new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockRosite), new FluidStack(HermitSmeltery.moltenRositeFluid, TConstruct.blockLiquidValue), 100);
+        
         
     }
     
@@ -308,6 +321,10 @@ public class HermitSmeltery {
     	Smeltery.addMelting(Blockizer.OreVarsium, 0, 600, new FluidStack(HermitSmeltery.moltenVarsiumFluid, TConstruct.ingotLiquidValue * 2));
     	Smeltery.addMelting(Blockizer.OreLyon, 0, 600, new FluidStack(HermitSmeltery.moltenLyonFluid, TConstruct.ingotLiquidValue * 2));
     	Smeltery.addMelting(Blockizer.oreSkullFragment, 0, 600, new FluidStack(HermitSmeltery.moltenSkeletalFluid, TConstruct.ingotLiquidValue * 2));
+    	
+    	//Blocks
+    	Smeltery.addMelting(ObjHandler.blockLimonite, 0, 600, new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjHandler.blockRosite, 0, 600, new FluidStack(HermitSmeltery.moltenRositeFluid, TConstruct.blockLiquidValue));
 
 
 

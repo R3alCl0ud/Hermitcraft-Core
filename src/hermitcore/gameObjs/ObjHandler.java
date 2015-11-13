@@ -3,6 +3,7 @@ package hermitcore.gameObjs;
 import hermitcore.HECore;
 import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.block.blockLimonite;
+import hermitcore.gameObjs.block.blockRosite;
 import hermitcore.gameObjs.block.oreLimonite;
 import hermitcore.gameObjs.item.ingotLimonite;
 import cpw.mods.fml.common.IFuelHandler;
@@ -27,6 +28,8 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 
 
+import net.nevermine.izer.Itemizer;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -35,13 +38,26 @@ import java.util.Map.Entry;
 @SuppressWarnings("unused")
 public class ObjHandler 
 {
-
 	
+	public static Block blockLimonite;
+	public static Block blockRosite;
 
 	
 	public static void register() 
 	{
+		
+		GameRegistry.registerBlock(blockLimonite = new blockLimonite("blockLimonite", Material.iron), "blockLimonite");
+		GameRegistry.registerBlock(blockRosite = new blockRosite("blockRosite", Material.iron), "blockRosite"); 
 
+	}
+	
+	public static void addRecipes()
+	{
+		GameRegistry.addRecipe(new ItemStack(blockLimonite), "LLL", "LLL", "LLL", 'L', Itemizer.IngotLimonite);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotLimonite, 9, 0), blockLimonite);
+		
+		GameRegistry.addRecipe(new ItemStack(blockRosite), "LLL", "LLL", "LLL", 'L', Itemizer.IngotRosite);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotRosite, 9, 0), blockRosite);
 	}
 
 	@SuppressWarnings("unchecked")

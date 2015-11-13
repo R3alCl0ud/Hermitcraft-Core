@@ -67,6 +67,9 @@ public class HECore {
 		ObjHandler.removeRecipes(HermitCoreConfig.toDelete[i]);
 		}
 		
+		ObjHandler.register();
+		ObjHandler.addRecipes();
+		
 		pulsar.registerPulse(new HermitSmeltery());
 		pulsar.registerPulse (new HermitTools());
 		

@@ -1,53 +1,53 @@
-[16:16:17] [main/INFO]: Extra: []
-[16:16:17] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
-[16:16:17] [main/INFO]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
-[16:16:17] [main/INFO]: Found and added coremod: codechicken.core.launch.DepLoader
-[16:16:17] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/perry/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[16:16:17] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:16:17] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:16:17] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:16:17] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[16:16:17] [main/INFO]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
-[16:16:17] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_79, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_79\jre
-[16:16:17] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[16:16:17] [main/INFO]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
-[16:16:17] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:16:17] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
-[16:16:18] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:16:18] [main/INFO]: Found a command line coremod : codechicken.core.launch.DepLoader
-[16:16:18] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[16:16:18] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:16:18] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[16:16:18] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[16:16:18] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
-[16:16:18] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
-[16:16:18] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
-[16:16:18] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
-[16:16:18] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:16:18] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:16:18] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:16:18] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[16:16:18] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:16:18] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:16:19] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:16:19] [main/INFO]: Remapping AccessTransformer rules...
-[16:16:19] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[16:16:19] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[16:16:19] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:16:21] [main/INFO]: Setting user: Player484
-[16:16:22] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:16:23] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// I'm sorry, Dave.
+[18:41:14] [main/INFO]: Extra: []
+[18:41:14] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
+[18:41:14] [main/INFO]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
+[18:41:14] [main/INFO]: Found and added coremod: codechicken.core.launch.DepLoader
+[18:41:14] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/perry/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:41:14] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:41:14] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:41:14] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:41:14] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:41:14] [main/INFO]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
+[18:41:14] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_79, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_79\jre
+[18:41:14] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:41:14] [main/INFO]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
+[18:41:14] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:41:14] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
+[18:41:14] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:41:14] [main/INFO]: Found a command line coremod : codechicken.core.launch.DepLoader
+[18:41:14] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:41:14] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:41:14] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[18:41:14] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:41:14] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[18:41:14] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
+[18:41:14] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[18:41:14] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
+[18:41:14] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:41:14] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[18:41:14] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:41:14] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:41:14] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:41:14] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:41:14] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[18:41:15] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[18:41:15] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:41:15] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:41:15] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:41:15] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:41:15] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:41:15] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[18:41:16] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:41:16] [main/INFO]: Remapping AccessTransformer rules...
+[18:41:16] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[18:41:16] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[18:41:16] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:41:18] [main/INFO]: Setting user: Player265
+[18:41:19] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:41:20] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
 
-Time: 11/10/15 4:16 PM
+Time: 11/12/15 6:41 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -62,546 +62,254 @@ Details:
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.7.0_79, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 415202960 bytes (395 MB) / 702545920 bytes (670 MB) up to 3804758016 bytes (3628 MB)
+	Memory: 416785016 bytes (397 MB) / 702545920 bytes (670 MB) up to 3804758016 bytes (3628 MB)
 	JVM Flags: 0 total; 
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 353.54' Renderer: 'GeForce GTX 760/PCIe/SSE2'
-[16:16:23] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[16:16:23] [Client thread/INFO]: MinecraftForge v10.13.4.1448 Initialized
-[16:16:23] [Client thread/INFO]: Replaced 183 ore recipies
-[16:16:23] [Client thread/INFO]: Completed early MinecraftForge initialization
-[16:16:23] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[16:16:23] [Client thread/INFO]: Searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods for mods
-[16:16:23] [Client thread/INFO]: Also searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods\1.7.10 for mods
-[16:16:24] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[16:16:24] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[16:16:24] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[16:16:25] [Client thread/INFO]: Forge Mod Loader has identified 12 mods to load
-[16:16:26] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, nevermine, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore] at CLIENT
-[16:16:26] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, nevermine, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore] at SERVER
-[16:16:26] [Client thread/INFO]: Preparing to take over the world
-[16:16:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core
-[16:16:26] [Client thread/INFO]: Processing ObjectHolder annotations
-[16:16:26] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[16:16:26] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[16:16:26] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[16:16:26] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[16:16:30] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins187) -- Preparing for launch.
-[16:16:30] [Client thread/INFO]: Entering preinitialization phase.
-[16:16:30] [Client thread/INFO]: Loading configuration from disk.
-[16:16:30] [Client thread/INFO]: Configuration load completed.
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers Thaumcraft Compatibility; missing dependency: Thaumcraft
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers BuildCraft Compatibility; missing dependency: BuildCraft|Transport
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers AE2 Compatibility; missing dependency: appliedenergistics2
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers IC2 Compatibility; missing dependency: IC2
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers TE4 Compatibility; missing dependency: ThermalExpansion
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers Thermal Foundation Compatibility; missing dependency: ThermalFoundation
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers' Underground Biomes Compatiblity; missing dependency: UndergroundBiomes
-[16:16:30] [Client thread/INFO]: Skipping Pulse Tinkers RF-Tools Compatibility; missing dependency: rftools
-[16:16:30] [Client thread/INFO]: Gear module active. Adding gear cast.
-[16:16:31] [Client thread/INFO]: Loaded configuration file.
-[16:16:31] [Client thread/WARN]: pickaxe is already present in the Item directory
-[16:16:31] [Client thread/WARN]: shovel is already present in the Item directory
-[16:16:31] [Client thread/WARN]: hatchet is already present in the Item directory
-[16:16:31] [Client thread/WARN]: broadsword is already present in the Item directory
-[16:16:31] [Client thread/WARN]: longsword is already present in the Item directory
-[16:16:31] [Client thread/WARN]: rapier is already present in the Item directory
-[16:16:31] [Client thread/WARN]: dagger is already present in the Item directory
-[16:16:31] [Client thread/WARN]: cutlass is already present in the Item directory
-[16:16:31] [Client thread/WARN]: frypan is already present in the Item directory
-[16:16:31] [Client thread/WARN]: battlesign is already present in the Item directory
-[16:16:31] [Client thread/WARN]: mattock is already present in the Item directory
-[16:16:31] [Client thread/WARN]: chisel is already present in the Item directory
-[16:16:31] [Client thread/WARN]: lumberaxe is already present in the Item directory
-[16:16:31] [Client thread/WARN]: cleaver is already present in the Item directory
-[16:16:31] [Client thread/WARN]: scythe is already present in the Item directory
-[16:16:31] [Client thread/WARN]: excavator is already present in the Item directory
-[16:16:31] [Client thread/WARN]: hammer is already present in the Item directory
-[16:16:31] [Client thread/WARN]: battleaxe is already present in the Item directory
-[16:16:31] [Client thread/WARN]: toolRod is already present in the Item directory
-[16:16:31] [Client thread/WARN]: toolShard is already present in the Item directory
-[16:16:31] [Client thread/WARN]: pickaxeHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: shovelHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: hatchetHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: binding is already present in the Item directory
-[16:16:31] [Client thread/WARN]: toughBinding is already present in the Item directory
-[16:16:31] [Client thread/WARN]: toughRod is already present in the Item directory
-[16:16:31] [Client thread/WARN]: heavyPlate is already present in the Item directory
-[16:16:31] [Client thread/WARN]: swordBlade is already present in the Item directory
-[16:16:31] [Client thread/WARN]: wideGuard is already present in the Item directory
-[16:16:31] [Client thread/WARN]: handGuard is already present in the Item directory
-[16:16:31] [Client thread/WARN]: crossbar is already present in the Item directory
-[16:16:31] [Client thread/WARN]: knifeBlade is already present in the Item directory
-[16:16:31] [Client thread/WARN]: fullGuard is already present in the Item directory
-[16:16:31] [Client thread/WARN]: frypanHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: signHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: chiselHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: scytheBlade is already present in the Item directory
-[16:16:31] [Client thread/WARN]: broadAxeHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: excavatorHead is already present in the Item directory
-[16:16:31] [Client thread/WARN]: largeSwordBlade is already present in the Item directory
-[16:16:31] [Client thread/WARN]: hammerHead is already present in the Item directory
-[16:16:31] [Client thread/INFO]: Applying holder lookups
-[16:16:31] [Client thread/INFO]: Holder lookups applied
-[16:16:31] [Client thread/INFO]: Injecting itemstacks
-[16:16:31] [Client thread/INFO]: Itemstack injection complete
-[16:16:31] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:16:31] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[16:16:32] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[16:16:32] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:16:32] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[16:16:32] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:16:32] [Sound Library Loader/INFO]: Sound engine started
-[16:16:33] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[16:16:34] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[16:16:34] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
-[16:16:34] [Client thread/INFO]: Entering initialization phase.
-[16:16:35] [Client thread/INFO]: ForgeMultipart detected. Registering TConstruct decorative blocks with FMP.
-[16:16:35] [Client thread/INFO]: Injecting itemstacks
-[16:16:35] [Client thread/INFO]: Itemstack injection complete
-[16:16:35] [Client thread/INFO]: Entering postinitialization phase.
-[16:16:35] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[16:16:35] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[16:16:35] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[16:16:35] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[16:16:35] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[16:16:35] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[16:16:35] [Client thread/WARN]: Could not find itemResourcefrom thaumcraft.common.config.ConfigItems
-[16:16:35] [Client thread/WARN]: Thaumcraft not detected.
-[16:16:35] [Client thread/INFO]: Forge Mod Loader has successfully loaded 12 mods
-[16:16:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core
-[16:16:36] [Client thread/INFO]: Created: 2048x1024 textures/items-atlas
-[16:16:37] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[16:16:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:16:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[16:16:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[16:16:37] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:16:37] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:16:37] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[16:16:37] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[16:16:37] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:16:37] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[16:16:38] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[16:16:38] [Client thread/ERROR]: The following texture errors were found.
-[16:16:38] [Client thread/ERROR]: ==================================================
-[16:16:38] [Client thread/ERROR]:   DOMAIN nevermine
-[16:16:38] [Client thread/ERROR]: --------------------------------------------------
-[16:16:38] [Client thread/ERROR]:   domain nevermine is missing 2 textures
-[16:16:38] [Client thread/ERROR]:     domain nevermine has 1 location:
-[16:16:38] [Client thread/ERROR]:       mod nevermine resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\libs\AoA-2.4.B.jar
-[16:16:38] [Client thread/ERROR]: -------------------------
-[16:16:38] [Client thread/ERROR]:     The missing resources for domain nevermine are:
-[16:16:38] [Client thread/ERROR]:       textures/items/candlefish.png
-[16:16:38] [Client thread/ERROR]:       textures/items/rocketfish.png
-[16:16:38] [Client thread/ERROR]: -------------------------
-[16:16:38] [Client thread/ERROR]:     No other errors exist for domain nevermine
-[16:16:38] [Client thread/ERROR]: ==================================================
-[16:16:38] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[16:16:38] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:16:38] [Sound Library Loader/INFO]: Sound engine started
-[16:16:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:16:50] [Server thread/INFO]: Generating keypair
-[16:16:51] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[16:16:51] [Server thread/INFO]: Found a missing id from the world hermitcore:Limonite Ore
-[16:16:51] [Server thread/INFO]: Found a missing id from the world hermitcore:Limonite Block
-[16:16:51] [Server thread/INFO]: Found a missing id from the world hermitcore:Limonite Ingot
-[16:16:51] [Server thread/INFO]: Found a missing id from the world hermitcore:Limonite Block
-[16:16:51] [Server thread/INFO]: Found a missing id from the world hermitcore:Limonite Ore
-[16:16:51] [Server thread/ERROR]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[16:16:51] [Server thread/ERROR]: Unidentified block: hermitcore:Limonite Ore, id 411
-[16:16:51] [Server thread/ERROR]: Unidentified block: hermitcore:Limonite Block, id 413
-[16:16:51] [Server thread/ERROR]: Unidentified item: hermitcore:Limonite Ingot, id 4193
-[16:16:51] [Server thread/ERROR]: Unidentified item: hermitcore:Limonite Block, id 413
-[16:16:51] [Server thread/ERROR]: Unidentified item: hermitcore:Limonite Ore, id 411
-[16:16:54] [Server thread/INFO]: World backup created at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\saves\Testing 123-20151110-161653.zip.
-[16:16:54] [Server thread/ERROR]: This world contains block and item mappings that may cause world breakage
-[16:16:54] [Server thread/INFO]: Applying holder lookups
-[16:16:54] [Server thread/INFO]: Holder lookups applied
-[16:16:54] [Server thread/INFO]: Loading dimension 0 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 30 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 29 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 28 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 27 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 26 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 25 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 24 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 23 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 22 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 21 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension -1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 20 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 19 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 18 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 17 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 16 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 15 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 14 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:54] [Server thread/INFO]: Loading dimension 13 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:55] [Server thread/INFO]: Loading dimension 12 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:55] [Server thread/INFO]: Loading dimension 11 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:55] [Server thread/INFO]: Loading dimension 10 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:55] [Server thread/INFO]: Loading dimension 9 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:55] [Server thread/INFO]: Loading dimension 1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@40c2d13e)
-[16:16:55] [Server thread/INFO]: Preparing start region for level 0
-[16:16:56] [Server thread/INFO]: Changing view distance to 4, from 10
-[16:16:56] [Netty Client IO #0/INFO]: Server protocol version 2
-[16:16:56] [Netty IO #1/INFO]: Client protocol version 2
-[16:16:56] [Netty IO #1/INFO]: Client attempting to join with 12 mods : mcp@9.05,FML@7.10.99.99,NotEnoughItems@1.0.4.106,nevermine@2.3,hermitcore@${version},McMultipart@1.1.2.334,Forge@10.13.4.1448,CodeChickenCore@1.0.6.43,ForgeMicroblock@1.1.2.334,ForgeMultipart@1.1.2.334,Mantle@1.7.10-0.3.2.jenkins187,TConstruct@1.7.10-1.8.7.build979
-[16:16:56] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[16:16:56] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[16:16:56] [Server thread/INFO]: [Server thread] Server side modded connection established
-[16:16:56] [Server thread/INFO]: Player484[local:E:3c1f2dfb] logged in with entity id 248 at (106.93086318050094, 71.0, 252.876591789779)
-[16:16:56] [Client thread/INFO]: [Client thread] Client side modded connection established
-[16:16:56] [Server thread/INFO]: Player484 joined the game
-[16:16:57] [Server thread/INFO]: [net.nevermine.assist.UpdateChecker:getWiki:43]: Wiki is online.
-[16:19:27] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
-[16:19:29] [Server thread/INFO]: [Player484: Set own game mode to Creative Mode]
-[16:19:29] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[16:21:18] [Client thread/INFO]: [CHAT] §dThe ancient unrest is over, for now.
-[16:22:30] [Client thread/INFO]: [CHAT] §cToday is a good day to die.
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Soul2Banner.png
-java.io.FileNotFoundException: nevermine:textures/banner/Soul2Banner.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Soul2BannerGilded.png
-java.io.FileNotFoundException: nevermine:textures/banner/Soul2BannerGilded.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Soul2BannerBejeweled.png
-java.io.FileNotFoundException: nevermine:textures/banner/Soul2BannerBejeweled.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Soul2BannerEncrusted.png
-java.io.FileNotFoundException: nevermine:textures/banner/Soul2BannerEncrusted.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Creation2Banner.png
-java.io.FileNotFoundException: nevermine:textures/banner/Creation2Banner.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Creation2BannerGilded.png
-java.io.FileNotFoundException: nevermine:textures/banner/Creation2BannerGilded.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Creation2BannerBejeweled.png
-java.io.FileNotFoundException: nevermine:textures/banner/Creation2BannerBejeweled.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:27:48] [Client thread/WARN]: Failed to load texture: nevermine:textures/banner/Creation2BannerEncrusted.png
-java.io.FileNotFoundException: nevermine:textures/banner/Creation2BannerEncrusted.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(SourceFile:51) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SourceFile:29) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(SourceFile:72) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(SourceFile:40) [TextureManager.class:?]
-	at net.nevermine.block.modelblocks.banner.RenderBannerItem.renderItem(RenderBannerItem.java:50) [RenderBannerItem.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.renderInventoryItem(ForgeHooksClient.java:183) [ForgeHooksClient.class:?]
-	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:563) [RenderItem.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:187) [GuiContainerManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.drawItem(GuiContainerManager.java:177) [GuiContainerManager.class:?]
-	at codechicken.nei.ItemPanel.draw(ItemPanel.java:129) [ItemPanel.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:196) [LayoutManager.class:?]
-	at codechicken.nei.guihook.GuiContainerManager.renderObjects(GuiContainerManager.java:387) [GuiContainerManager.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:120) [GuiContainer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1061) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1001) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:898) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_79]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_79]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_79]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[16:31:41] [Server thread/INFO]: Saving and pausing game...
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionImmortallis
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCreeponia
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCandyland
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCrystevia
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCeleve
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAncientCavern
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLelyetia
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLabricon
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBarathos
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionRunandor
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionVoxponds
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBorean
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDustopia
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGreckon
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGardencia
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDeeplands
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLunalus
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionIromine
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionMysterium
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionPrecasia
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionHaven
-[16:31:41] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAbyss
-[16:32:27] [Client thread/INFO]: [CHAT] §cThe day of death has ended.
-[16:32:31] [Server thread/INFO]: [Player484: Changing to clear weather]
-[16:32:31] [Client thread/INFO]: [CHAT] Changing to clear weather
-[16:32:32] [Client thread/INFO]: [CHAT] §dNight falls on the world.
-[16:32:32] [Client thread/INFO]: [CHAT] §7There is nobody on your side for the ancient unrest.
-[16:34:01] [Server thread/INFO]: Saving and pausing game...
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionImmortallis
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCreeponia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCandyland
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCrystevia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCeleve
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAncientCavern
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLelyetia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLabricon
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBarathos
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionRunandor
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionVoxponds
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBorean
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDustopia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGreckon
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGardencia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDeeplands
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLunalus
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionIromine
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionMysterium
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionPrecasia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionHaven
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAbyss
-[16:34:01] [Server thread/INFO]: Stopping server
-[16:34:01] [Server thread/INFO]: Saving players
-[16:34:01] [Server thread/INFO]: Saving worlds
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionImmortallis
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCreeponia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCandyland
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCrystevia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCeleve
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAncientCavern
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLelyetia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLabricon
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBarathos
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionRunandor
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionVoxponds
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBorean
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDustopia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGreckon
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGardencia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDeeplands
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLunalus
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionIromine
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionMysterium
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionPrecasia
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionHaven
-[16:34:01] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAbyss
-[16:34:01] [Server thread/INFO]: Unloading dimension 0
-[16:34:01] [Server thread/INFO]: Unloading dimension -1
-[16:34:01] [Server thread/INFO]: Unloading dimension 1
-[16:34:01] [Server thread/INFO]: Unloading dimension 30
-[16:34:01] [Server thread/INFO]: Unloading dimension 29
-[16:34:01] [Server thread/INFO]: Unloading dimension 28
-[16:34:01] [Server thread/INFO]: Unloading dimension 27
-[16:34:01] [Server thread/INFO]: Unloading dimension 26
-[16:34:01] [Server thread/INFO]: Unloading dimension 25
-[16:34:01] [Server thread/INFO]: Unloading dimension 24
-[16:34:01] [Server thread/INFO]: Unloading dimension 23
-[16:34:01] [Server thread/INFO]: Unloading dimension 22
-[16:34:01] [Server thread/INFO]: Unloading dimension 21
-[16:34:01] [Server thread/INFO]: Unloading dimension 20
-[16:34:01] [Server thread/INFO]: Unloading dimension 19
-[16:34:01] [Server thread/INFO]: Unloading dimension 18
-[16:34:01] [Server thread/INFO]: Unloading dimension 17
-[16:34:01] [Server thread/INFO]: Unloading dimension 16
-[16:34:01] [Server thread/INFO]: Unloading dimension 15
-[16:34:01] [Server thread/INFO]: Unloading dimension 14
-[16:34:01] [Server thread/INFO]: Unloading dimension 13
-[16:34:01] [Server thread/INFO]: Unloading dimension 12
-[16:34:01] [Server thread/INFO]: Unloading dimension 11
-[16:34:01] [Server thread/INFO]: Unloading dimension 10
-[16:34:01] [Server thread/INFO]: Unloading dimension 9
-[16:34:01] [Server thread/INFO]: Applying holder lookups
-[16:34:01] [Server thread/INFO]: Holder lookups applied
-[16:34:02] [Client thread/INFO]: Stopping!
-[16:34:02] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[16:34:02] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[16:34:02] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[16:34:02] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:41:20] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[18:41:20] [Client thread/INFO]: MinecraftForge v10.13.4.1448 Initialized
+[18:41:20] [Client thread/INFO]: Replaced 183 ore recipies
+[18:41:20] [Client thread/INFO]: Completed early MinecraftForge initialization
+[18:41:20] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:41:20] [Client thread/INFO]: Searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods for mods
+[18:41:20] [Client thread/INFO]: Also searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods\1.7.10 for mods
+[18:41:21] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[18:41:21] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[18:41:21] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[18:41:23] [Client thread/INFO]: Forge Mod Loader has identified 12 mods to load
+[18:41:23] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, nevermine, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore] at CLIENT
+[18:41:23] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, nevermine, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, hermitcore] at SERVER
+[18:41:23] [Client thread/INFO]: Preparing to take over the world
+[18:41:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core
+[18:41:24] [Client thread/INFO]: Processing ObjectHolder annotations
+[18:41:24] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[18:41:24] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[18:41:24] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[18:41:24] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[18:41:28] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins187) -- Preparing for launch.
+[18:41:28] [Client thread/INFO]: Entering preinitialization phase.
+[18:41:28] [Client thread/INFO]: Loading configuration from disk.
+[18:41:28] [Client thread/INFO]: Configuration load completed.
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers Thaumcraft Compatibility; missing dependency: Thaumcraft
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers BuildCraft Compatibility; missing dependency: BuildCraft|Transport
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers AE2 Compatibility; missing dependency: appliedenergistics2
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers IC2 Compatibility; missing dependency: IC2
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers TE4 Compatibility; missing dependency: ThermalExpansion
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers Thermal Foundation Compatibility; missing dependency: ThermalFoundation
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers' Underground Biomes Compatiblity; missing dependency: UndergroundBiomes
+[18:41:28] [Client thread/INFO]: Skipping Pulse Tinkers RF-Tools Compatibility; missing dependency: rftools
+[18:41:28] [Client thread/INFO]: Gear module active. Adding gear cast.
+[18:41:30] [Client thread/INFO]: Loaded configuration file.
+[18:41:30] [Client thread/INFO]: Applying holder lookups
+[18:41:30] [Client thread/INFO]: Holder lookups applied
+[18:41:30] [Client thread/INFO]: Injecting itemstacks
+[18:41:30] [Client thread/INFO]: Itemstack injection complete
+[18:41:30] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:41:30] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[18:41:30] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[18:41:30] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: org.lwjgl.openal.OpenALException: Invalid Device
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.Util.checkALCError(Util.java:55)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.ALC10.alcCreateContext(ALC10.java:251)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.init(AL.java:168)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:138)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:102)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:201)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[18:41:30] [Thread-8/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.CommandThread.run(CommandThread.java:121)
+[18:41:32] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[18:41:33] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[18:41:33] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
+[18:41:33] [Client thread/INFO]: Entering initialization phase.
+[18:41:33] [Client thread/INFO]: ForgeMultipart detected. Registering TConstruct decorative blocks with FMP.
+[18:41:33] [Client thread/INFO]: Injecting itemstacks
+[18:41:33] [Client thread/INFO]: Itemstack injection complete
+[18:41:33] [Client thread/INFO]: Entering postinitialization phase.
+[18:41:33] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:41:33] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:41:33] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:41:33] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:41:33] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:41:33] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:41:33] [Client thread/WARN]: Could not find itemResourcefrom thaumcraft.common.config.ConfigItems
+[18:41:33] [Client thread/WARN]: Thaumcraft not detected.
+[18:41:33] [Client thread/INFO]: Forge Mod Loader has successfully loaded 12 mods
+[18:41:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Hermitcraft Core
+[18:41:34] [Client thread/INFO]: Created: 2048x1024 textures/items-atlas
+[18:41:36] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[18:41:36] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:41:36] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[18:41:36] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[18:41:36] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.IllegalStateException: Only one OpenAL context may be instantiated at any one time.
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:113)
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:102)
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at org.lwjgl.openal.AL.create(AL.java:201)
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[18:41:36] [Thread-11/INFO]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at paulscode.sound.CommandThread.run(CommandThread.java:121)
+[18:41:36] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[18:41:36] [Client thread/ERROR]: The following texture errors were found.
+[18:41:36] [Client thread/ERROR]: ==================================================
+[18:41:36] [Client thread/ERROR]:   DOMAIN nevermine
+[18:41:36] [Client thread/ERROR]: --------------------------------------------------
+[18:41:36] [Client thread/ERROR]:   domain nevermine is missing 2 textures
+[18:41:36] [Client thread/ERROR]:     domain nevermine has 1 location:
+[18:41:36] [Client thread/ERROR]:       mod nevermine resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\libs\AoA-2.4.B.jar
+[18:41:36] [Client thread/ERROR]: -------------------------
+[18:41:36] [Client thread/ERROR]:     The missing resources for domain nevermine are:
+[18:41:36] [Client thread/ERROR]:       textures/items/candlefish.png
+[18:41:36] [Client thread/ERROR]:       textures/items/rocketfish.png
+[18:41:36] [Client thread/ERROR]: -------------------------
+[18:41:36] [Client thread/ERROR]:     No other errors exist for domain nevermine
+[18:41:36] [Client thread/ERROR]: ==================================================
+[18:41:36] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[18:41:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:41:47] [Server thread/INFO]: Generating keypair
+[18:41:47] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[18:41:47] [Server thread/INFO]: Injecting new block and item data into this server instance.
+[18:41:47] [Server thread/INFO]: Injected new block/item hermitcore:blockRosite: 1418 (init) -> 1430 (map).
+[18:41:47] [Server thread/INFO]: Injected new block/item hermitcore:blockRosite: 1418 (init) -> 1430 (map).
+[18:41:47] [Server thread/INFO]: Applying holder lookups
+[18:41:47] [Server thread/INFO]: Holder lookups applied
+[18:41:47] [Server thread/INFO]: Loading dimension 0 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 30 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 29 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 28 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 27 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 26 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 25 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 24 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 23 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 22 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 21 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension -1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 20 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 19 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 18 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 17 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 16 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 15 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 14 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 13 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 12 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 11 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 10 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 9 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Loading dimension 1 (Testing 123) (net.minecraft.server.integrated.IntegratedServer@1d305ff1)
+[18:41:47] [Server thread/INFO]: Preparing start region for level 0
+[18:41:48] [Server thread/INFO]: Changing view distance to 4, from 10
+[18:41:48] [Netty Client IO #0/INFO]: Server protocol version 2
+[18:41:48] [Netty IO #1/INFO]: Client protocol version 2
+[18:41:48] [Netty IO #1/INFO]: Client attempting to join with 12 mods : mcp@9.05,FML@7.10.99.99,NotEnoughItems@1.0.4.106,nevermine@2.3,hermitcore@${version},McMultipart@1.1.2.334,Forge@10.13.4.1448,CodeChickenCore@1.0.6.43,ForgeMicroblock@1.1.2.334,ForgeMultipart@1.1.2.334,Mantle@1.7.10-0.3.2.jenkins187,TConstruct@1.7.10-1.8.7.build979
+[18:41:48] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[18:41:48] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[18:41:48] [Client thread/INFO]: [Client thread] Client side modded connection established
+[18:41:48] [Server thread/INFO]: [Server thread] Server side modded connection established
+[18:41:48] [Server thread/INFO]: Player265[local:E:bdf62a31] logged in with entity id 223 at (105.61144485316672, 71.0, 254.39103910245635)
+[18:41:48] [Server thread/INFO]: Player265 joined the game
+[18:41:49] [Server thread/INFO]: [net.nevermine.assist.UpdateChecker:getWiki:43]: Wiki is online.
+[18:42:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[18:42:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:         SoundSystem did not load after 30 seconds.
+[18:42:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:42:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[18:42:12] [Thread-15/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Switching to No Sound
+[18:42:12] [Thread-15/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (Silent Mode)
+[18:42:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:42:12] [Sound Library Loader/INFO]: Sound engine started
+[18:42:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:42:12] [Sound Library Loader/INFO]: Sound engine started
+[18:44:15] [Server thread/INFO]: Saving and pausing game...
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionImmortallis
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCreeponia
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCandyland
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCrystevia
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCeleve
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAncientCavern
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLelyetia
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLabricon
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBarathos
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionRunandor
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionVoxponds
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBorean
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDustopia
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGreckon
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGardencia
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDeeplands
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLunalus
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionIromine
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionMysterium
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionPrecasia
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionHaven
+[18:44:15] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAbyss
+[18:44:16] [Server thread/INFO]: Stopping server
+[18:44:16] [Server thread/INFO]: Saving players
+[18:44:16] [Server thread/INFO]: Saving worlds
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Overworld
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/Nether
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/The End
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionImmortallis
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCreeponia
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCandyland
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCrystevia
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionCeleve
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAncientCavern
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLelyetia
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLabricon
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBarathos
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionRunandor
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionVoxponds
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionBorean
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDustopia
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGreckon
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionGardencia
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionDeeplands
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionLunalus
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionIromine
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionMysterium
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionPrecasia
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionHaven
+[18:44:16] [Server thread/INFO]: Saving chunks for level 'Testing 123'/DimensionAbyss
+[18:44:16] [Server thread/INFO]: Unloading dimension 0
+[18:44:16] [Server thread/INFO]: Unloading dimension -1
+[18:44:16] [Server thread/INFO]: Unloading dimension 1
+[18:44:16] [Server thread/INFO]: Unloading dimension 30
+[18:44:16] [Server thread/INFO]: Unloading dimension 29
+[18:44:16] [Server thread/INFO]: Unloading dimension 28
+[18:44:16] [Server thread/INFO]: Unloading dimension 27
+[18:44:16] [Server thread/INFO]: Unloading dimension 26
+[18:44:16] [Server thread/INFO]: Unloading dimension 25
+[18:44:16] [Server thread/INFO]: Unloading dimension 24
+[18:44:16] [Server thread/INFO]: Unloading dimension 23
+[18:44:16] [Server thread/INFO]: Unloading dimension 22
+[18:44:16] [Server thread/INFO]: Unloading dimension 21
+[18:44:16] [Server thread/INFO]: Unloading dimension 20
+[18:44:16] [Server thread/INFO]: Unloading dimension 19
+[18:44:16] [Server thread/INFO]: Unloading dimension 18
+[18:44:16] [Server thread/INFO]: Unloading dimension 17
+[18:44:16] [Server thread/INFO]: Unloading dimension 16
+[18:44:16] [Server thread/INFO]: Unloading dimension 15
+[18:44:16] [Server thread/INFO]: Unloading dimension 14
+[18:44:16] [Server thread/INFO]: Unloading dimension 13
+[18:44:16] [Server thread/INFO]: Unloading dimension 12
+[18:44:16] [Server thread/INFO]: Unloading dimension 11
+[18:44:16] [Server thread/INFO]: Unloading dimension 10
+[18:44:16] [Server thread/INFO]: Unloading dimension 9
+[18:44:16] [Server thread/INFO]: Applying holder lookups
+[18:44:16] [Server thread/INFO]: Holder lookups applied
+[18:44:17] [Client thread/INFO]: Stopping!
+[18:44:17] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:44:17] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[18:44:17] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[18:44:17] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 

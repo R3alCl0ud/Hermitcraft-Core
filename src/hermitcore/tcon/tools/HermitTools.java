@@ -1,60 +1,16 @@
 package hermitcore.tcon.tools;
 
 import static net.minecraft.util.EnumChatFormatting.*;
-import tconstruct.TConstruct;
-import tconstruct.items.tools.Arrow;
-import tconstruct.items.tools.BattleSign;
-import tconstruct.items.tools.Battleaxe;
-import tconstruct.items.tools.Broadsword;
-import tconstruct.items.tools.Chisel;
-import tconstruct.items.tools.Cleaver;
-import tconstruct.items.tools.Cutlass;
-import tconstruct.items.tools.Dagger;
-import tconstruct.items.tools.Excavator;
-import tconstruct.items.tools.FryingPan;
-import tconstruct.items.tools.Hammer;
-import tconstruct.items.tools.Hatchet;
-import tconstruct.items.tools.Longsword;
-import tconstruct.items.tools.LumberAxe;
-import tconstruct.items.tools.Mattock;
-import tconstruct.items.tools.Pickaxe;
-import tconstruct.items.tools.Rapier;
-import tconstruct.items.tools.Scythe;
-import tconstruct.items.tools.Shovel;
 import tconstruct.library.TConstructRegistry;
-import tconstruct.library.crafting.ModifyBuilder;
 import tconstruct.library.crafting.PatternBuilder;
-import tconstruct.library.crafting.ToolBuilder;
-import tconstruct.library.tools.DynamicToolPart;
 import tconstruct.library.tools.ToolCore;
-import tconstruct.modifiers.tools.ModAntiSpider;
 import tconstruct.modifiers.tools.ModAttack;
-import tconstruct.modifiers.tools.ModAutoSmelt;
-import tconstruct.modifiers.tools.ModBlaze;
-import tconstruct.modifiers.tools.ModButtertouch;
-import tconstruct.modifiers.tools.ModCreativeToolModifier;
-import tconstruct.modifiers.tools.ModDurability;
-import tconstruct.modifiers.tools.ModExtraModifier;
 import tconstruct.modifiers.tools.ModFlux;
-import tconstruct.modifiers.tools.ModInteger;
 import tconstruct.modifiers.tools.ModLapis;
-import tconstruct.modifiers.tools.ModPiston;
-import tconstruct.modifiers.tools.ModRedstone;
-import tconstruct.modifiers.tools.ModReinforced;
-import tconstruct.modifiers.tools.ModSmite;
-import tconstruct.modifiers.tools.ModToolRepair;
-import tconstruct.tools.TActiveOmniMod;
-import tconstruct.tools.TinkerTools;
-import tconstruct.tools.TinkerTools.MaterialID;
-import tconstruct.tools.items.ToolShard;
-import tconstruct.util.config.PHConstruct;
-import tconstruct.weaponry.TinkerWeaponry;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.StatCollector;
 import net.minecraftforge.oredict.OreDictionary;
 import mantle.pulsar.pulse.Handler;
 import mantle.pulsar.pulse.Pulse;
@@ -62,7 +18,6 @@ import hermitcore.HECore;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.GameRegistry.ObjectHolder;
 
 
@@ -136,7 +91,7 @@ public class HermitTools {
 	public void preInit(FMLPreInitializationEvent event)
 	{
 	
-		
+		/*
         HermitTools.toolRod = new DynamicToolPart("_rod", "ToolRod");
         HermitTools.toolShard = new ToolShard("_chunk", "ToolShard");
 		
@@ -212,18 +167,18 @@ public class HermitTools {
         for (int i = 0; i < materialStrings.length; i++)
         {
             TConstructRegistry.addItemStackToDirectory(materialStrings[i], new ItemStack(TinkerTools.materials, 1, i));
-        }
+        }*/
 
         
         registerMaterials();
         
-        HermitTools.patternOutputs = new Item[] { HermitTools.toolRod, HermitTools.pickaxeHead, HermitTools.shovelHead, HermitTools.hatchetHead, HermitTools.swordBlade, HermitTools.wideGuard, HermitTools.handGuard, HermitTools.crossbar, HermitTools.binding, HermitTools.frypanHead, HermitTools.signHead, HermitTools.knifeBlade, HermitTools.chiselHead, HermitTools.toughRod, HermitTools.toughBinding, HermitTools.largePlate, HermitTools.broadAxeHead, HermitTools.scytheBlade, HermitTools.excavatorHead, HermitTools.largeSwordBlade, HermitTools.hammerHead, HermitTools.fullGuard, null, null, TinkerWeaponry.arrowhead, null };
+        //HermitTools.patternOutputs = new Item[] { HermitTools.toolRod, HermitTools.pickaxeHead, HermitTools.shovelHead, HermitTools.hatchetHead, HermitTools.swordBlade, HermitTools.wideGuard, HermitTools.handGuard, HermitTools.crossbar, HermitTools.binding, HermitTools.frypanHead, HermitTools.signHead, HermitTools.knifeBlade, HermitTools.chiselHead, HermitTools.toughRod, HermitTools.toughBinding, HermitTools.largePlate, HermitTools.broadAxeHead, HermitTools.scytheBlade, HermitTools.excavatorHead, HermitTools.largeSwordBlade, HermitTools.hammerHead, HermitTools.fullGuard, null, null, TinkerWeaponry.arrowhead, null };
 
 	}
     @Handler
     public void init (FMLInitializationEvent event)
     {
-        addPartMapping();
+        //addPartMapping();
         //addRecipesForToolBuilder();
         //addRecipesForChisel();
         //craftingTableRecipes();
@@ -237,15 +192,15 @@ public class HermitTools {
         //vanillaToolRecipes();
         //addOreDictPartMapping();
         //modIntegration();
-        metalPartCraftingIntegration();
+        //metalPartCraftingIntegration();
 
         // Fix for chisels harvetslevel derp
         if("chisel".equals(Blocks.stone.getHarvestTool(0)))
             Blocks.stone.setHarvestLevel("pickaxe", 0, 0);
     }
-    private void addPartMapping ()
+    /*private void addPartMapping ()
     {
-        /* Tools */
+        /* Tools 
 
         int[] nonMetals = { 0, 1, 3, 4, 5, 6, 7, 8, 9, 17 };
 
@@ -271,8 +226,8 @@ public class HermitTools {
                 }
             }
         }
-    }
-    
+    }*/
+    /*
     private void metalPartCraftingIntegration()
     {
 
@@ -282,10 +237,10 @@ public class HermitTools {
             HermitTools.registerPatternMaterial("ingot" + metal, 2, metal);
             HermitTools.registerPatternMaterial("block" + metal, 18, metal);
         }
-    }
+    }*/
     
-    @SuppressWarnings("static-access")
-	private void addRecipesForToolBuilder ()
+  
+	/*private void addRecipesForToolBuilder ()
     {
         ToolBuilder tb = ToolBuilder.instance;
         tb.addNormalToolRecipe(HermitTools.pickaxe, HermitTools.pickaxeHead, HermitTools.toolRod, HermitTools.binding);
@@ -308,45 +263,8 @@ public class HermitTools {
         tb.addNormalToolRecipe(HermitTools.hammer, HermitTools.hammerHead, HermitTools.toughRod, HermitTools.largePlate, HermitTools.largePlate);
         tb.addNormalToolRecipe(HermitTools.battleaxe, HermitTools.broadAxeHead, HermitTools.toughRod, HermitTools.broadAxeHead, HermitTools.toughBinding);
 
-        ItemStack diamond = new ItemStack(Items.diamond);
-        ModifyBuilder.registerModifier(new ModToolRepair());
-        ModifyBuilder.registerModifier(new ModDurability(new ItemStack[] { diamond }, 0, 500, 0f, 3, "Diamond", "\u00a7b" + StatCollector.translateToLocal("modifier.tool.diamond"), "\u00a7b"));
-        ModifyBuilder.registerModifier(new ModDurability(new ItemStack[] { new ItemStack(Items.emerald) }, 1, 0, 0.5f, 2, "Emerald", "\u00a72" + StatCollector.translateToLocal("modifier.tool.emerald"), "\u00a72"));
 
-        ItemStack redstoneItem = new ItemStack(Items.redstone);
-        ItemStack redstoneBlock = new ItemStack(Blocks.redstone_block);
-        ModifyBuilder.registerModifier(new ModRedstone(2, new ItemStack[] { redstoneItem, redstoneBlock }, new int[] { 1, 9 }));
-
-        ModifyBuilder.registerModifier(new ModInteger(new ItemStack[] { new ItemStack(TinkerTools.materials, 1, 6) }, 4, "Moss", 3, "\u00a72", StatCollector.translateToLocal("modifier.tool.moss")));
-        ItemStack blazePowder = new ItemStack(Items.blaze_powder);
-        ModifyBuilder.registerModifier(new ModBlaze(7, new ItemStack[] { blazePowder }, new int[] { 1 }));
-        ModifyBuilder.registerModifier(new ModAutoSmelt(new ItemStack[] { new ItemStack(TinkerTools.materials, 1, 7) }, 6, "Lava", "\u00a74", StatCollector.translateToLocal("modifier.tool.lava")));
-        ModifyBuilder.registerModifier(new ModInteger(new ItemStack[] { new ItemStack(TinkerTools.materials, 1, 8) }, 8, "Necrotic", 1, "\u00a78", StatCollector.translateToLocal("modifier.tool.necro")));
-
-        ModifyBuilder.registerModifier(new ModExtraModifier(new ItemStack[] { diamond, new ItemStack(Blocks.gold_block) }, "Tier1Free"));
-        ModifyBuilder.registerModifier(new ModExtraModifier(new ItemStack[] { new ItemStack(Blocks.diamond_block), new ItemStack(Items.golden_apple, 1, 1) }, "Tier1.5Free"));
-        ModifyBuilder.registerModifier(new ModExtraModifier(new ItemStack[] { new ItemStack(Items.nether_star) }, "Tier2Free"));
-        ModifyBuilder.registerModifier(new ModCreativeToolModifier(new ItemStack[] { new ItemStack(TinkerTools.creativeModifier) }));
-
-        ItemStack silkyJewel = new ItemStack(TinkerTools.materials, 1, 26);
-        ModifyBuilder.registerModifier(new ModButtertouch(new ItemStack[] { silkyJewel }, 12));
-
-        ItemStack piston = new ItemStack(Blocks.piston);
-        ModifyBuilder.registerModifier(new ModPiston(3, new ItemStack[] { piston }, new int[] { 1 }));
-
-        ModifyBuilder.registerModifier(new ModInteger(new ItemStack[] { new ItemStack(Blocks.obsidian), new ItemStack(Items.ender_pearl) }, 13, "Beheading", 1, "\u00a7d", "Beheading"));
-
-        ItemStack holySoil = new ItemStack(TinkerTools.craftedSoil, 1, 4);
-        ModifyBuilder.registerModifier(new ModSmite("Smite", 14, new ItemStack[] { holySoil }, new int[] { 1 }));
-
-        ItemStack spidereyeball = new ItemStack(Items.fermented_spider_eye);
-        ModifyBuilder.registerModifier(new ModAntiSpider("ModAntiSpider", 15, new ItemStack[] { spidereyeball }, new int[] { 1 }));
-
-        ItemStack obsidianPlate = new ItemStack(TinkerTools.largePlate, 1, 6);
-        ModifyBuilder.registerModifier(new ModReinforced(new ItemStack[] { obsidianPlate }, 16, 1));
-
-        TConstructRegistry.registerActiveToolMod(new TActiveOmniMod());
-    }
+    }*/
     
     public static void registerPatternMaterial (String oreName, int value, String materialName)
     {

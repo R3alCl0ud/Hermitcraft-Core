@@ -1,4 +1,7 @@
 tile.oreLimonite.name=Limonite Ore
+tile.blockLimonite.name=Limonite Block
+tile.blockRosite.name=Rosite Block
+
 item.ingotLimonite.name=Limonite Ingot
 
 fluid.limonite.molten=Molten Limonite
