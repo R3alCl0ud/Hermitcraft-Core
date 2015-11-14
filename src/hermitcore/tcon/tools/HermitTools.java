@@ -2,7 +2,6 @@ package hermitcore.tcon.tools;
 
 import static net.minecraft.util.EnumChatFormatting.*;
 import tconstruct.library.TConstructRegistry;
-import net.minecraft.init.Blocks;
 import mantle.pulsar.pulse.Handler;
 import mantle.pulsar.pulse.Pulse;
 import hermitcore.HECore;

@@ -54,7 +54,7 @@ public class HECore {
 		}
 		
 		
-        pulseCFG = new PulsarCFG(HermitCoreConfig.configFile("Modules.cfg"), "Tinker's Construct Addon: Hermitcraft Core addon for Tinkers Construct");
+        pulseCFG = new PulsarCFG(HermitCoreConfig.configFile("Modules.cfg"), "Tinker's Construct Addon: Hermitcraft Core Addon for Tinkers Construct");
         pulseCFG.load();
         pulsar = new PulseManager(MODID, pulseCFG);
 		
