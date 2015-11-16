@@ -170,8 +170,8 @@ public class FilledBucket extends ItemBucket
         return getUnlocalizedName() + "." + materialNames[arr];
     }
 
-    public static final String[] materialNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal", "varsium", "lyon" };
+    public static final String[] materialNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal", "varsium", "lyon", "jade", "emberstone" };
 
-    public static final String[] textureNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal", "varsium", "lyon" };
+    public static final String[] textureNames = new String[] { "limonite", "amethyst", "rosite", "sapphire", "mystite", "skeletal", "varsium", "lyon", "jade", "emberstone" };
 
 }

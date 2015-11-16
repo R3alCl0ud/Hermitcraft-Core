@@ -3,6 +3,7 @@ package hermitcore.gameObjs;
 import hermitcore.HECore;
 import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.block.blockAmethyst;
+import hermitcore.gameObjs.block.blockEmberstone;
 import hermitcore.gameObjs.block.blockJade;
 import hermitcore.gameObjs.block.blockLimonite;
 import hermitcore.gameObjs.block.blockRosite;
@@ -52,13 +53,13 @@ public class ObjHandler
 	public static Block blockEmberstone;
 	
 	public static void register() 
-	{
-		
+	{		
 		GameRegistry.registerBlock(blockLimonite = new blockLimonite("blockLimonite", Material.iron), "blockLimonite");
 		GameRegistry.registerBlock(blockRosite = new blockRosite("blockRosite", Material.iron), "blockRosite"); 
 		GameRegistry.registerBlock(blockJade = new blockJade("blockJade", Material.iron), "blockJade"); 
 		GameRegistry.registerBlock(blockAmethyst = new blockAmethyst("blockAmethyst", Material.iron), "blockAmethyst"); 
-
+		GameRegistry.registerBlock(blockEmberstone = new blockEmberstone("blockEmberstone", Material.iron), "blockEmberstone"); 
+		
 	}
 	
 	public static void addRecipes()
@@ -68,6 +69,15 @@ public class ObjHandler
 		
 		GameRegistry.addRecipe(new ItemStack(blockRosite), "LLL", "LLL", "LLL", 'L', Itemizer.IngotRosite);
 		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotRosite, 9, 0), blockRosite);
+		
+		GameRegistry.addRecipe(new ItemStack(blockJade), "LLL", "LLL", "LLL", 'L', Itemizer.IngotJade);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotJade, 9, 0), blockJade);
+		
+		GameRegistry.addRecipe(new ItemStack(blockAmethyst), "LLL", "LLL", "LLL", 'L', Itemizer.AmethystIngot);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.AmethystIngot, 9, 0), blockAmethyst);
+		
+		GameRegistry.addRecipe(new ItemStack(blockEmberstone), "LLL", "LLL", "LLL", 'L', Itemizer.IngotEmberstone);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotEmberstone, 9, 0), blockEmberstone);
 	}
 
 	@SuppressWarnings("unchecked")

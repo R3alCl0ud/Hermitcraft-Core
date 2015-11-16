@@ -1,8 +1,7 @@
-tile.oreLimonite.name=Limonite Ore
 tile.blockLimonite.name=Limonite Block
 tile.blockRosite.name=Rosite Block
-
-item.ingotLimonite.name=Limonite Ingot
+tile.blockJade.name=Jade Block
+tile.blockEmberstone.name=Emberstone Block
 
 fluid.limonite.molten=Molten Limonite
 fluid.amethyst.molten=Molten Amethyst
@@ -12,6 +11,8 @@ fluid.sapphire.molten=Molten Sapphire
 fluid.skeletal.molten=Molten Skeletal
 fluid.varsium.molten=Molten Varsium
 fluid.lyon.molten=Molten Lyon
+fluid.jade.molten=Molten Jade
+fluid.emberstone.molten=Molten Emberstone
 
 tile.fluid.molten.amethyst.name=Molten Amethyst
 tile.fluid.molten.rosite.name=Molten Rosite
@@ -21,6 +22,8 @@ tile.fluid.molten.mystite.name=Molten Mystite
 tile.fluid.molten.skeletal.name=Molten Skeletal
 tile.fluid.molten.varsium.name=Molten Varsium
 tile.fluid.molten.lyon.name=Molten Lyon
+tile.fluid.molten.jade.name=Molten Jade
+tile.fluid.molten.emberstone.name=Molten Emberstone
 
 item.hermitcore.bucket.rosite.name=Molten Rosite Bucket
 item.hermitcore.bucket.amethyst.name=Molten Amethyst Bucket
@@ -30,10 +33,13 @@ item.hermitcore.bucket.skeletal.name=Molten Skeletal Bucket
 item.hermitcore.bucket.limonite.name=Molten Limonite Bucket
 item.hermitcore.bucket.varsium.name=Molten Varsium Bucket
 item.hermitcore.bucket.lyon.name=Molten Lyon Bucket
+item.hermitcore.bucket.jade.name=Molten Jade Bucket
+item.hermitcore.bucket.emberstone.name=Molten Emberstone Bucket
 
 amethyst.molten=Molten Amethyst
 limonite.molten=Molten Limonite
-
+jade.molten=Molten Jade
+emberstone.molten=Molten Emberstone
 
 material.amethyst=Amethyst
 material.limonite=Limonite
@@ -43,3 +49,5 @@ material.varsium=Varsium
 material.mystite=Mystite
 material.sapphire=Sapphire
 material.skeletal=Skeletal
+material.jade=Jade
+material.emberstone=Emberstone

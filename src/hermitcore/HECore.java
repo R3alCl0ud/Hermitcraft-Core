@@ -25,7 +25,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @SuppressWarnings("unused")
 @Mod(modid = HECore.MODID, name = HECore.MODNAME, version = "${version}",
-dependencies = "required-after:TConstruct@[1.7.10-1.8.3,);after:ForgeMultipart@[1.1.1.321,);after:*")
+dependencies = "required-after:TConstruct@[1.7.10-1.8.7,);after:ForgeMultipart@[1.1.1.321,);after:*")
 public class HECore {
 	public static final String MODID = "hermitcore";
 	public static final String MODNAME = "Hermitcraft Core";
