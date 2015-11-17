@@ -4,6 +4,9 @@ tile.blockJade.name=Jade Block
 tile.blockEmberstone.name=Emberstone Block
 tile.blockLyon.name=Lyon Block
 tile.blockVarsium.name=Varsium Block
+tile.blockSapphire.name=Sapphire Block
+tile.blockMystite.name=Mystite Block
+tile.blockAmethyst.name=Amethyst Block
 
 fluid.limonite.molten=Molten Limonite
 fluid.amethyst.molten=Molten Amethyst
