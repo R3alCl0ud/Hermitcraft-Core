@@ -10,7 +10,7 @@
 	<classpathentry exported="true" kind="lib" path="C:/Users/perry/.gradle/caches/modules-2/files-2.1/codechicken/CodeChickenCore/1.7.10-1.0.6.43/7373bdc9ff72ff34dc85c42c0cf077ed7834065c/CodeChickenCore-1.7.10-1.0.6.43-dev.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/perry/.gradle/caches/modules-2/files-2.1/codechicken/NotEnoughItems/1.7.10-1.0.4.106/2f540c1402d458270f055d59244906fe199e046/NotEnoughItems-1.7.10-1.0.4.106-dev.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/perry/.gradle/caches/modules-2/files-2.1/codechicken/ForgeMultipart/1.7.10-1.1.2.334/62ec9d63f2bb752eb80abdfd2c9df493f9823d36/ForgeMultipart-1.7.10-1.1.2.334-dev.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/perry/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeBin-1.7.10-10.13.4.1448-1.7.10.jar" sourcepath="C:/Users/perry/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/perry/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.4.1448-1.7.10/forgeBin-1.7.10-10.13.4.1448-1.7.10.jar" sourcepath="C:/Users/perry/.gradle/caches/minecraft/net/minecraft/minecraft/1.7.10/minecraft-1.7.10.jar"/>
 	<classpathentry kind="lib" path="C:/Users/perry/Downloads/AoA-2.4.B (2).jar" sourcepath="C:/Users/perry/Desktop/adventofascension-1.7.10-2.3-sources.jar">
 		<attributes>
 			<attribute name="source_encoding" value="UTF-8"/>

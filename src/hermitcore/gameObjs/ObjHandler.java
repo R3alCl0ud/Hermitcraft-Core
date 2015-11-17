@@ -6,7 +6,11 @@ import hermitcore.gameObjs.block.blockAmethyst;
 import hermitcore.gameObjs.block.blockEmberstone;
 import hermitcore.gameObjs.block.blockJade;
 import hermitcore.gameObjs.block.blockLimonite;
+import hermitcore.gameObjs.block.blockLyon;
+import hermitcore.gameObjs.block.blockMystite;
 import hermitcore.gameObjs.block.blockRosite;
+import hermitcore.gameObjs.block.blockSapphire;
+import hermitcore.gameObjs.block.blockVarsium;
 import hermitcore.gameObjs.block.oreLimonite;
 import hermitcore.gameObjs.item.ingotLimonite;
 import cpw.mods.fml.common.IFuelHandler;
@@ -59,6 +63,10 @@ public class ObjHandler
 		GameRegistry.registerBlock(blockJade = new blockJade("blockJade", Material.iron), "blockJade"); 
 		GameRegistry.registerBlock(blockAmethyst = new blockAmethyst("blockAmethyst", Material.iron), "blockAmethyst"); 
 		GameRegistry.registerBlock(blockEmberstone = new blockEmberstone("blockEmberstone", Material.iron), "blockEmberstone"); 
+		GameRegistry.registerBlock(blockVarsium = new blockVarsium("blockVarsium", Material.iron), "blockVarsium");
+		GameRegistry.registerBlock(blockLyon = new blockLyon("blockLyon", Material.iron), "blockLyon");
+		GameRegistry.registerBlock(blockMystite = new blockMystite("blockMystite", Material.iron), "blockMystite");
+		GameRegistry.registerBlock(blockSapphire = new blockSapphire("blockSapphire", Material.iron), "blockSapphire");
 		
 	}
 	
@@ -78,6 +86,18 @@ public class ObjHandler
 		
 		GameRegistry.addRecipe(new ItemStack(blockEmberstone), "LLL", "LLL", "LLL", 'L', Itemizer.IngotEmberstone);
 		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotEmberstone, 9, 0), blockEmberstone);
+		
+		GameRegistry.addRecipe(new ItemStack(blockVarsium), "LLL", "LLL", "LLL", 'L', Itemizer.IngotVarsium);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotVarsium, 9, 0), blockVarsium);
+		
+		GameRegistry.addRecipe(new ItemStack(blockSapphire), "LLL", "LLL", "LLL", 'L', Itemizer.IngotSapphire);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotSapphire, 9, 0), blockSapphire);
+		
+		GameRegistry.addRecipe(new ItemStack(blockLyon), "LLL", "LLL", "LLL", 'L', Itemizer.IngotLyon);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotLyon, 9, 0), blockLyon);
+		
+		GameRegistry.addRecipe(new ItemStack(blockMystite), "LLL", "LLL", "LLL", 'L', Itemizer.IngotMystite);
+		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotMystite, 9, 0), blockMystite);
 	}
 
 	@SuppressWarnings("unchecked")

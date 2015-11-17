@@ -132,11 +132,4 @@ Windoge 10
 124, 65, -31
 Does more than a tooltip can explain
 Paint across the sky!
-☐ Not REKT 
-☑ REKT 
-☑ REKTangle 
-☑ SHREKT 
-☑ REKT-it Ralph 
-☑ Total REKTall 
-☑ The Lord of the REKT 
-☑ The Usual SusREKT
+c
