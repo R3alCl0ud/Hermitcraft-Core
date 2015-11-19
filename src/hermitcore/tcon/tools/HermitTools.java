@@ -1,10 +1,14 @@
 package hermitcore.tcon.tools;
 
 import static net.minecraft.util.EnumChatFormatting.*;
+import net.minecraft.item.ItemStack;
 import tconstruct.library.TConstructRegistry;
 import mantle.pulsar.pulse.Handler;
 import mantle.pulsar.pulse.Pulse;
 import hermitcore.HECore;
+import hermitcore.gameObjs.ObjectHandler;
+import hermitcore.library.HermitRegistry;
+import hermitcore.library.HermitTabs;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -29,10 +33,16 @@ public class HermitTools {
         
         
 	}
+	
+	void setupToolTabs()
+	{
+	HermitRegistry.recordTab.init(new ItemStack(ObjectHandler.record_TakeBackTehNight));	
+	}
+	
     @Handler
     public void init (FMLInitializationEvent event)
     {
-
+    	setupToolTabs();
     }
 
     @Handler

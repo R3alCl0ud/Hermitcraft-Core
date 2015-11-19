@@ -1,0 +1,39 @@
+{ 
+	"recordWarcraft": {
+	"category": "record",
+	"sounds": [
+	{
+		"name": "record/Warcraft",
+		"stream": true
+	}
+	]
+	},
+	"recordCollide": {
+		"category": "record",
+		"sounds": [
+		{
+			"name": "record/Collide",
+			"stream": true
+		}
+		]
+	},
+	"recordChipstuff": {
+		"category": "record",
+		"sounds": [
+		{
+			"name": "record/Chipstuff",
+			"stream": true
+		}
+		]
+	},
+		"recordTakeBackTehNight": {
+		"category": "record",
+		"sounds": [
+		{
+			"name": "record/TakeBackTehNight",
+			"stream": true
+		}
+		]
+	}
+
+}

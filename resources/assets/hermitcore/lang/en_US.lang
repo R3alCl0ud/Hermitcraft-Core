@@ -1,3 +1,5 @@
+itemGroup.HermitcoreRecords=Hermitcore: Records
+
 tile.blockLimonite.name=Limonite Block
 tile.blockRosite.name=Rosite Block
 tile.blockJade.name=Jade Block
@@ -40,6 +42,17 @@ item.hermitcore.bucket.varsium.name=Molten Varsium Bucket
 item.hermitcore.bucket.lyon.name=Molten Lyon Bucket
 item.hermitcore.bucket.jade.name=Molten Jade Bucket
 item.hermitcore.bucket.emberstone.name=Molten Emberstone Bucket
+
+item.recordCollide.name=Music Disc
+item.recordTakeBackTehNight.name=Music Disc
+item.recordWarcraft.name=Music Disc
+item.recordChipstuff.name=Music Disc
+item.record.recordCollide.desc=Hellberg & Deutgen vs Splitbreed - Collide (Astronaut & Barely Alive Remix)
+item.record.recordTakeBackTehNight.desc=TryHardNinja - Take Back the Night
+item.record.recordWarcraft.desc=Bustre - Hurt For Me (feat. Thallie Ann Seenyen)
+item.record.recordChipstuff.desc=Ephixa - Chipstuff
+
+item.KlienStarGamma.name=Klein Star Gamma
 
 amethyst.molten=Molten Amethyst
 limonite.molten=Molten Limonite

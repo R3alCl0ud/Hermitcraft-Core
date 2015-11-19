@@ -22,6 +22,8 @@ public class HermitRegistry
 	
 	public static Logger logger = LogManager.getLogger("TCon-API");
 	
+	public static HermitTabs recordTab;
+	
 	public static HashMap<String, Item> itemDirectory = new HashMap<String, Item>();
 
 	

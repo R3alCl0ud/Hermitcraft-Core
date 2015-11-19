@@ -1,7 +1,7 @@
 package hermitcore.tcon.smeltery;
 
 import hermitcore.HECore;
-import hermitcore.gameObjs.ObjHandler;
+import hermitcore.gameObjs.ObjectHandler;
 import hermitcore.tcon.smeltery.blocks.HermitFluid;
 import hermitcore.tcon.smeltery.items.FilledBucket;
 import hermitcore.utils.HELogger;
@@ -315,16 +315,16 @@ public class HermitSmeltery {
         LiquidCasting basinCasting = TConstructRegistry.getBasinCasting();
         
         // Block Casting
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockLimonite), new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockRosite), new FluidStack(HermitSmeltery.moltenRositeFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockMystite), new FluidStack(HermitSmeltery.moltenMystiteFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockJade), new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockVarsium), new FluidStack(HermitSmeltery.moltenVarsiumFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockLyon), new FluidStack(HermitSmeltery.moltenLyonFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockEmberstone), new FluidStack(HermitSmeltery.moltenEmberstoneFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockAmethyst), new FluidStack(HermitSmeltery.moltenAmethystFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockLimonite), new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockRosite), new FluidStack(HermitSmeltery.moltenRositeFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockMystite), new FluidStack(HermitSmeltery.moltenMystiteFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockJade), new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockVarsium), new FluidStack(HermitSmeltery.moltenVarsiumFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockLyon), new FluidStack(HermitSmeltery.moltenLyonFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockEmberstone), new FluidStack(HermitSmeltery.moltenEmberstoneFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockAmethyst), new FluidStack(HermitSmeltery.moltenAmethystFluid, TConstruct.blockLiquidValue), 100);
         basinCasting.addCastingRecipe(new ItemStack(Blockizer.SkeletalBlock), new FluidStack(HermitSmeltery.moltenSkeletalFluid, TConstruct.blockLiquidValue), 100);
-        basinCasting.addCastingRecipe(new ItemStack(ObjHandler.blockSapphire), new FluidStack(HermitSmeltery.moltenSapphireFluid, TConstruct.blockLiquidValue), 100);
+        basinCasting.addCastingRecipe(new ItemStack(ObjectHandler.blockSapphire), new FluidStack(HermitSmeltery.moltenSapphireFluid, TConstruct.blockLiquidValue), 100);
         
     }
     
@@ -356,16 +356,16 @@ public class HermitSmeltery {
     	
     	
     	//Blocks
-    	Smeltery.addMelting(ObjHandler.blockLimonite, 0, 600, new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockRosite, 0, 600, new FluidStack(HermitSmeltery.moltenRositeFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockJade, 0,  600, new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockEmberstone, 0,  600, new FluidStack(HermitSmeltery.moltenEmberstoneFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockAmethyst, 0,  600, new FluidStack(HermitSmeltery.moltenAmethystFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockVarsium, 0,  600, new FluidStack(HermitSmeltery.moltenVarsiumFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockLyon, 0,  600, new FluidStack(HermitSmeltery.moltenLyonFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockJade, 0,  600, new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockLimonite, 0, 600, new FluidStack(HermitSmeltery.moltenLimoniteFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockRosite, 0, 600, new FluidStack(HermitSmeltery.moltenRositeFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockJade, 0,  600, new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockEmberstone, 0,  600, new FluidStack(HermitSmeltery.moltenEmberstoneFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockAmethyst, 0,  600, new FluidStack(HermitSmeltery.moltenAmethystFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockVarsium, 0,  600, new FluidStack(HermitSmeltery.moltenVarsiumFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockLyon, 0,  600, new FluidStack(HermitSmeltery.moltenLyonFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockJade, 0,  600, new FluidStack(HermitSmeltery.moltenJadeFluid, TConstruct.blockLiquidValue));
     	Smeltery.addMelting(Blockizer.SkeletalBlock, 0,  600, new FluidStack(HermitSmeltery.moltenSkeletalFluid, TConstruct.blockLiquidValue));
-    	Smeltery.addMelting(ObjHandler.blockSapphire, 0,  600, new FluidStack(HermitSmeltery.moltenSapphireFluid, TConstruct.blockLiquidValue));
+    	Smeltery.addMelting(ObjectHandler.blockSapphire, 0,  600, new FluidStack(HermitSmeltery.moltenSapphireFluid, TConstruct.blockLiquidValue));
     	
 
 

@@ -33,6 +33,10 @@ repositories {
         name 'ForgeFS'
         url 'http://files.minecraftforge.net/maven'
     }
+	    ivy {
+        name "CoFHCore"
+        artifactPattern "http://addons-origin.cursecdn.com/files/2230/211/[module]-[revision].[ext]"
+    }
 	flatDir {
 	dirs 'libs'
 	}
@@ -69,7 +73,9 @@ dependencies {
 	//runtime files('libs/AoA-2.4.B.jar')
     //runtime fileTree(dir: 'libs', include: '*.jar')
 	//compile name: 'AoA-2.4.B'
+	compile name: 'CoFHCore', version: '[1.7.10]3.0.0RC7-211-dev', ext: 'jar'
 	compile files('libs/AoA-2.4.B.jar')
+	compile files('libs/ProjectE-1.7.10-PE1.9.3.jar')
 	runtime fileTree(dir: 'libs', include: '*.jar')
 	//compile "nevermine:AoA:${config.minecraft_version}-${config.AoA_verison}"
     //compile "mcp.mobius.waila:Waila:${config.waila_version}"

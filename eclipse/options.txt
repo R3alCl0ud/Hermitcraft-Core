@@ -91,13 +91,18 @@ key_key.skillnameleft:203
 key_key.skillnameright:205
 key_key.lognot:210
 key_key.exped:200
+key_Armor Effects:33
+key_Charge:47
+key_Extra Function:46
+key_Fire Projectile:19
+key_Change Mode:34
 key_key.tarmor:24
 key_key.tgoggles:34
 key_key.tbelt:48
 key_key.tzoom:44
 key_key.control:29
-soundCategory_master:0.8774834
-soundCategory_music:0.0
+soundCategory_master:1.0
+soundCategory_music:0.23943663
 soundCategory_record:1.0
 soundCategory_weather:0.52112675
 soundCategory_block:0.2746479

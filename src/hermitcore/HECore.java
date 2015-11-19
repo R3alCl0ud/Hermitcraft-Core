@@ -2,8 +2,12 @@ package hermitcore;
 
 import hermitcore.common.IProxy;
 import hermitcore.config.HermitCoreConfig;
-import hermitcore.gameObjs.ObjHandler;
+import hermitcore.gameObjs.ObjectHandler;
+import hermitcore.gui.GuiHandler;
+import hermitcore.library.HermitRegistry;
+import hermitcore.library.HermitTabs;
 import hermitcore.library.crafting.LiquidCasting;
+import hermitcore.network.PacketHandler;
 import hermitcore.tcon.smeltery.HermitSmeltery;
 import hermitcore.tcon.tools.HermitTools;
 
@@ -31,6 +35,8 @@ public class HECore {
 	public static final String MODNAME = "Hermitcraft Core";
 	public static final String modVersion = "${version}";
 
+	public static final GuiHandler guiHandler = new GuiHandler();
+	
 	public static Random random = new Random();
 	
 	public static File CONFIG_DIR;
@@ -58,20 +64,24 @@ public class HECore {
         pulseCFG.load();
         pulsar = new PulseManager(MODID, pulseCFG);
 		
+        PacketHandler.instance.init();
 		
 		HermitCoreConfig.init(new File(CONFIG_DIR, "HECore.cfg"));
 
+		HermitRegistry.recordTab = new HermitTabs("HermitcoreRecords");
 		
 		for (int i = 0; i < (HermitCoreConfig.toDelete.length); i++)
 		{
-		ObjHandler.removeRecipes(HermitCoreConfig.toDelete[i]);
+		ObjectHandler.removeRecipes(HermitCoreConfig.toDelete[i]);
 		}
 		
-		ObjHandler.register();
-		ObjHandler.addRecipes();
+		ObjectHandler.register();
+		ObjectHandler.addRecipes();
 		
 		pulsar.registerPulse(new HermitSmeltery());
 		pulsar.registerPulse (new HermitTools());
+		
+		
 		
         tableCasting = new LiquidCasting();
         basinCasting = new LiquidCasting();
