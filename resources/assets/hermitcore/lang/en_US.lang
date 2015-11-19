@@ -52,7 +52,8 @@ item.record.recordTakeBackTehNight.desc=TryHardNinja - Take Back the Night
 item.record.recordWarcraft.desc=Bustre - Hurt For Me (feat. Thallie Ann Seenyen)
 item.record.recordChipstuff.desc=Ephixa - Chipstuff
 
-item.KlienStarGamma.name=Klein Star Gamma
+item.KlienStarGamma_1.name=Klein Star Gamma
+item.KlienStarGamma_2.name=Klein Star Sieben
 
 amethyst.molten=Molten Amethyst
 limonite.molten=Molten Limonite
