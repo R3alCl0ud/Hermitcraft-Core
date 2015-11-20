@@ -1,59 +1,59 @@
-[23:00:20] [main/INFO]: Extra: []
-[23:00:20] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
-[23:00:20] [main/INFO]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
-[23:00:20] [main/INFO]: Found and added coremod: codechicken.core.launch.DepLoader
-[23:00:20] [main/INFO]: Found and added coremod: cofh.asm.LoadingPlugin
-[23:00:20] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/perry/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[23:00:20] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[23:00:20] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[23:00:20] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[23:00:20] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[23:00:20] [main/INFO]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
-[23:00:20] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_79, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_79\jre
-[23:00:20] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[23:00:20] [main/INFO]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
-[23:00:20] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:00:20] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
-[23:00:20] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:00:20] [main/INFO]: Found a command line coremod : codechicken.core.launch.DepLoader
-[23:00:20] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:00:20] [main/INFO]: Found a command line coremod : cofh.asm.LoadingPlugin
-[23:00:20] [main/WARN]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[23:00:20] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[23:00:20] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[23:00:20] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[23:00:20] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
-[23:00:20] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
-[23:00:20] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
-[23:00:20] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
-[23:00:20] [main/INFO]: Injecting location in coremod cofh.asm.LoadingPlugin
-[23:00:20] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:00:20] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:00:20] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[23:00:20] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:00:20] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[23:00:20] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:00:20] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[23:00:21] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[23:00:21] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:00:21] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:00:21] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:00:21] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:00:21] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:00:21] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[23:00:21] [main/INFO]: [cofh.asm.PCCAccessTransformer:readMappingFile:40]: Adding Accesstransformer map: CoFH_at.cfg
-[23:00:22] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[23:00:22] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[23:00:22] [main/INFO]: Remapping AccessTransformer rules...
-[23:00:22] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[23:00:22] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[23:00:22] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[23:00:24] [main/INFO]: Setting user: Player546
-[23:00:25] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:00:26] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// Oh - I know what I did wrong!
+[18:56:48] [main/INFO]: Extra: []
+[18:56:48] [main/INFO]: Found and added coremod: codechicken.core.launch.CodeChickenCorePlugin
+[18:56:48] [main/INFO]: Found and added coremod: codechicken.nei.asm.NEICorePlugin
+[18:56:48] [main/INFO]: Found and added coremod: codechicken.core.launch.DepLoader
+[18:56:48] [main/INFO]: Found and added coremod: cofh.asm.LoadingPlugin
+[18:56:48] [main/INFO]: Running with arguments: [--userProperties, {}, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/perry/.gradle/caches/minecraft/assets, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:56:48] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:56:48] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:56:48] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:56:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:56:48] [main/INFO]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
+[18:56:48] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_79, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jdk1.7.0_79\jre
+[18:56:48] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:56:48] [main/INFO]: Found a command line coremod : codechicken.nei.asm.NEICorePlugin
+[18:56:48] [main/WARN]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:56:48] [main/INFO]: Found a command line coremod : codechicken.core.launch.CodeChickenCorePlugin
+[18:56:49] [main/WARN]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:56:49] [main/INFO]: Found a command line coremod : codechicken.core.launch.DepLoader
+[18:56:49] [main/WARN]: The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:56:49] [main/INFO]: Found a command line coremod : cofh.asm.LoadingPlugin
+[18:56:49] [main/WARN]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:56:49] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:56:49] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[18:56:49] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:56:49] [main/INFO]: Injecting location in coremod codechicken.core.asm.MCPDeobfuscationTransformer.LoadPlugin
+[18:56:49] [main/INFO]: Injecting location in coremod codechicken.nei.asm.NEICorePlugin
+[18:56:49] [main/INFO]: Injecting location in coremod codechicken.core.launch.CodeChickenCorePlugin
+[18:56:49] [main/INFO]: Injecting location in coremod codechicken.core.launch.DepLoader
+[18:56:49] [main/INFO]: Injecting location in coremod cofh.asm.LoadingPlugin
+[18:56:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:56:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[18:56:49] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:56:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:56:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:56:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:56:49] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[18:56:49] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[18:56:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:56:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:56:50] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:56:50] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:56:50] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:56:50] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[18:56:50] [main/INFO]: [cofh.asm.PCCAccessTransformer:readMappingFile:40]: Adding Accesstransformer map: CoFH_at.cfg
+[18:56:50] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:56:51] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:56:51] [main/INFO]: Remapping AccessTransformer rules...
+[18:56:51] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[18:56:51] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[18:56:51] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:56:52] [main/INFO]: Setting user: Player250
+[18:56:54] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:56:55] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Don't do that.
 
-Time: 11/18/15 11:00 PM
+Time: 11/19/15 6:56 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -68,347 +68,350 @@ Details:
 	Operating System: Windows 8.1 (amd64) version 6.3
 	Java Version: 1.7.0_79, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 356862768 bytes (340 MB) / 702021632 bytes (669 MB) up to 3804758016 bytes (3628 MB)
+	Memory: 360934800 bytes (344 MB) / 704118784 bytes (671 MB) up to 3804758016 bytes (3628 MB)
 	JVM Flags: 0 total; 
 	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 353.54' Renderer: 'GeForce GTX 760/PCIe/SSE2'
-[23:00:26] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[23:00:26] [Client thread/INFO]: MinecraftForge v10.13.4.1448 Initialized
-[23:00:26] [Client thread/INFO]: Replaced 183 ore recipies
-[23:00:26] [Client thread/INFO]: Completed early MinecraftForge initialization
-[23:00:26] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[23:00:26] [Client thread/INFO]: Searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods for mods
-[23:00:26] [Client thread/INFO]: Also searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods\1.7.10 for mods
-[23:00:27] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[23:00:27] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[23:00:27] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
-[23:00:29] [Client thread/INFO]: Forge Mod Loader has identified 15 mods to load
-[23:00:29] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, <CoFH ASM>, nevermine, ProjectE, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, CoFHCore, hermitcore] at CLIENT
-[23:00:29] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, <CoFH ASM>, nevermine, ProjectE, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, CoFHCore, hermitcore] at SERVER
-[23:00:30] [Client thread/INFO]: Preparing to take over the world
-[23:00:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Hermitcraft Core
-[23:00:30] [Client thread/INFO]: Processing ObjectHolder annotations
-[23:00:30] [Client thread/INFO]: Found 337 ObjectHolder annotations
-[23:00:30] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[23:00:30] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[23:00:30] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[23:00:33] [Client thread/INFO]: Loaded configuration file.
-[23:00:34] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins187) -- Preparing for launch.
-[23:00:34] [Client thread/INFO]: Entering preinitialization phase.
-[23:00:34] [Client thread/INFO]: Loading configuration from disk.
-[23:00:34] [Client thread/INFO]: Configuration load completed.
-[23:00:34] [Client thread/INFO]: Registering default templates
-[23:00:34] [Client thread/INFO]: Registering default generators
-[23:00:34] [Client thread/INFO]: Complete
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers Thaumcraft Compatibility; missing dependency: Thaumcraft
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers BuildCraft Compatibility; missing dependency: BuildCraft|Transport
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers AE2 Compatibility; missing dependency: appliedenergistics2
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers IC2 Compatibility; missing dependency: IC2
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers TE4 Compatibility; missing dependency: ThermalExpansion
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers Thermal Foundation Compatibility; missing dependency: ThermalFoundation
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers' Underground Biomes Compatiblity; missing dependency: UndergroundBiomes
-[23:00:34] [Client thread/INFO]: Skipping Pulse Tinkers RF-Tools Compatibility; missing dependency: rftools
-[23:00:34] [Client thread/INFO]: Gear module active. Adding gear cast.
-[23:00:34] [CoFHUpdater:CoFHCore/INFO]: An updated version of CoFH Core is available: CoFH Core 3.0.3 for Minecraft 1.7.10.
-[23:00:36] [Client thread/INFO]: Loaded configuration file.
-[23:00:36] [Client thread/INFO]: Applying holder lookups
-[23:00:36] [Client thread/INFO]: Holder lookups applied
-[23:00:36] [Client thread/INFO]: Injecting itemstacks
-[23:00:36] [Client thread/INFO]: Itemstack injection complete
-[23:00:36] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:00:36] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[23:00:36] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[23:00:36] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:00:36] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[23:00:36] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:00:36] [Sound Library Loader/INFO]: Sound engine started
-[23:00:38] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[23:00:38] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[23:00:38] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
-[23:00:39] [Client thread/INFO]: Entering initialization phase.
-[23:00:39] [Client thread/INFO]: ForgeMultipart detected. Registering TConstruct decorative blocks with FMP.
-[23:00:39] [Client thread/INFO]: Injecting itemstacks
-[23:00:39] [Client thread/INFO]: Itemstack injection complete
-[23:00:39] [Client thread/INFO]: Registered user-defined NBT whitelist for: TConstruct:pickaxe
-[23:00:39] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableingot
-[23:00:39] [Client thread/FATAL]: At line: 6
-[23:00:39] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableIngot
-[23:00:39] [Client thread/FATAL]: At line: 7
-[23:00:39] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for Botania:specialFlower
-[23:00:39] [Client thread/FATAL]: At line: 8
-[23:00:39] [Client thread/INFO]: Entering postinitialization phase.
-[23:00:39] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[23:00:39] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[23:00:39] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[23:00:39] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[23:00:39] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[23:00:39] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
-[23:00:39] [Client thread/WARN]: Could not find itemResourcefrom thaumcraft.common.config.ConfigItems
-[23:00:39] [Client thread/WARN]: Thaumcraft not detected.
-[23:00:39] [Client thread/INFO]: CoFH Core found 1 World Generation files present in C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\config\cofh\world/.
-[23:00:39] [Client thread/INFO]: Forge Mod Loader has successfully loaded 15 mods
-[23:00:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Hermitcraft Core
-[23:00:40] [Client thread/INFO]: Created: 2048x1024 textures/items-atlas
-[23:00:42] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[23:00:42] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:00:42] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[23:00:42] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[23:00:42] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:00:42] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:00:42] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[23:00:42] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[23:00:42] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[23:00:42] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[23:00:42] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[23:00:42] [Client thread/ERROR]: The following texture errors were found.
-[23:00:42] [Client thread/ERROR]: ==================================================
-[23:00:42] [Client thread/ERROR]:   DOMAIN nevermine
-[23:00:42] [Client thread/ERROR]: --------------------------------------------------
-[23:00:42] [Client thread/ERROR]:   domain nevermine is missing 2 textures
-[23:00:42] [Client thread/ERROR]:     domain nevermine has 1 location:
-[23:00:42] [Client thread/ERROR]:       mod nevermine resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\libs\AoA-2.4.B.jar
-[23:00:42] [Client thread/ERROR]: -------------------------
-[23:00:42] [Client thread/ERROR]:     The missing resources for domain nevermine are:
-[23:00:42] [Client thread/ERROR]:       textures/items/candlefish.png
-[23:00:42] [Client thread/ERROR]:       textures/items/rocketfish.png
-[23:00:42] [Client thread/ERROR]: -------------------------
-[23:00:42] [Client thread/ERROR]:     No other errors exist for domain nevermine
-[23:00:42] [Client thread/ERROR]: ==================================================
-[23:00:42] [Client thread/ERROR]: ==================================================
-[23:00:42] [Client thread/ERROR]:   DOMAIN hermitcore
-[23:00:42] [Client thread/ERROR]: --------------------------------------------------
-[23:00:42] [Client thread/ERROR]:   domain hermitcore is missing 6 textures
-[23:00:42] [Client thread/ERROR]:     domain hermitcore has 1 location:
-[23:00:42] [Client thread/ERROR]:       mod hermitcore resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\build\libs\Hermitcraft Core-1.7.10-1.4.DEV.b3b454c.jar
-[23:00:42] [Client thread/ERROR]: -------------------------
-[23:00:42] [Client thread/ERROR]:     The missing resources for domain hermitcore are:
-[23:00:42] [Client thread/ERROR]:       textures/blocks/liquid_emberstone_flow.png
-[23:00:42] [Client thread/ERROR]:       textures/items/recordWarcraft.png
-[23:00:42] [Client thread/ERROR]:       textures/items/recordChipstuff.png
-[23:00:42] [Client thread/ERROR]:       textures/items/stars/klein_star_2.png
-[23:00:42] [Client thread/ERROR]:       textures/blocks/liquid_emberstone.png
-[23:00:42] [Client thread/ERROR]:       textures/items/recordCollide.png
-[23:00:42] [Client thread/ERROR]: -------------------------
-[23:00:42] [Client thread/ERROR]:     No other errors exist for domain hermitcore
-[23:00:42] [Client thread/ERROR]: ==================================================
-[23:00:42] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[23:00:42] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:00:42] [Sound Library Loader/INFO]: Sound engine started
-[23:00:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[23:00:47] [Server thread/INFO]: Generating keypair
-[23:00:47] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[23:00:47] [Server thread/INFO]: Applying holder lookups
-[23:00:47] [Server thread/INFO]: Holder lookups applied
-[23:00:47] [Server thread/INFO]: Loading dimension 0 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 30 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 29 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 28 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 27 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 26 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 25 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 24 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 23 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 22 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 21 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension -1 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 20 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 19 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 18 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 17 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 16 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 15 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 14 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 13 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:47] [Server thread/INFO]: Loading dimension 12 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:48] [Server thread/INFO]: Loading dimension 11 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:48] [Server thread/INFO]: Loading dimension 10 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:48] [Server thread/INFO]: Loading dimension 9 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:48] [Server thread/INFO]: Loading dimension 1 (New World1) (net.minecraft.server.integrated.IntegratedServer@6c184b43)
-[23:00:48] [Server thread/INFO]: Preparing start region for level 0
-[23:00:48] [Server thread/INFO]: Starting server-side EMC mapping.
-[23:00:48] [Server thread/INFO]: Starting to collect Mappings...
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:SearedBrick(1377:5):0/1 to 0/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:GravelOre(1378:4):0/1 to 0/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:oreBerries(5314:4):0/1 to 0/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:oreBerries(5314:1):0/1 to 0/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:ore.berries.two(1376:0):0/1 to 0/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:materials(5317:40):0/1 to 0/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:materials(5317:42):0/1 to 0/1
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.OreDictionaryMapper
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:redstone(331:0):0/1 to 64/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:glowstone_dust(348:0):0/1 to 384/1
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.LazyMapper
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.APICustomEMCMapper
-[23:00:48] [Server thread/INFO]: Collected Mappings from example.json
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:iron_ingot(265:0):256/1 to 256/1
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=2} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=2} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=4} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=16} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotGold=1} -> 2xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotIron=2} -> 3xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: dustRedstone=10, OD: ingotCopper=3} -> 4xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotTin=3, OD: dustGlowstone=4} -> 4xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotTin=2, OD: dustRedstone=1, minecraft:ender_pearl(368:0)=4, minecraft:coal(263:1)=1, minecraft:blaze_powder(377:0)=1} -> 4xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, minecraft:coal(263:1)=1, OD: ingotIron=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: dustRedstone=1, OD: ingotGold=1, OD: dustGlowstone=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, minecraft:ender_pearl(368:0)=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: dustRedstone=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: dustRedstone=1, OD: ingotIron=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:ender_pearl(368:0)=1, OD: ingotIron=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:obsidian(49:0)=1, minecraft:coal(263:1)=1, OD: ingotIron=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotGold=1, minecraft:soul_sand(88:0)=1} -> 1xnull
-[23:00:48] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotTin=2} -> 4xnull
-[23:00:48] [Server thread/INFO]: Collected Mappings from metals.json
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:stick(280:0):4/1 to 4/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:cobblestone(4:0):1/1 to 1/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:glowstone_dust(348:0):384/1 to 384/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:diamond(264:0):8192/1 to 8192/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:redstone(331:0):64/1 to 64/1
-[23:00:48] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:stone(1:0):1/1 to 1/1
-[23:00:48] [Server thread/INFO]: Collected Mappings from ODdefaults.json
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.customConversions.CustomConversionMapper
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.CustomEMCMapper
-[23:00:48] [Server thread/WARN]: Ignoring Recipe because outnumber <= 0: {minecraft:filled_map(358:*)=1, minecraft:paper(339:0)=8} -> 0xitem.emptyMap@0
-[23:00:48] [Server thread/WARN]: Can not map Crafting Recipes with Type: codechicken.microblock.MicroRecipe$
-[23:00:48] [Server thread/WARN]: Can not map Crafting Recipes with Type: moze_intel.projecte.gameObjs.customRecipes.RecipeAlchemyBag
-[23:00:48] [Server thread/INFO]: CraftingMapper Statistics:
-[23:00:48] [Server thread/INFO]: Found 105 Recipes of Type class net.minecraftforge.oredict.ShapelessOreRecipe
-[23:00:48] [Server thread/INFO]: Found 1 Recipes of Type class net.minecraft.item.crafting.RecipesMapExtending
-[23:00:48] [Server thread/INFO]: Found 272 Recipes of Type class net.minecraft.item.crafting.ShapelessRecipes
-[23:00:48] [Server thread/INFO]: Found 51 Recipes of Type class tconstruct.library.crafting.ShapelessToolRecipe
-[23:00:48] [Server thread/INFO]: Found 76 Recipes of Type class moze_intel.projecte.gameObjs.customRecipes.RecipeShapelessHidden
-[23:00:48] [Server thread/INFO]: Found 858 Recipes of Type class net.minecraft.item.crafting.ShapedRecipes
-[23:00:48] [Server thread/INFO]: Found 307 Recipes of Type class net.minecraftforge.oredict.ShapedOreRecipe
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.CraftingMapper
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.FluidMapper
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.SmeltingMapper
-[23:00:48] [ProjectE Update Checker Server/INFO]: Mod is updated.
-[23:00:48] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.APICustomConversionMapper
-[23:00:48] [Server thread/INFO]: Starting to generate Values:
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*minecraft:gold_nugget(371:0) => 1*minecraft:gold_ingot(266:0)" ingredient cost: 2043/1 value of result: 2048/1 setValueFromConversion: 0/1 + 8*OD: ingotIron => 1*minecraft:gold_ingot(266:0)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:19) => 1*minecraft:iron_ingot(265:0)" ingredient cost: 252/1 fixed value of result: 256/1
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:31) => 1*TConstruct:materials(5317:13)" ingredient cost: 153/1 value of result: 160/1 setValueFromConversion: 0/1 + 1*OD: ingotTin + 3*OD: ingotCopper => 4*TConstruct:materials(5317:13)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:30) => 1*TConstruct:materials(5317:5)" ingredient cost: 2043/1 value of result: 2048/1 setValueFromConversion: 0/1 + 1*OD: ingotArdite + 1*OD: ingotCobalt => 1*TConstruct:materials(5317:5)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:29) => 1*TConstruct:materials(5317:4)" ingredient cost: 1017/1 value of result: 1024/1 setValueFromConversion: 0/1 + 4*OD: ingotIron => 1*TConstruct:materials(5317:4)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:28) => 1*TConstruct:materials(5317:3)" ingredient cost: 1017/1 value of result: 1024/1 setValueFromConversion: 0/1 + 4*OD: ingotIron => 1*TConstruct:materials(5317:3)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:27) => 1*TConstruct:materials(5317:18)" ingredient cost: 27/1 value of result: 32/1 setValueFromConversion: 0/1 + 1*minecraft:obsidian(49:0) => 2*TConstruct:materials(5317:18)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:24) => 1*TConstruct:materials(5317:14)" ingredient cost: 126/1 value of result: 128/1 setValueFromConversion: 0/1 + 16*OD: ingotCopper + 48*OD: ingotAluminum => 64*TConstruct:materials(5317:14)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:22) => 1*TConstruct:materials(5317:11)" ingredient cost: 126/1 value of result: 128/1 setValueFromConversion: 0/1 + 1*OD: ingotIron => 2*TConstruct:materials(5317:11)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:21) => 1*TConstruct:materials(5317:10)" ingredient cost: 252/1 value of result: 256/1 setValueFromConversion: 0/1 + 1*OD: ingotIron => 1*TConstruct:materials(5317:10)
-[23:00:48] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:20) => 1*TConstruct:materials(5317:9)" ingredient cost: 126/1 value of result: 128/1 setValueFromConversion: 0/1 + 1*OD: ingotIron => 2*TConstruct:materials(5317:9)
-[23:00:48] [Server thread/INFO]: Generated Values...
-[23:00:48] [Server thread/INFO]: Registered 767 EMC values. (took 192 ms)
-[23:00:48] [Server thread/INFO]: Changing view distance to 4, from 10
-[23:00:49] [Netty Client IO #0/INFO]: Server protocol version 2
-[23:00:49] [Netty IO #1/INFO]: Client protocol version 2
-[23:00:49] [Netty IO #1/INFO]: Client attempting to join with 15 mods : <CoFH ASM>@000,FML@7.10.99.99,mcp@9.05,CoFHCore@1.7.10R3.0.0RC7,NotEnoughItems@1.0.4.106,nevermine@2.3,hermitcore@${version},McMultipart@1.1.2.334,Forge@10.13.4.1448,ForgeMicroblock@1.1.2.334,ProjectE@1.7.10-PE1.9.3,CodeChickenCore@1.0.6.43,ForgeMultipart@1.1.2.334,Mantle@1.7.10-0.3.2.jenkins187,TConstruct@1.7.10-1.8.7.build979
-[23:00:49] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[23:00:49] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[23:00:49] [Client thread/INFO]: [Client thread] Client side modded connection established
-[23:00:49] [Server thread/INFO]: [Server thread] Server side modded connection established
-[23:00:49] [Server thread/INFO]: Player546[local:E:7cc47283] logged in with entity id 292 at (231.30000001192093, 64.0, 234.53560959472307)
-[23:00:49] [Server thread/INFO]: Player546 joined the game
-[23:00:49] [Server thread/INFO]: [net.nevermine.assist.UpdateChecker:getWiki:43]: Wiki is online.
-[23:00:49] [Server thread/INFO]: Sent EMC data packets to: Player546
-[23:00:50] [Client thread/INFO]: Receiving EMC data from server.
-[23:00:50] [Client thread/INFO]: Received all packets!
-[23:00:50] [ProjectE Update Checker Client/INFO]: Mod is updated.
-[23:01:05] [Server thread/INFO]: Player546 has just earned the achievement [Taking Inventory]
-[23:01:05] [Client thread/INFO]: [CHAT] Player546 has just earned the achievement [Taking Inventory]
-[23:01:08] [Client thread/INFO]: [CHAT] §6[CoFH Core]§f A new version is available:
-[23:01:08] [Client thread/INFO]: [CHAT] CoFH Core 3.0.3 §f[§aDownload§f]
-[23:01:08] [Client thread/INFO]: [CHAT] Code cleanup, req'd for things. Go get it.
-[23:01:10] [Client thread/INFO]: [CHAT] §dThe ancient unrest is over, for now.
-[23:01:17] [Server thread/INFO]: Saving and pausing game...
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/Overworld
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/Nether
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/The End
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionImmortallis
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCreeponia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCandyland
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCrystevia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCeleve
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAncientCavern
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLelyetia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLabricon
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBarathos
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionRunandor
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionVoxponds
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBorean
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDustopia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGreckon
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGardencia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDeeplands
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLunalus
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionIromine
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionMysterium
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionPrecasia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionHaven
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAbyss
-[23:01:17] [Server thread/INFO]: Stopping server
-[23:01:17] [Server thread/INFO]: Saving players
-[23:01:17] [Server thread/INFO]: Saving worlds
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/Overworld
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/Nether
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/The End
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionImmortallis
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCreeponia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCandyland
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCrystevia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCeleve
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAncientCavern
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLelyetia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLabricon
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBarathos
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionRunandor
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionVoxponds
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBorean
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDustopia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGreckon
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGardencia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDeeplands
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLunalus
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionIromine
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionMysterium
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionPrecasia
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionHaven
-[23:01:17] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAbyss
-[23:01:17] [Server thread/INFO]: Unloading dimension 0
-[23:01:17] [Server thread/INFO]: Unloading dimension -1
-[23:01:17] [Server thread/INFO]: Unloading dimension 1
-[23:01:17] [Server thread/INFO]: Unloading dimension 30
-[23:01:17] [Server thread/INFO]: Unloading dimension 29
-[23:01:17] [Server thread/INFO]: Unloading dimension 28
-[23:01:17] [Server thread/INFO]: Unloading dimension 27
-[23:01:17] [Server thread/INFO]: Unloading dimension 26
-[23:01:17] [Server thread/INFO]: Unloading dimension 25
-[23:01:17] [Server thread/INFO]: Unloading dimension 24
-[23:01:17] [Server thread/INFO]: Unloading dimension 23
-[23:01:17] [Server thread/INFO]: Unloading dimension 22
-[23:01:17] [Server thread/INFO]: Unloading dimension 21
-[23:01:17] [Server thread/INFO]: Unloading dimension 20
-[23:01:17] [Server thread/INFO]: Unloading dimension 19
-[23:01:17] [Server thread/INFO]: Unloading dimension 18
-[23:01:17] [Server thread/INFO]: Unloading dimension 17
-[23:01:17] [Server thread/INFO]: Unloading dimension 16
-[23:01:17] [Server thread/INFO]: Unloading dimension 15
-[23:01:17] [Server thread/INFO]: Unloading dimension 14
-[23:01:17] [Server thread/INFO]: Unloading dimension 13
-[23:01:17] [Server thread/INFO]: Unloading dimension 12
-[23:01:17] [Server thread/INFO]: Unloading dimension 11
-[23:01:17] [Server thread/INFO]: Unloading dimension 10
-[23:01:17] [Server thread/INFO]: Unloading dimension 9
-[23:01:17] [Server thread/INFO]: Applying holder lookups
-[23:01:17] [Server thread/INFO]: Holder lookups applied
-[23:01:17] [Server thread/INFO]: Completed server-stop actions.
-[23:01:18] [Client thread/INFO]: Stopping!
-[23:01:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[23:01:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[23:01:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[23:01:18] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:56:55] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[18:56:55] [Client thread/INFO]: MinecraftForge v10.13.4.1448 Initialized
+[18:56:55] [Client thread/INFO]: Replaced 183 ore recipies
+[18:56:55] [Client thread/INFO]: Completed early MinecraftForge initialization
+[18:56:55] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:56:55] [Client thread/INFO]: Searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods for mods
+[18:56:55] [Client thread/INFO]: Also searching C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\mods\1.7.10 for mods
+[18:56:56] [Client thread/WARN]: Mod ForgeMicroblock is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[18:56:56] [Client thread/WARN]: Mod ForgeMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[18:56:56] [Client thread/WARN]: Mod McMultipart is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.2.334
+[18:56:57] [Client thread/INFO]: Forge Mod Loader has identified 15 mods to load
+[18:56:58] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, <CoFH ASM>, nevermine, ProjectE, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, CoFHCore, hermitcore] at CLIENT
+[18:56:58] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, NotEnoughItems, CodeChickenCore, <CoFH ASM>, nevermine, ProjectE, Mantle, TConstruct, ForgeMicroblock, ForgeMultipart, McMultipart, CoFHCore, hermitcore] at SERVER
+[18:56:58] [Client thread/INFO]: Preparing to take over the world
+[18:56:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Hermitcraft Core
+[18:56:59] [Client thread/INFO]: Processing ObjectHolder annotations
+[18:56:59] [Client thread/INFO]: Found 337 ObjectHolder annotations
+[18:56:59] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[18:56:59] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[18:56:59] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[18:57:02] [Client thread/INFO]: Loaded configuration file.
+[18:57:03] [Client thread/INFO]: Mantle (1.7.10-0.3.2.jenkins187) -- Preparing for launch.
+[18:57:03] [Client thread/INFO]: Entering preinitialization phase.
+[18:57:03] [Client thread/INFO]: Loading configuration from disk.
+[18:57:03] [Client thread/INFO]: Configuration load completed.
+[18:57:03] [Client thread/INFO]: Registering default templates
+[18:57:03] [Client thread/INFO]: Registering default generators
+[18:57:03] [Client thread/INFO]: Complete
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers Thaumcraft Compatibility; missing dependency: Thaumcraft
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers BuildCraft Compatibility; missing dependency: BuildCraft|Transport
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers AE2 Compatibility; missing dependency: appliedenergistics2
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers IC2 Compatibility; missing dependency: IC2
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers TE4 Compatibility; missing dependency: ThermalExpansion
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers Thermal Foundation Compatibility; missing dependency: ThermalFoundation
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers' Underground Biomes Compatiblity; missing dependency: UndergroundBiomes
+[18:57:03] [Client thread/INFO]: Skipping Pulse Tinkers RF-Tools Compatibility; missing dependency: rftools
+[18:57:03] [CoFHUpdater:CoFHCore/INFO]: An updated version of CoFH Core is available: CoFH Core 3.0.3 for Minecraft 1.7.10.
+[18:57:03] [Client thread/INFO]: Gear module active. Adding gear cast.
+[18:57:05] [Client thread/INFO]: Loaded configuration file.
+[18:57:05] [Client thread/INFO]: Applying holder lookups
+[18:57:05] [Client thread/INFO]: Holder lookups applied
+[18:57:05] [Client thread/INFO]: Injecting itemstacks
+[18:57:05] [Client thread/INFO]: Itemstack injection complete
+[18:57:05] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:57:05] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[18:57:05] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[18:57:05] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:57:05] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[18:57:06] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:57:06] [Sound Library Loader/INFO]: Sound engine started
+[18:57:07] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[18:57:08] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[18:57:08] [Client thread/ERROR]: Unable to do mod description scrolling due to lack of stencil buffer
+[18:57:08] [Client thread/INFO]: Entering initialization phase.
+[18:57:08] [Client thread/INFO]: ForgeMultipart detected. Registering TConstruct decorative blocks with FMP.
+[18:57:08] [Client thread/INFO]: Injecting itemstacks
+[18:57:08] [Client thread/INFO]: Itemstack injection complete
+[18:57:08] [Client thread/INFO]: Registered user-defined NBT whitelist for: TConstruct:pickaxe
+[18:57:08] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableingot
+[18:57:08] [Client thread/FATAL]: At line: 6
+[18:57:08] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableIngot
+[18:57:08] [Client thread/FATAL]: At line: 7
+[18:57:08] [Client thread/FATAL]: Error in NBT whitelist file: no item stack found for Botania:specialFlower
+[18:57:08] [Client thread/FATAL]: At line: 8
+[18:57:08] [Client thread/INFO]: Entering postinitialization phase.
+[18:57:08] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:57:09] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:57:09] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:57:09] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:57:09] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:57:09] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[18:57:09] [Client thread/WARN]: Could not find itemResourcefrom thaumcraft.common.config.ConfigItems
+[18:57:09] [Client thread/WARN]: Thaumcraft not detected.
+[18:57:09] [Client thread/INFO]: CoFH Core found 1 World Generation files present in C:\Users\perry\Documents\GitHub\Hermitcraft-Core\eclipse\config\cofh\world/.
+[18:57:09] [Client thread/INFO]: Forge Mod Loader has successfully loaded 15 mods
+[18:57:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:AdventOfAscension, FMLFileResourcePack:ProjectE, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Hermitcraft Core
+[18:57:10] [Client thread/INFO]: Created: 2048x1024 textures/items-atlas
+[18:57:11] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[18:57:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:57:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[18:57:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[18:57:11] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:57:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:57:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[18:57:11] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[18:57:11] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:57:11] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[18:57:12] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[18:57:12] [Client thread/ERROR]: The following texture errors were found.
+[18:57:12] [Client thread/ERROR]: ==================================================
+[18:57:12] [Client thread/ERROR]:   DOMAIN nevermine
+[18:57:12] [Client thread/ERROR]: --------------------------------------------------
+[18:57:12] [Client thread/ERROR]:   domain nevermine is missing 2 textures
+[18:57:12] [Client thread/ERROR]:     domain nevermine has 1 location:
+[18:57:12] [Client thread/ERROR]:       mod nevermine resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\libs\AoA-2.4.B.jar
+[18:57:12] [Client thread/ERROR]: -------------------------
+[18:57:12] [Client thread/ERROR]:     The missing resources for domain nevermine are:
+[18:57:12] [Client thread/ERROR]:       textures/items/candlefish.png
+[18:57:12] [Client thread/ERROR]:       textures/items/rocketfish.png
+[18:57:12] [Client thread/ERROR]: -------------------------
+[18:57:12] [Client thread/ERROR]:     No other errors exist for domain nevermine
+[18:57:12] [Client thread/ERROR]: ==================================================
+[18:57:12] [Client thread/ERROR]: ==================================================
+[18:57:12] [Client thread/ERROR]:   DOMAIN hermitcore
+[18:57:12] [Client thread/ERROR]: --------------------------------------------------
+[18:57:12] [Client thread/ERROR]:   domain hermitcore is missing 10 textures
+[18:57:12] [Client thread/ERROR]:     domain hermitcore has 1 location:
+[18:57:12] [Client thread/ERROR]:       mod hermitcore resources at C:\Users\perry\Documents\GitHub\Hermitcraft-Core\build\libs\Hermitcraft Core-1.7.10-1.4.1.DEV.ae659a8.jar
+[18:57:12] [Client thread/ERROR]: -------------------------
+[18:57:12] [Client thread/ERROR]:     The missing resources for domain hermitcore are:
+[18:57:12] [Client thread/ERROR]:       textures/items/recordWarcraft.png
+[18:57:12] [Client thread/ERROR]:       textures/blocks/cdburner/CdBurner_Creative_Inactive.png
+[18:57:12] [Client thread/ERROR]:       textures/items/recordChipstuff.png
+[18:57:12] [Client thread/ERROR]:       textures/blocks/cdburner/CdBurner_Resonant_Active.png
+[18:57:12] [Client thread/ERROR]:       textures/items/stars/klein_star_2.png
+[18:57:12] [Client thread/ERROR]:       textures/items/recordCollide.png
+[18:57:12] [Client thread/ERROR]:       textures/blocks/liquid_emberstone_flow.png
+[18:57:12] [Client thread/ERROR]:       textures/blocks/cdburner/CdBurner_Creative_Active.png
+[18:57:12] [Client thread/ERROR]:       textures/blocks/liquid_emberstone.png
+[18:57:12] [Client thread/ERROR]:       textures/blocks/cdburner/CdBurner_Resonant_Inactive.png
+[18:57:12] [Client thread/ERROR]: -------------------------
+[18:57:12] [Client thread/ERROR]:     No other errors exist for domain hermitcore
+[18:57:12] [Client thread/ERROR]: ==================================================
+[18:57:12] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[18:57:12] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:57:12] [Sound Library Loader/INFO]: Sound engine started
+[18:57:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:57:25] [Server thread/INFO]: Generating keypair
+[18:57:25] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[18:57:25] [Server thread/INFO]: Applying holder lookups
+[18:57:25] [Server thread/INFO]: Holder lookups applied
+[18:57:25] [Server thread/INFO]: Loading dimension 0 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 30 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 29 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 28 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 27 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 26 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 25 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 24 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 23 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 22 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 21 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension -1 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 20 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 19 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 18 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 17 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 16 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 15 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 14 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 13 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:25] [Server thread/INFO]: Loading dimension 12 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:26] [Server thread/INFO]: Loading dimension 11 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:26] [Server thread/INFO]: Loading dimension 10 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:26] [Server thread/INFO]: Loading dimension 9 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:26] [Server thread/INFO]: Loading dimension 1 (New World1) (net.minecraft.server.integrated.IntegratedServer@611172cf)
+[18:57:26] [Server thread/INFO]: Preparing start region for level 0
+[18:57:26] [Server thread/INFO]: Starting server-side EMC mapping.
+[18:57:26] [Server thread/INFO]: Starting to collect Mappings...
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:SearedBrick(1377:5):0/1 to 0/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:GravelOre(1378:4):0/1 to 0/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:oreBerries(5314:4):0/1 to 0/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:oreBerries(5314:1):0/1 to 0/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:ore.berries.two(1376:0):0/1 to 0/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:materials(5317:40):0/1 to 0/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for TConstruct:materials(5317:42):0/1 to 0/1
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.OreDictionaryMapper
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:redstone(331:0):0/1 to 64/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:glowstone_dust(348:0):0/1 to 384/1
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.LazyMapper
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.APICustomEMCMapper
+[18:57:26] [Server thread/INFO]: Collected Mappings from example.json
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:iron_ingot(265:0):256/1 to 256/1
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=2} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=2} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=4} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=16} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotGold=1} -> 2xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotIron=2} -> 3xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: dustRedstone=10, OD: ingotCopper=3} -> 4xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotTin=3, OD: dustGlowstone=4} -> 4xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotTin=2, OD: dustRedstone=1, minecraft:ender_pearl(368:0)=4, minecraft:coal(263:1)=1, minecraft:blaze_powder(377:0)=1} -> 4xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, minecraft:coal(263:1)=1, OD: ingotIron=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: dustRedstone=1, OD: ingotGold=1, OD: dustGlowstone=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, minecraft:ender_pearl(368:0)=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: dustRedstone=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: dustRedstone=1, OD: ingotIron=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:ender_pearl(368:0)=1, OD: ingotIron=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:obsidian(49:0)=1, minecraft:coal(263:1)=1, OD: ingotIron=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotGold=1, minecraft:soul_sand(88:0)=1} -> 1xnull
+[18:57:26] [Server thread/WARN]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotTin=2} -> 4xnull
+[18:57:26] [Server thread/INFO]: Collected Mappings from metals.json
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:stick(280:0):4/1 to 4/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:cobblestone(4:0):1/1 to 1/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:glowstone_dust(348:0):384/1 to 384/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:diamond(264:0):8192/1 to 8192/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:redstone(331:0):64/1 to 64/1
+[18:57:26] [Server thread/WARN]: Overwriting fixValueBeforeInherit for minecraft:stone(1:0):1/1 to 1/1
+[18:57:26] [Server thread/INFO]: Collected Mappings from ODdefaults.json
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.customConversions.CustomConversionMapper
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.CustomEMCMapper
+[18:57:26] [Server thread/WARN]: Ignoring Recipe because outnumber <= 0: {minecraft:filled_map(358:*)=1, minecraft:paper(339:0)=8} -> 0xitem.emptyMap@0
+[18:57:26] [Server thread/WARN]: Can not map Crafting Recipes with Type: codechicken.microblock.MicroRecipe$
+[18:57:26] [Server thread/WARN]: Can not map Crafting Recipes with Type: moze_intel.projecte.gameObjs.customRecipes.RecipeAlchemyBag
+[18:57:26] [Server thread/INFO]: CraftingMapper Statistics:
+[18:57:26] [Server thread/INFO]: Found 272 Recipes of Type class net.minecraft.item.crafting.ShapelessRecipes
+[18:57:26] [Server thread/INFO]: Found 76 Recipes of Type class moze_intel.projecte.gameObjs.customRecipes.RecipeShapelessHidden
+[18:57:26] [Server thread/INFO]: Found 51 Recipes of Type class tconstruct.library.crafting.ShapelessToolRecipe
+[18:57:26] [Server thread/INFO]: Found 105 Recipes of Type class net.minecraftforge.oredict.ShapelessOreRecipe
+[18:57:26] [Server thread/INFO]: Found 307 Recipes of Type class net.minecraftforge.oredict.ShapedOreRecipe
+[18:57:26] [Server thread/INFO]: Found 858 Recipes of Type class net.minecraft.item.crafting.ShapedRecipes
+[18:57:26] [Server thread/INFO]: Found 1 Recipes of Type class net.minecraft.item.crafting.RecipesMapExtending
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.CraftingMapper
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.FluidMapper
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.SmeltingMapper
+[18:57:26] [Server thread/INFO]: Collected Mappings from moze_intel.projecte.emc.mappers.APICustomConversionMapper
+[18:57:26] [Server thread/INFO]: Starting to generate Values:
+[18:57:26] [ProjectE Update Checker Server/INFO]: Mod is updated.
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*minecraft:gold_nugget(371:0) => 1*minecraft:gold_ingot(266:0)" ingredient cost: 2043/1 value of result: 2048/1 setValueFromConversion: 0/1 + 8*OD: ingotIron => 1*minecraft:gold_ingot(266:0)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:19) => 1*minecraft:iron_ingot(265:0)" ingredient cost: 252/1 fixed value of result: 256/1
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:31) => 1*TConstruct:materials(5317:13)" ingredient cost: 153/1 value of result: 160/1 setValueFromConversion: 0/1 + 1*OD: ingotTin + 3*OD: ingotCopper => 4*TConstruct:materials(5317:13)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:30) => 1*TConstruct:materials(5317:5)" ingredient cost: 2043/1 value of result: 2048/1 setValueFromConversion: 0/1 + 1*OD: ingotArdite + 1*OD: ingotCobalt => 1*TConstruct:materials(5317:5)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:29) => 1*TConstruct:materials(5317:4)" ingredient cost: 1017/1 value of result: 1024/1 setValueFromConversion: 0/1 + 4*OD: ingotIron => 1*TConstruct:materials(5317:4)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:28) => 1*TConstruct:materials(5317:3)" ingredient cost: 1017/1 value of result: 1024/1 setValueFromConversion: 0/1 + 4*OD: ingotIron => 1*TConstruct:materials(5317:3)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:27) => 1*TConstruct:materials(5317:18)" ingredient cost: 27/1 value of result: 32/1 setValueFromConversion: 0/1 + 1*minecraft:obsidian(49:0) => 2*TConstruct:materials(5317:18)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:24) => 1*TConstruct:materials(5317:14)" ingredient cost: 126/1 value of result: 128/1 setValueFromConversion: 0/1 + 16*OD: ingotCopper + 48*OD: ingotAluminum => 64*TConstruct:materials(5317:14)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:22) => 1*TConstruct:materials(5317:11)" ingredient cost: 126/1 value of result: 128/1 setValueFromConversion: 0/1 + 1*OD: ingotIron => 2*TConstruct:materials(5317:11)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:21) => 1*TConstruct:materials(5317:10)" ingredient cost: 252/1 value of result: 256/1 setValueFromConversion: 0/1 + 1*OD: ingotIron => 1*TConstruct:materials(5317:10)
+[18:57:26] [Server thread/WARN]: EMC Exploit: "0/1 + 9*TConstruct:materials(5317:20) => 1*TConstruct:materials(5317:9)" ingredient cost: 126/1 value of result: 128/1 setValueFromConversion: 0/1 + 1*OD: ingotIron => 2*TConstruct:materials(5317:9)
+[18:57:26] [Server thread/INFO]: Generated Values...
+[18:57:26] [Server thread/INFO]: Registered 767 EMC values. (took 195 ms)
+[18:57:26] [Server thread/INFO]: Changing view distance to 4, from 10
+[18:57:27] [Netty Client IO #0/INFO]: Server protocol version 2
+[18:57:27] [Netty IO #1/INFO]: Client protocol version 2
+[18:57:27] [Netty IO #1/INFO]: Client attempting to join with 15 mods : <CoFH ASM>@000,FML@7.10.99.99,mcp@9.05,CoFHCore@1.7.10R3.0.0RC7,NotEnoughItems@1.0.4.106,nevermine@2.3,hermitcore@${version},McMultipart@1.1.2.334,Forge@10.13.4.1448,ForgeMicroblock@1.1.2.334,ProjectE@1.7.10-PE1.9.3,CodeChickenCore@1.0.6.43,ForgeMultipart@1.1.2.334,Mantle@1.7.10-0.3.2.jenkins187,TConstruct@1.7.10-1.8.7.build979
+[18:57:27] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[18:57:27] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[18:57:27] [Server thread/INFO]: [Server thread] Server side modded connection established
+[18:57:27] [Server thread/INFO]: Player250[local:E:47bb3c3a] logged in with entity id 289 at (233.70359221515008, 65.0, 239.50333043169672)
+[18:57:27] [Server thread/INFO]: Player250 joined the game
+[18:57:27] [Server thread/INFO]: [net.nevermine.assist.UpdateChecker:getWiki:43]: Wiki is online.
+[18:57:27] [Client thread/INFO]: [Client thread] Client side modded connection established
+[18:57:27] [Server thread/INFO]: Sent EMC data packets to: Player250
+[18:57:28] [Client thread/INFO]: Receiving EMC data from server.
+[18:57:28] [Client thread/INFO]: Received all packets!
+[18:57:28] [ProjectE Update Checker Client/INFO]: Mod is updated.
+[18:57:47] [Client thread/INFO]: [CHAT] §6[CoFH Core]§f A new version is available:
+[18:57:47] [Client thread/INFO]: [CHAT] CoFH Core 3.0.3 §f[§aDownload§f]
+[18:57:47] [Client thread/INFO]: [CHAT] Code cleanup, req'd for things. Go get it.
+[18:57:58] [Server thread/INFO]: Player250 has just earned the achievement [Taking Inventory]
+[18:57:58] [Client thread/INFO]: [CHAT] Player250 has just earned the achievement [Taking Inventory]
+[18:58:03] [Server thread/INFO]: Saving and pausing game...
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/Overworld
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/Nether
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/The End
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionImmortallis
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCreeponia
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCandyland
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCrystevia
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCeleve
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAncientCavern
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLelyetia
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLabricon
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBarathos
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionRunandor
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionVoxponds
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBorean
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDustopia
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGreckon
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGardencia
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDeeplands
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLunalus
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionIromine
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionMysterium
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionPrecasia
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionHaven
+[18:58:03] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAbyss
+[18:58:04] [Server thread/INFO]: Stopping server
+[18:58:04] [Server thread/INFO]: Saving players
+[18:58:04] [Server thread/INFO]: Saving worlds
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/Overworld
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/Nether
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/The End
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionImmortallis
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCreeponia
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCandyland
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCrystevia
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionCeleve
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAncientCavern
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLelyetia
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLabricon
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBarathos
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionRunandor
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionVoxponds
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionBorean
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDustopia
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGreckon
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionGardencia
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionDeeplands
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionLunalus
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionIromine
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionMysterium
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionPrecasia
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionHaven
+[18:58:04] [Server thread/INFO]: Saving chunks for level 'New World1'/DimensionAbyss
+[18:58:04] [Server thread/INFO]: Unloading dimension 0
+[18:58:04] [Server thread/INFO]: Unloading dimension -1
+[18:58:04] [Server thread/INFO]: Unloading dimension 1
+[18:58:04] [Server thread/INFO]: Unloading dimension 30
+[18:58:04] [Server thread/INFO]: Unloading dimension 29
+[18:58:04] [Server thread/INFO]: Unloading dimension 28
+[18:58:04] [Server thread/INFO]: Unloading dimension 27
+[18:58:04] [Server thread/INFO]: Unloading dimension 26
+[18:58:04] [Server thread/INFO]: Unloading dimension 25
+[18:58:04] [Server thread/INFO]: Unloading dimension 24
+[18:58:04] [Server thread/INFO]: Unloading dimension 23
+[18:58:04] [Server thread/INFO]: Unloading dimension 22
+[18:58:04] [Server thread/INFO]: Unloading dimension 21
+[18:58:04] [Server thread/INFO]: Unloading dimension 20
+[18:58:04] [Server thread/INFO]: Unloading dimension 19
+[18:58:04] [Server thread/INFO]: Unloading dimension 18
+[18:58:04] [Server thread/INFO]: Unloading dimension 17
+[18:58:04] [Server thread/INFO]: Unloading dimension 16
+[18:58:04] [Server thread/INFO]: Unloading dimension 15
+[18:58:04] [Server thread/INFO]: Unloading dimension 14
+[18:58:04] [Server thread/INFO]: Unloading dimension 13
+[18:58:04] [Server thread/INFO]: Unloading dimension 12
+[18:58:04] [Server thread/INFO]: Unloading dimension 11
+[18:58:04] [Server thread/INFO]: Unloading dimension 10
+[18:58:04] [Server thread/INFO]: Unloading dimension 9
+[18:58:04] [Server thread/INFO]: Applying holder lookups
+[18:58:04] [Server thread/INFO]: Holder lookups applied
+[18:58:05] [Server thread/INFO]: Completed server-stop actions.
+[18:58:05] [Client thread/INFO]: Stopping!
+[18:58:05] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[18:58:05] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[18:58:05] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[18:58:05] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 

@@ -9,12 +9,14 @@ import hermitcore.gameObjs.block.blockMystite;
 import hermitcore.gameObjs.block.blockRosite;
 import hermitcore.gameObjs.block.blockSapphire;
 import hermitcore.gameObjs.block.blockVarsium;
+import hermitcore.gameObjs.block.rf.BlockCdBurner;
 import hermitcore.gameObjs.block.rf.rfCd_Burner;
 import hermitcore.gameObjs.item.KlienStarGamma;
 import hermitcore.gameObjs.item.record_Chipstuff;
 import hermitcore.gameObjs.item.record_Collide;
 import hermitcore.gameObjs.item.record_TakeBackTehNight;
 import hermitcore.gameObjs.item.record_Warcraft;
+import hermitcore.gameObjs.item.rf.ItemCdBurner;
 
 import java.util.HashMap;
 import java.util.List;
@@ -47,7 +49,7 @@ public class ObjectHandler
 	public static Block blockLyon;
 	public static Block blockEmberstone;
 	
-	public static Block rfCd_Burner;
+	public static Block rfCdBurner;
 	
 	public static Item record_Warcraft;
 	public static Item record_Chipstuff;
@@ -60,6 +62,7 @@ public class ObjectHandler
 	
 	public static void register() 
 	{		
+		rfCdBurner = new BlockCdBurner();
 		GameRegistry.registerBlock(blockLimonite = new blockLimonite("blockLimonite", Material.iron), "blockLimonite");
 		GameRegistry.registerBlock(blockRosite = new blockRosite("blockRosite", Material.iron), "blockRosite"); 
 		GameRegistry.registerBlock(blockJade = new blockJade("blockJade", Material.iron), "blockJade"); 
@@ -70,9 +73,11 @@ public class ObjectHandler
 		GameRegistry.registerBlock(blockMystite = new blockMystite("blockMystite", Material.iron), "blockMystite");
 		GameRegistry.registerBlock(blockSapphire = new blockSapphire("blockSapphire", Material.iron), "blockSapphire");
 		
-		//rfCd_Burner = new rfCd_Burner();
 		
-		//GameRegistry.registerBlock(rfCd_Burner, rfCd_Burner.class, "rfCd_Burner");
+		
+		GameRegistry.registerBlock(rfCdBurner, ItemCdBurner.class, "rfCd_Burner");
+		((BlockCdBurner) rfCdBurner).init();
+		
 		
 		GameRegistry.registerItem(record_Warcraft = new record_Warcraft("recordWarcraft"), "recordWarcraft");
 		GameRegistry.registerItem(record_Chipstuff = new record_Chipstuff("recordChipstuff"), "recordChipstuff");
