@@ -1,5 +1,7 @@
 package hermitcore.common;
 
+import hermitcore.gameObjs.tile.TileCdBurner;
+import hermitcore.gameObjs.tile.TileCdBurnerRenderer;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -36,6 +38,7 @@ public class ClientProxy implements IProxy
 	public void registerRenderers() 
 	{
 	
+		ClientRegistry.bindTileEntitySpecialRenderer(TileCdBurner.class, new TileCdBurnerRenderer());
 	}
 
 	@Override

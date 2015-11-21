@@ -1,6 +1,7 @@
 package hermitcore.gameObjs.tile;
 
-
+import hermitcore.gui.client.GuiCdBurner;
+import hermitcore.gui.container.ContainerCdBurner;
 import hermitcore.network.PacketHEBase;
 
 import java.util.HashSet;
@@ -13,6 +14,7 @@ import net.minecraft.client.particle.EffectRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.AxisAlignedBB;
@@ -287,5 +289,17 @@ public class TileCdBurner extends TileBurner
         if (meta == 0) return 2.0F;
         else if (meta == 2) return 1.75F;
         else return 1.5F;
+    }
+    
+    @Override
+    public Object getGuiClient(InventoryPlayer inventory)
+    {
+        return new GuiCdBurner(inventory, this);
+    }
+
+    @Override
+    public Object getGuiServer(InventoryPlayer inventory)
+    {
+        return new ContainerCdBurner(inventory, this);
     }
 }

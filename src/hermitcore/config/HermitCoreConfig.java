@@ -13,6 +13,8 @@ public final class HermitCoreConfig
 {
 	public static boolean enableDebugLog;
 	public static String toDelete[];
+    public static int GUITopLeftYOffset;
+    public static int GUITopLeftXOffset;
 
 	
 	public static void init(File configFile)
@@ -26,6 +28,9 @@ public final class HermitCoreConfig
 			
 			enableDebugLog = config.getBoolean("debugLogging", "misc", false, "Enable a more verbose debug logging");
 		
+            GUITopLeftXOffset = config.get("rendering", "Rendering.GUITopLeftXOffset", 0).getInt(0);
+            GUITopLeftYOffset = config.get("rendering", "Rendering.GUITopLeftYOffset", 0).getInt(0);
+			
 			toDelete = config.get("removeItems", "recipes", new String[] {"minecraft:iron_hoe",  "minecraft:iron_pickaxe", "minecraft:iron_shovel", "minecraft:iron_sword", "minecraft:iron_axe", "minecraft:stone_hoe",  "minecraft:stone_pickaxe", "minecraft:stone_shovel", "minecraft:stone_sword", "minecraft:stone_axe", "minecraft:golden_hoe",  "minecraft:golden_pickaxe", "minecraft:golden_shovel", "minecraft:golden_sword", "minecraft:golden_axe", "minecraft:diamond_hoe",  "minecraft:diamond_pickaxe", "minecraft:diamond_shovel", "minecraft:diamond_sword", "minecraft:diamond_axe"}, "Put Items to remove crafting recipes here. Format: modname:itemname").getStringList();
 			HELogger.logInfo("Loaded configuration file.");
 		}

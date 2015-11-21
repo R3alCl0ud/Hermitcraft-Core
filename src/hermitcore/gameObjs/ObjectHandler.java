@@ -126,9 +126,17 @@ public class ObjectHandler
 		
 		if(Loader.isModLoaded("ProjectE"))
 		{
-			ItemStack input = new ItemStack(ObjHandler.kleinStars, 1, 5);
-			ItemStack output = new ItemStack(KlienStarGamma, 1);
-			GameRegistry.addRecipe(new RecipeShapelessHidden(output, input, input, input, input));
+			ItemStack input1 = new ItemStack(ObjHandler.kleinStars, 1, 5);
+			ItemStack output1 = new ItemStack(KlienStarGamma, 1);
+			GameRegistry.addRecipe(new RecipeShapelessHidden(output1, input1, input1, input1, input1));
+			
+			
+			ItemStack input2 = new ItemStack(KlienStarGamma, 1, 0);
+			ItemStack output2 = new ItemStack(KlienStarGamma, 1, 2);
+			GameRegistry.addShapelessRecipe(new ItemStack(KlienStarGamma, 1, 1), input2, input2, input2, input2);
+		
+			
+			
 		}
 		
 	}

@@ -2,16 +2,18 @@ package hermitcore.gameObjs.block.rf;
 
 import hermitcore.gameObjs.tile.TileCdBurner;
 import hermitcore.reference.Textures;
-import hermitcore.util.helper.TextureHelper;
+import hermitcore.utils.helper.TextureHelper;
 
 import java.util.List;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.EntityLiving;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
+import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 import cofh.core.render.IconRegistry;
 import cpw.mods.fml.relauncher.Side;
@@ -67,6 +69,26 @@ public class BlockCdBurner extends rfCd_Burner
         }
     }
 
+    public int getRenderType()
+    {
+    	return -1;
+    }
+    
+    public boolean isOpaqueCube()
+    {
+    	return false;
+    }
+    
+    public boolean renderAsNormalBlock()
+    {
+    	return false;
+    }
+
+    public void onBlockPlacedBy(World world, int i, int l, int k, EntityLiving entityLiving)
+    {
+    	int rotation = MathHelper.floor_double((double)((entityLiving.rotationYaw * 4F) / 360F) + 2.5D) & 3;
+    }
+    
     @Override
     public IIcon getActiveIcon(int meta)
     {

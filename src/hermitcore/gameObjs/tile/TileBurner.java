@@ -1,25 +1,20 @@
 package hermitcore.gameObjs.tile;
 
-import cofh.api.energy.IEnergyContainerItem;
-import cofh.api.energy.IEnergyHandler;
-import cofh.api.tileentity.IReconfigurableFacing;
-import cofh.lib.util.helpers.EnergyHelper;
+import hermitcore.gameObjs.block.rf.rfCd_Burner;
+import hermitcore.network.PacketHEBase;
+import hermitcore.utils.IChargeableFromSlot;
+import hermitcore.utils.helper.NBTHelper;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.IIcon;
-import net.minecraftforge.client.event.DrawBlockHighlightEvent;
 import net.minecraftforge.common.util.ForgeDirection;
-import hermitcore.gameObjs.block.rf.rfCd_Burner;
-import hermitcore.network.PacketHEBase;
-import hermitcore.util.IChargeableFromSlot;
-import hermitcore.util.helper.NBTHelper;
-
-import java.awt.*;
-import java.util.Random;
+import cofh.api.energy.IEnergyContainerItem;
+import cofh.api.energy.IEnergyHandler;
+import cofh.api.tileentity.IReconfigurableFacing;
+import cofh.lib.util.helpers.EnergyHelper;
 
 public abstract class TileBurner extends TileInventory implements IReconfigurableFacing, IEnergyHandler, IChargeableFromSlot  
 {
@@ -39,8 +34,8 @@ public abstract class TileBurner extends TileInventory implements IReconfigurabl
     
     public String getName()
     {
-        Block block = this.worldObj.getBlock(this.xCoord, this.yCoord, this.zCoord);
-        int blockMeta = this.worldObj.getBlockMetadata(this.xCoord, this.yCoord, this.zCoord);
+        //Block block = this.worldObj.getBlock(this.xCoord, this.yCoord, this.zCoord);
+        //int blockMeta = this.worldObj.getBlockMetadata(this.xCoord, this.yCoord, this.zCoord);
 
         //return LocalisationHelper.localiseString(block.getUnlocalizedName() + "." + blockMeta + ".name");
         String hi = "hi";
@@ -250,6 +245,19 @@ public abstract class TileBurner extends TileInventory implements IReconfigurabl
     public int getEnergyStored()
     {
         return this.storedEnergy;
+    }
+    
+    public IIcon getFrontIcon()
+    {
+        Block block = this.worldObj.getBlock(this.xCoord, this.yCoord, this.zCoord);
+
+        if (!(block instanceof rfCd_Burner)) return null;
+
+        int blockMeta = this.worldObj.getBlockMetadata(this.xCoord, this.yCoord, this.zCoord);
+        rfCd_Burner rfcd_Burner = (rfCd_Burner) block;
+
+        if (this.isActive) return rfcd_Burner.getActiveIcon(blockMeta);
+        else return rfcd_Burner.getInactiveIcon(blockMeta);
     }
     @Override
     public int receiveEnergy(int maxReceive, boolean simulate)

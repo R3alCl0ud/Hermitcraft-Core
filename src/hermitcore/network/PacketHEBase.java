@@ -1,6 +1,6 @@
 package hermitcore.network;
 
-import hermitcore.util.BlockCoord;
+import hermitcore.utils.BlockCoord;
 import io.netty.channel.ChannelHandlerContext;
 
 import java.io.*;

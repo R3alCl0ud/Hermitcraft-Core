@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import hermitcore.gameObjs.tile.TileBurner;
 import hermitcore.library.HermitRegistry;
-import hermitcore.util.helper.TextureHelper;
+import hermitcore.utils.helper.TextureHelper;
 import cofh.api.block.IDismantleable;
 import cofh.core.render.IconRegistry;
 import cpw.mods.fml.relauncher.Side;

@@ -1,5 +1,6 @@
 package hermitcore;
 
+import hermitcore.common.GUIEventHandler;
 import hermitcore.common.IProxy;
 import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.ObjectHandler;
@@ -8,15 +9,19 @@ import hermitcore.library.HermitRegistry;
 import hermitcore.library.HermitTabs;
 import hermitcore.library.crafting.LiquidCasting;
 import hermitcore.network.PacketHandler;
+import hermitcore.network.PacketTile;
 import hermitcore.tcon.smeltery.HermitSmeltery;
 import hermitcore.tcon.tools.HermitTools;
 
 import java.io.File;
 import java.util.Random;
 
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.common.MinecraftForge;
 import mantle.pulsar.config.ForgeCFG;
 import mantle.pulsar.config.IConfiguration;
 import mantle.pulsar.control.PulseManager;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -24,6 +29,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 
 
 
@@ -91,14 +97,27 @@ public class HECore {
 	}
 
 	@EventHandler
-	public void Init(FMLInitializationEvent event) {
+	public void Init(FMLInitializationEvent event) 
+	{
+		//GUI stuff
+		NetworkRegistry.INSTANCE.registerGuiHandler(instance, guiHandler);
+		
+        // Packets
+        PacketTile.init();
 		
 		pulsar.init(event);
 	}
 
 	@EventHandler
-	public void postInit(FMLPostInitializationEvent event) {
+	public void postInit(FMLPostInitializationEvent event) 
+	{
+		
+        PacketHandler.instance.postInit();
 
+        if (FMLCommonHandler.instance().getSide().isClient())
+        {
+            MinecraftForge.EVENT_BUS.register(new GUIEventHandler((Minecraft.getMinecraft())));
+        }
 		
 		
 
