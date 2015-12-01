@@ -102,6 +102,9 @@ public class HECore {
 		//GUI stuff
 		NetworkRegistry.INSTANCE.registerGuiHandler(instance, guiHandler);
 		
+		//Block model shit
+		proxy.registerRenderers();
+		
         // Packets
         PacketTile.init();
 		

@@ -19,7 +19,7 @@ import cofh.lib.util.helpers.EnergyHelper;
 public abstract class TileBurner extends TileInventory implements IReconfigurableFacing, IEnergyHandler, IChargeableFromSlot  
 {
     public static final short TICKS_PER_UPDATE = 20;
-    public static final int INVENTORY_SIZE = 1;
+    public static final int INVENTORY_SIZE = 2;
     public short ticksSinceLastUpdate = 0;
     public boolean isActive = false;
     public int storedEnergy = 0;
@@ -38,7 +38,7 @@ public abstract class TileBurner extends TileInventory implements IReconfigurabl
         //int blockMeta = this.worldObj.getBlockMetadata(this.xCoord, this.yCoord, this.zCoord);
 
         //return LocalisationHelper.localiseString(block.getUnlocalizedName() + "." + blockMeta + ".name");
-        String hi = "hi";
+        String hi = "Cd Burner";
         return hi;
     }
     public static void writeDefaultTag(NBTTagCompound nbtTagCompound)
@@ -212,6 +212,10 @@ public abstract class TileBurner extends TileInventory implements IReconfigurabl
     {
         return this.inventory.length - 1;
     }
+    public int getSchematicSlot()
+    {
+    	return this.inventory.length;
+    }
 
     public boolean hasChargeSlot() { return true; }
     
@@ -246,7 +250,7 @@ public abstract class TileBurner extends TileInventory implements IReconfigurabl
     {
         return this.storedEnergy;
     }
-    
+    /*
     public IIcon getFrontIcon()
     {
         Block block = this.worldObj.getBlock(this.xCoord, this.yCoord, this.zCoord);
@@ -258,7 +262,7 @@ public abstract class TileBurner extends TileInventory implements IReconfigurabl
 
         if (this.isActive) return rfcd_Burner.getActiveIcon(blockMeta);
         else return rfcd_Burner.getInactiveIcon(blockMeta);
-    }
+    }*/
     @Override
     public int receiveEnergy(int maxReceive, boolean simulate)
     {

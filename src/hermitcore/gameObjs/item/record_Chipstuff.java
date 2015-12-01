@@ -2,8 +2,6 @@ package hermitcore.gameObjs.item;
 
 import hermitcore.HECore;
 import hermitcore.library.HermitRegistry;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemRecord;
 import net.minecraft.util.ResourceLocation;
 

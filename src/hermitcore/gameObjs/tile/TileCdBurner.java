@@ -38,11 +38,12 @@ public class TileCdBurner extends TileBurner
     {
         super();
 
-        this.tileName = "Cd Burner";
+        //this.tileName = "Cd Burner";
     }
     public static void init()
     {
         GameRegistry.registerTileEntity(TileCdBurner.class, "tile." + "cdburner");
+        
     }
 
     public int getMaxEnergyStored(int meta)
@@ -85,7 +86,8 @@ public class TileCdBurner extends TileBurner
         return itemsToCharge;
     }
 
-    public List<Entity> getChargeableEntitiesInAABB(AxisAlignedBB aabb)
+    @SuppressWarnings("unchecked")
+	public List<Entity> getChargeableEntitiesInAABB(AxisAlignedBB aabb)
     {
         List<Entity> chargeableEntitiesInRange = this.worldObj.getEntitiesWithinAABB(EntityPlayer.class, aabb);
         List<EntityItem> chargeableItemsInRange = this.worldObj.getEntitiesWithinAABB(EntityItem.class, aabb);
@@ -302,4 +304,9 @@ public class TileCdBurner extends TileBurner
     {
         return new ContainerCdBurner(inventory, this);
     }
+	public ItemStack getItemStack()
+	{
+		return getStackInSlot(0);
+	}
+
 }

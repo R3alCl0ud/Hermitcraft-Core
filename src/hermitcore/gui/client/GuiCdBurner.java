@@ -1,6 +1,6 @@
 package hermitcore.gui.client;
 
-import cofh.lib.gui.element.ElementEnergyStored;
+import cofh.lib.gui.element.*;
 import hermitcore.gameObjs.tile.TileCdBurner;
 import hermitcore.gameObjs.tile.TileHE;
 import hermitcore.gui.container.ContainerCdBurner;
@@ -34,12 +34,15 @@ public class GuiCdBurner extends GuiHEBase
         
         elementChargingIcon = new ElementIcon(this, 80, 30);
         this.addElement(elementChargingIcon);
+        
+        //ElementSimple elementSchematicSlot = new ElementSimple(this, 8 , 8);
+        //this.addElement(elementSchematicSlot);
 	}
 	
     @Override
     protected void updateElementInformation()
     {
-        elementChargingIcon.setIconToDraw(tileCdBurner.getFrontIcon());
+        //elementChargingIcon.setIconToDraw(tileCdBurner.getFrontIcon());
     }
 
 }
