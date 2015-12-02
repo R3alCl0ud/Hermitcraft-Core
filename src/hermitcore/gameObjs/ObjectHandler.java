@@ -107,10 +107,9 @@ public class ObjectHandler
 			GameRegistry.registerItem(KlienStarGamma = new KlienStarGamma("KlienStarGamma"), "KlienStarGamma", "KlienStarGamma");
 		}
 		
-		for (int i = 0; i < HermitCoreConfig.recordName.length; i++)
-		{
-			GameRegistry.registerItem(record_Base = new record_Base("record_" + HermitCoreConfig.recordName[i-1]), "");
-		}
+		
+		GameRegistry.registerItem(record_Base = new record_Base("record_"), "record_");
+		
 		
 	}
 	
