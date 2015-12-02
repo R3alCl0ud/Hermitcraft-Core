@@ -16,6 +16,8 @@ public class GuiCdBurner extends GuiHEBase
     public static final ResourceLocation TEXTURE = new ResourceLocation(TEXTURE_PATH);
     public TileCdBurner tileCdBurner;
     private ElementIcon elementChargingIcon;
+    private ElementSimpleBox elementSchematicSlot;
+    private ElementSimpleBox elementBlankRecordSlot;
 	
 	public GuiCdBurner(InventoryPlayer inventoryPlayer, TileHE tileEntity) 
 	{
@@ -35,14 +37,18 @@ public class GuiCdBurner extends GuiHEBase
         elementChargingIcon = new ElementIcon(this, 80, 30);
         this.addElement(elementChargingIcon);
         
-        //ElementSimple elementSchematicSlot = new ElementSimple(this, 8 , 8);
-        //this.addElement(elementSchematicSlot);
+        elementSchematicSlot = new ElementSimpleBox(this, 8 , 8, 1);
+        this.addElement(elementSchematicSlot);
+        
+        elementBlankRecordSlot = new ElementSimpleBox(this, 8 , 8, 3);
+        this.addElement(elementBlankRecordSlot);
 	}
 	
     @Override
     protected void updateElementInformation()
     {
         //elementChargingIcon.setIconToDraw(tileCdBurner.getFrontIcon());
+    	elementBlankRecordSlot.drawBackground(9, 9, 1F);
     }
 
 }

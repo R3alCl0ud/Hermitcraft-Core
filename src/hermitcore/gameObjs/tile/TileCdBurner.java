@@ -306,7 +306,7 @@ public class TileCdBurner extends TileBurner
     }
 	public ItemStack getItemStack()
 	{
-		return getStackInSlot(0);
+		return getStackInSlot(2);
 	}
 
 }

@@ -1,7 +1,7 @@
 package hermitcore.common;
 
 import hermitcore.gameObjs.tile.TileCdBurner;
-import hermitcore.gameObjs.tile.TileCdBurnerRenderer;
+import hermitcore.render.TileCdBurnerRenderer;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;

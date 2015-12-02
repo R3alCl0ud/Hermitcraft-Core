@@ -94,6 +94,12 @@ public class BlockCdBurner extends rfCd_Burner
         return true;
     }
     
+    @SideOnly(Side.CLIENT)
+    public boolean isFull3D()
+    {
+    	return true;
+    }
+    
     public void onBlockPlacedBy(World world, int i, int l, int k, EntityLivingBase entityLiving, ItemStack stack)
     {
     	@SuppressWarnings("unused")
@@ -101,7 +107,7 @@ public class BlockCdBurner extends rfCd_Burner
     	int rotation = MathHelper.floor_double((double)((entityLiving.rotationYaw * 4F) / 360F) + 2.5D) & 3;
     }
     
-    
+    /*
     @Override
     public IIcon getActiveIcon(int meta)
     {
@@ -112,7 +118,7 @@ public class BlockCdBurner extends rfCd_Burner
     public IIcon getInactiveIcon(int meta)
     {
         return IconRegistry.getIcon("CdBurner_" + TextureHelper.metaToType(meta) + "_Inactive");
-    }
+    }*/
     
     public static enum Types
     {

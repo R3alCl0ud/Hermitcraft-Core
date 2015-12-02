@@ -9,6 +9,9 @@ tile.blockVarsium.name=Varsium Block
 tile.blockSapphire.name=Sapphire Block
 tile.blockMystite.name=Mystite Block
 tile.blockAmethyst.name=Amethyst Block
+tile.CdBurner.0.name=Creative Cd Burner
+tile.CdBurner.1.name=Redstone Cd Burner
+tile.CdBurner.2.name=Resonant Cd Burner
 
 fluid.limonite.molten=Molten Limonite
 fluid.amethyst.molten=Molten Amethyst
@@ -47,10 +50,17 @@ item.recordCollide.name=Music Disc
 item.recordTakeBackTehNight.name=Music Disc
 item.recordWarcraft.name=Music Disc
 item.recordChipstuff.name=Music Disc
+item.recordBlank.name=Blank Music Disc
+itme.recordBlank.desc=infinite Mb remaining
 item.record.recordCollide.desc=Hellberg & Deutgen vs Splitbreed - Collide (Astronaut & Barely Alive Remix)
 item.record.recordTakeBackTehNight.desc=TryHardNinja - Take Back the Night
 item.record.recordWarcraft.desc=Bustre - Hurt For Me (feat. Thallie Ann Seenyen)
 item.record.recordChipstuff.desc=Ephixa - Chipstuff
+
+item.schematicTbtn.name=Take Back The Night Schematic
+
+item.itemVinyl.name=Vinyl
+item.itemLaser.name=BlueRay Lazer
 
 item.KlienStarGamma_1.name=Klein Star Gamma
 item.KlienStarGamma_2.name=Klein Star Sieben

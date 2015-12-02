@@ -4,6 +4,8 @@ import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import cofh.api.energy.IEnergyContainerItem;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import hermitcore.gameObjs.block.ItemBlockBasic;
 import hermitcore.gameObjs.tile.TileCdBurner;
 
@@ -16,6 +18,12 @@ public class ItemCdBurner extends ItemBlockBasic implements IEnergyContainerItem
 		
 		
 	}
+	
+    @SideOnly(Side.CLIENT)
+    public boolean isFull3D()
+    {
+    	return true;
+    }
 	
     public void checkAndSetDefaultTag(ItemStack stack)
     {
@@ -63,5 +71,8 @@ public class ItemCdBurner extends ItemBlockBasic implements IEnergyContainerItem
 	{
 		return TileCdBurner.CAPACITY[container.getItemDamage()];
 	}
+	
+	
+	
 
 }

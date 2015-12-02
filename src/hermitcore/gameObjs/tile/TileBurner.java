@@ -19,7 +19,7 @@ import cofh.lib.util.helpers.EnergyHelper;
 public abstract class TileBurner extends TileInventory implements IReconfigurableFacing, IEnergyHandler, IChargeableFromSlot  
 {
     public static final short TICKS_PER_UPDATE = 20;
-    public static final int INVENTORY_SIZE = 2;
+    public static final int INVENTORY_SIZE = 3;
     public short ticksSinceLastUpdate = 0;
     public boolean isActive = false;
     public int storedEnergy = 0;
@@ -210,11 +210,15 @@ public abstract class TileBurner extends TileInventory implements IReconfigurabl
 
     public int getChargeSlot()
     {
-        return this.inventory.length - 1;
+        return this.inventory.length - 3;
     }
     public int getSchematicSlot()
     {
-    	return this.inventory.length;
+    	return this.inventory.length - 2;
+    }
+    public int getBlankRecordSlot()
+    {
+    	return this.inventory.length - 1;
     }
 
     public boolean hasChargeSlot() { return true; }

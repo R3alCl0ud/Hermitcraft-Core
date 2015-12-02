@@ -33,12 +33,13 @@ public abstract class rfCd_Burner extends BlockHErf implements ITileEntityProvid
         setHardness(10.0f);
         setResistance(20.0f);
 	}
-	
+	/*
     public IIcon getPrimaryIcon(int meta, TileBurner tile)
     {
         return tile.isActive ? this.getActiveIcon(meta) : this.getInactiveIcon(meta);
     }
-
+    
+    /*
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(int side, int meta)
     {
@@ -48,7 +49,7 @@ public abstract class rfCd_Burner extends BlockHErf implements ITileEntityProvid
         else if (orientation == ForgeDirection.SOUTH) return this.getInactiveIcon(meta);
 
         return this.getSideIcon(meta);
-    }
+    }*/
 
     @SideOnly(Side.CLIENT)
     public IIcon getIcon(IBlockAccess blockAccess, int x, int y, int z, int iSide)
@@ -61,7 +62,7 @@ public abstract class rfCd_Burner extends BlockHErf implements ITileEntityProvid
         ForgeDirection out = tile.getOrientation();
         ForgeDirection side = ForgeDirection.getOrientation(iSide);
 
-        if (out == side) return this.getPrimaryIcon(meta, tile);
+        //if (out == side) return this.getPrimaryIcon(meta, tile);
 
         if (side == ForgeDirection.UP) return this.getTopIcon(meta);
         else if (side == ForgeDirection.DOWN) return this.getBottomIcon(meta);
@@ -145,9 +146,9 @@ public abstract class rfCd_Burner extends BlockHErf implements ITileEntityProvid
         return ForgeDirection.VALID_DIRECTIONS;
     }
     
-    public abstract IIcon getActiveIcon(int meta);
+    //public abstract IIcon getActiveIcon(int meta);
 
-    public abstract IIcon getInactiveIcon(int meta);
+    //public abstract IIcon getInactiveIcon(int meta);
 
     public IIcon getTopIcon(int meta)
     {

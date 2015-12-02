@@ -1,6 +1,7 @@
-package hermitcore.gameObjs.tile;
+package hermitcore.render;
 
-import hermitcore.gameObjs.block.rfblockmodels.CdBurner;
+import hermitcore.gameObjs.tile.TileCdBurner;
+import hermitcore.render.model.CdBurner;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
@@ -55,10 +56,10 @@ public class TileCdBurnerRenderer extends TileEntitySpecialRenderer implements I
 				renderAModelAt(0.0F, 1.0F, 0.0F, 0);
 				break;
 			case EQUIPPED:
-				renderAModelAt(1.0F, 1.15F, 1.00F, 0);
+				renderAModelAt(0.0F, 1.15F, 1.0F, 0);
 				break;
 			case EQUIPPED_FIRST_PERSON:
-				renderAModelAt(1.0F, 1.6F, 1.0F, 0);
+				renderAModelAt(-1.0F, 1.6F, -1.0F, 0);
 				break;
 			case INVENTORY:
 				renderAModelAt(0.0F, 1.0F, 0.0F, 0);
@@ -95,20 +96,22 @@ public class TileCdBurnerRenderer extends TileEntitySpecialRenderer implements I
 		GL11.glPopMatrix();
 
 		GL11.glPushMatrix();
-		GL11.glTranslatef((float)x + 0.5F, (float)y + 1.0F, (float)z + 0.5F);
+		GL11.glTranslatef((float)x + 0.0F, (float)y + 0.0F, (float)z + 0.0F);
+		GL11.glRotatef(90.0F, 0.0F, 0.0F, 90.0F);
 		if (burner.getItemStack() != null)
 		{
 			EntityItem hover = new EntityItem(burner.getWorldObj());
 			hover.hoverStart = 0.0F;
+			hover.rotationPitch = 20F;
 			hover.setEntityItemStack(burner.getItemStack());
-			ghostItemRenderer.doRender(hover, 0, 0, 0, 0, 0);
+			ghostItemRenderer.doRender(hover, 0.2, -0.625, 0.5, 0, 94.3F);
+
+			
 		}
 		
 		GL11.glPopMatrix();
 		GL11.glEnable(GL11.GL_CULL_FACE);
-		
-		
-		//this.renderAModelAt((TileCdBurner)tileEntity, par2, par4, par6, par8);
+						
 		}
 	}
 

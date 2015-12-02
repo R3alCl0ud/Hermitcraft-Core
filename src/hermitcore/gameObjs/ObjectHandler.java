@@ -12,6 +12,10 @@ import hermitcore.gameObjs.block.blockVarsium;
 import hermitcore.gameObjs.block.rf.BlockCdBurner;
 import hermitcore.gameObjs.block.rf.rfCd_Burner;
 import hermitcore.gameObjs.item.KlienStarGamma;
+import hermitcore.gameObjs.item.Schematic_Tbtn;
+import hermitcore.gameObjs.item.itemLaser;
+import hermitcore.gameObjs.item.itemVinyl;
+import hermitcore.gameObjs.item.record_Blank;
 import hermitcore.gameObjs.item.record_Chipstuff;
 import hermitcore.gameObjs.item.record_Collide;
 import hermitcore.gameObjs.item.record_TakeBackTehNight;
@@ -51,10 +55,18 @@ public class ObjectHandler
 	
 	public static Block rfCdBurner;
 	
+	public static Item Schematic_Tbtn;
+	
+	public static Item itemVinyl;
+	public static Item itemLaser;
+	
+	public static Item record_Blank;
 	public static Item record_Warcraft;
 	public static Item record_Chipstuff;
 	public static Item record_Collide;
 	public static Item record_TakeBackTehNight;
+	
+	
 	public static Item KlienStarGamma;
 	
 	@SuppressWarnings("rawtypes")
@@ -78,6 +90,10 @@ public class ObjectHandler
 		GameRegistry.registerBlock(rfCdBurner, ItemCdBurner.class, "rfCd_Burner");
 		((BlockCdBurner) rfCdBurner).init();
 		
+		GameRegistry.registerItem(Schematic_Tbtn = new Schematic_Tbtn("schematicTbtn"), "schematicTbtn");
+		GameRegistry.registerItem(itemVinyl =  new itemVinyl("itemVinyl"), "itemVinyl");
+		GameRegistry.registerItem(itemLaser =  new itemLaser("itemLaser"), "itemLaser");
+		GameRegistry.registerItem(record_Blank = new record_Blank("recordBlank"), "recordBlank");
 		
 		GameRegistry.registerItem(record_Warcraft = new record_Warcraft("recordWarcraft"), "recordWarcraft");
 		GameRegistry.registerItem(record_Chipstuff = new record_Chipstuff("recordChipstuff"), "recordChipstuff");
@@ -122,6 +138,10 @@ public class ObjectHandler
 		GameRegistry.addShapelessRecipe(new ItemStack(Itemizer.IngotMystite, 9, 0), blockMystite);
 		
 		GameRegistry.addShapelessRecipe(new ItemStack(record_TakeBackTehNight, 1, 0), Items.record_cat, Items.record_mall);
+		
+		GameRegistry.addRecipe(new ItemStack(record_Blank), "VVV", "V V", "VVV", 'V', itemVinyl);
+		
+		GameRegistry.addRecipe(new ItemStack(itemLaser), "IrI", "IrI", " I ", 'I', Items.iron_ingot, 'r', Items.redstone);
 		
 		
 		if(Loader.isModLoaded("ProjectE"))
