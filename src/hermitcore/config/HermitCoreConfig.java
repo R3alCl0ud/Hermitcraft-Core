@@ -13,8 +13,12 @@ public final class HermitCoreConfig
 {
 	public static boolean enableDebugLog;
 	public static String toDelete[];
+	public static String recordName[];
+	
     public static int GUITopLeftYOffset;
     public static int GUITopLeftXOffset;
+    
+    public static int totalRecords;
 
 	
 	public static void init(File configFile)

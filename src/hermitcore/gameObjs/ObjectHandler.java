@@ -1,5 +1,6 @@
 package hermitcore.gameObjs;
 
+import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.block.blockAmethyst;
 import hermitcore.gameObjs.block.blockEmberstone;
 import hermitcore.gameObjs.block.blockJade;
@@ -65,7 +66,7 @@ public class ObjectHandler
 	public static Item record_Chipstuff;
 	public static Item record_Collide;
 	public static Item record_TakeBackTehNight;
-	
+	public static Item record_Base;
 	
 	public static Item KlienStarGamma;
 	
@@ -104,6 +105,11 @@ public class ObjectHandler
 		if(Loader.isModLoaded("ProjectE"))
 		{
 			GameRegistry.registerItem(KlienStarGamma = new KlienStarGamma("KlienStarGamma"), "KlienStarGamma", "KlienStarGamma");
+		}
+		
+		for (int i = 0; i < HermitCoreConfig.totalRecords; i++)
+		{
+			GameRegistry.registerItem(record_Base = new record_Base(HermitCoreConfig.recordName[i-1]), name);
 		}
 		
 	}

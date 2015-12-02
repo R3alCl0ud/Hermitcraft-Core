@@ -9,7 +9,7 @@ public class Schematic_Tbtn extends Item
 	public Schematic_Tbtn (String unlocalizedName)
 	{
 		this.setUnlocalizedName(unlocalizedName);
-		this.setTextureName(HECore.MODID + ":" + unlocalizedName);
+		this.setTextureName(HECore.MODID + ":" + "schematic");
 		this.setCreativeTab(HermitRegistry.recordTab);
 	}
 
