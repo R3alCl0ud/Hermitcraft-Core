@@ -80,7 +80,7 @@ public class KlienStarGamma extends Item implements IItemEmc
 	{
 		if (stack.getItemDamage() > 5)
 		{
-			return "pe.debug.metainvalid";
+			return "hi";
 		}
 
 		return super.getUnlocalizedName()+ "_" + (stack.getItemDamage() + 1);

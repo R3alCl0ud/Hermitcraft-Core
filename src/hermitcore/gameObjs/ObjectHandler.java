@@ -1,6 +1,5 @@
 package hermitcore.gameObjs;
 
-import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.block.blockAmethyst;
 import hermitcore.gameObjs.block.blockEmberstone;
 import hermitcore.gameObjs.block.blockJade;
@@ -11,11 +10,11 @@ import hermitcore.gameObjs.block.blockRosite;
 import hermitcore.gameObjs.block.blockSapphire;
 import hermitcore.gameObjs.block.blockVarsium;
 import hermitcore.gameObjs.block.rf.BlockCdBurner;
-import hermitcore.gameObjs.block.rf.rfCd_Burner;
 import hermitcore.gameObjs.item.KlienStarGamma;
 import hermitcore.gameObjs.item.Schematic_Tbtn;
 import hermitcore.gameObjs.item.itemLaser;
 import hermitcore.gameObjs.item.itemVinyl;
+import hermitcore.gameObjs.item.record_Base;
 import hermitcore.gameObjs.item.record_Blank;
 import hermitcore.gameObjs.item.record_Chipstuff;
 import hermitcore.gameObjs.item.record_Collide;
@@ -95,7 +94,8 @@ public class ObjectHandler
 		GameRegistry.registerItem(itemVinyl =  new itemVinyl("itemVinyl"), "itemVinyl");
 		GameRegistry.registerItem(itemLaser =  new itemLaser("itemLaser"), "itemLaser");
 		GameRegistry.registerItem(record_Blank = new record_Blank("recordBlank"), "recordBlank");
-		
+		GameRegistry.registerItem(record_Base = new record_Base("record"), "record");
+			
 		GameRegistry.registerItem(record_Warcraft = new record_Warcraft("recordWarcraft"), "recordWarcraft");
 		GameRegistry.registerItem(record_Chipstuff = new record_Chipstuff("recordChipstuff"), "recordChipstuff");
 		GameRegistry.registerItem(record_Collide = new record_Collide("recordCollide"), "recordCollide");
@@ -108,7 +108,7 @@ public class ObjectHandler
 		}
 		
 		
-		GameRegistry.registerItem(record_Base = new record_Base("record_"), "record_");
+	
 		
 		
 	}

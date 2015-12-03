@@ -1,0 +1,129 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 12/2/15 6:06 PM
+Description: Updating screen events
+
+java.lang.IllegalArgumentException: Illegal object for naming hermitcore.gameObjs.item.record_Base@3f191a96_0
+	at cpw.mods.fml.common.registry.LanguageRegistry.addNameForObject(LanguageRegistry.java:140)
+	at cpw.mods.fml.common.registry.LanguageRegistry.addName(LanguageRegistry.java:152)
+	at hermitcore.gameObjs.item.record_Base.getSubItems(record_Base.java:59)
+	at net.minecraft.creativetab.CreativeTabs.displayAllReleventItems(CreativeTabs.java:312)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.setCurrentCreativeTab(GuiContainerCreative.java:479)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.mouseMovedOrUp(GuiContainerCreative.java:456)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:306)
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseInput(GuiContainer.java)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.handleMouseInput(GuiContainerCreative.java:566)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:268)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1640)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:973)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:898)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at cpw.mods.fml.common.registry.LanguageRegistry.addNameForObject(LanguageRegistry.java:140)
+	at cpw.mods.fml.common.registry.LanguageRegistry.addName(LanguageRegistry.java:152)
+	at hermitcore.gameObjs.item.record_Base.getSubItems(record_Base.java:59)
+	at net.minecraft.creativetab.CreativeTabs.displayAllReleventItems(CreativeTabs.java:312)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.setCurrentCreativeTab(GuiContainerCreative.java:479)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.mouseMovedOrUp(GuiContainerCreative.java:456)
+	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:306)
+	at net.minecraft.client.gui.inventory.GuiContainer.handleMouseInput(GuiContainer.java)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.handleMouseInput(GuiContainerCreative.java:566)
+	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:268)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.inventory.GuiContainerCreative
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player312'/286, l='MpServer', x=234.39, y=65.62, z=244.69]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (236,64,244), Chunk: (at 12,4,4 in 14,15; contains blocks 224,0,240 to 239,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 381783 game time, 281 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 58 total; [EntitySquid['Squid'/136, l='MpServer', x=221.56, y=60.22, z=291.53], EntitySquid['Squid'/129, l='MpServer', x=219.38, y=60.00, z=281.50], EntitySquid['Squid'/131, l='MpServer', x=212.81, y=58.31, z=287.28], EntitySquid['Squid'/130, l='MpServer', x=212.66, y=58.00, z=282.91], EntityClientPlayerMP['Player312'/286, l='MpServer', x=234.39, y=65.62, z=244.69], EntitySquid['Squid'/133, l='MpServer', x=217.44, y=56.00, z=287.50], EntitySquid['Squid'/132, l='MpServer', x=220.53, y=60.31, z=282.56], EntitySquid['Squid'/135, l='MpServer', x=218.22, y=59.00, z=294.63], EntitySquid['Squid'/134, l='MpServer', x=211.72, y=57.75, z=295.41], EntityBat['Bat'/144, l='MpServer', x=231.94, y=34.10, z=244.91], EntityBat['Bat'/145, l='MpServer', x=225.38, y=37.10, z=251.72], EntitySheep['Sheep'/163, l='MpServer', x=242.47, y=58.00, z=198.47], EntitySheep['Sheep'/162, l='MpServer', x=244.53, y=57.00, z=200.47], EntitySheep['Sheep'/161, l='MpServer', x=243.22, y=64.00, z=181.50], EntitySheep['Sheep'/160, l='MpServer', x=248.88, y=63.00, z=182.06], EntityItem['item.item.egg'/165, l='MpServer', x=253.34, y=62.13, z=300.41], EntityChicken['Chicken'/164, l='MpServer', x=255.44, y=62.18, z=297.56], EntitySheep['Sheep'/184, l='MpServer', x=263.66, y=64.00, z=270.50], EntityChicken['Chicken'/178, l='MpServer', x=262.53, y=48.00, z=192.53], EntitySheep['Sheep'/179, l='MpServer', x=257.81, y=63.00, z=215.63], EntitySheep['Sheep'/182, l='MpServer', x=271.53, y=62.00, z=242.53], EntitySheep['Sheep'/183, l='MpServer', x=270.75, y=62.00, z=241.25], EntitySheep['Sheep'/180, l='MpServer', x=271.28, y=63.00, z=224.25], EntityChicken['Chicken'/181, l='MpServer', x=273.47, y=63.00, z=228.47], EntityChicken['Chicken'/205, l='MpServer', x=277.53, y=63.00, z=233.41], EntitySheep['Sheep'/204, l='MpServer', x=290.48, y=60.00, z=232.09], EntityChicken['Chicken'/207, l='MpServer', x=284.47, y=64.00, z=227.47], EntitySheep['Sheep'/206, l='MpServer', x=282.47, y=63.00, z=233.53], EntitySheep['Sheep'/203, l='MpServer', x=283.81, y=63.00, z=197.50], EntitySheep['Sheep'/202, l='MpServer', x=279.13, y=63.00, z=179.13], EntityChicken['Chicken'/85, l='MpServer', x=171.44, y=66.00, z=247.63], EntitySheep['Sheep'/220, l='MpServer', x=294.88, y=64.00, z=218.78], EntityChicken['Chicken'/221, l='MpServer', x=291.53, y=64.00, z=239.56], EntityChicken['Chicken'/87, l='MpServer', x=166.41, y=69.00, z=280.56], EntityItem['item.item.egg'/222, l='MpServer', x=289.97, y=64.13, z=249.81], EntityBat['Bat'/86, l='MpServer', x=180.82, y=20.26, z=281.52], EntitySheep['Sheep'/223, l='MpServer', x=291.06, y=64.00, z=304.03], EntitySheep['Sheep'/219, l='MpServer', x=295.19, y=63.00, z=207.44], EntityCow['Cow'/89, l='MpServer', x=165.41, y=71.00, z=299.25], EntityItem['item.item.egg'/208, l='MpServer', x=283.81, y=64.13, z=225.84], EntityChicken['Chicken'/209, l='MpServer', x=281.53, y=64.00, z=224.47], EntityBat['Bat'/91, l='MpServer', x=174.63, y=57.35, z=315.29], EntityChicken['Chicken'/210, l='MpServer', x=280.59, y=67.00, z=302.47], EntityChicken['Chicken'/90, l='MpServer', x=162.44, y=72.00, z=288.59], EntitySheep['Sheep'/102, l='MpServer', x=182.19, y=78.00, z=205.78], EntitySheep['Sheep'/103, l='MpServer', x=187.47, y=80.00, z=199.66], EntitySheep['Sheep'/229, l='MpServer', x=298.50, y=70.00, z=214.66], EntitySheep['Sheep'/108, l='MpServer', x=192.88, y=64.00, z=309.16], EntitySheep['Sheep'/106, l='MpServer', x=174.13, y=65.00, z=256.09], EntitySheep['Sheep'/107, l='MpServer', x=189.16, y=69.00, z=284.06], EntitySheep['Sheep'/104, l='MpServer', x=181.38, y=71.00, z=234.81], EntitySheep['Sheep'/105, l='MpServer', x=189.53, y=66.00, z=235.47], EntityChicken['Chicken'/119, l='MpServer', x=201.59, y=62.49, z=311.41], EntitySquid['Squid'/118, l='MpServer', x=214.13, y=56.00, z=287.47], EntitySquid['Squid'/117, l='MpServer', x=207.50, y=56.00, z=290.50], EntitySquid['Squid'/116, l='MpServer', x=210.47, y=58.34, z=296.22], EntitySheep['Sheep'/115, l='MpServer', x=197.88, y=63.00, z=278.88], EntityChicken['Chicken'/114, l='MpServer', x=196.53, y=62.49, z=273.41]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:373)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2444)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:919)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 516988808 bytes (493 MB) / 1810890752 bytes (1727 MB) up to 3804758016 bytes (3628 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1448 15 mods loaded, 15 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeBin-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1448} [Minecraft Forge] (forgeBin-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	NotEnoughItems{1.0.4.106} [Not Enough Items] (NotEnoughItems-1.7.10-1.0.4.106-dev.jar) 
+	UCHIJAAAA	CodeChickenCore{1.0.6.43} [CodeChicken Core] (minecraft.jar) 
+	UCHIJAAAA	<CoFH ASM>{000} [CoFH ASM Data Initialization] (minecraft.jar) 
+	UCHIJAAAA	Mantle{1.7.10-0.3.2.jenkins187} [Mantle] (Mantle-1.7.10-0.3.2.jenkins187-deobf.jar) 
+	UCHIJAAAA	CoFHCore{1.7.10R3.0.0RC7} [CoFH Core] (CoFHCore-[1.7.10]3.0.0RC7-211-dev.jar) 
+	UCHIJAAAA	TConstruct{1.7.10-1.8.7.build979} [Tinkers' Construct] (TConstruct-1.7.10-1.8.7.build979-deobf.jar) 
+	UCHIJAAAA	ForgeMultipart{1.1.2.334} [Forge Multipart] (ForgeMultipart-1.7.10-1.1.2.334-dev.jar) 
+	UCHIJAAAA	McMultipart{1.1.2.334} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.1.2.334-dev.jar) 
+	UCHIJAAAA	nevermine{2.3} [AdventOfAscension] (AoA-2.4.B.jar) 
+	UCHIJAAAA	ProjectE{1.7.10-PE1.9.3} [ProjectE] (ProjectE-1.7.10-PE1.9.3.jar) 
+	UCHIJAAAA	hermitcore{${version}} [Hermitcraft Core] (bin) 
+	UCHIJAAAA	ForgeMicroblock{1.1.2.334} [Forge Microblocks] (ForgeMultipart-1.7.10-1.1.2.334-dev.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.5.0 NVIDIA 353.54' Renderer: 'GeForce GTX 760/PCIe/SSE2'
+	Mantle Environment: Environment healthy.
+	CoFHCore: -[1.7.10]3.0.0RC7-211
+	TConstruct Environment: Environment healthy.
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 760/PCIe/SSE2 GL version 4.5.0 NVIDIA 353.54, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

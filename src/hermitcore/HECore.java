@@ -2,6 +2,7 @@ package hermitcore;
 
 import hermitcore.common.GUIEventHandler;
 import hermitcore.common.IProxy;
+import hermitcore.config.CustomRecordParser;
 import hermitcore.config.HermitCoreConfig;
 import hermitcore.gameObjs.ObjectHandler;
 import hermitcore.gui.GuiHandler;
@@ -29,6 +30,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.network.NetworkRegistry;
 
 
@@ -73,6 +75,8 @@ public class HECore {
         PacketHandler.instance.init();
 		
 		HermitCoreConfig.init(new File(CONFIG_DIR, "HECore.cfg"));
+		
+		CustomRecordParser.init();
 
 		HermitRegistry.recordTab = new HermitTabs("HermitcoreRecords");
 		
@@ -125,6 +129,12 @@ public class HECore {
 		
 
         pulsar.postInit(event);
+	}
+	
+	@Mod.EventHandler
+	public void serverStarting(FMLServerStartingEvent event)
+	{
+		CustomRecordParser.readUserData();
 	}
 	
     public static LiquidCasting getTableCasting ()
