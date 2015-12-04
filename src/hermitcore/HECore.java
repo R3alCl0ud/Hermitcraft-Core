@@ -13,8 +13,11 @@ import hermitcore.network.PacketHandler;
 import hermitcore.network.PacketTile;
 import hermitcore.tcon.smeltery.HermitSmeltery;
 import hermitcore.tcon.tools.HermitTools;
+import hermitcore.utils.helper.MusicDownloader;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.Map;
 import java.util.Random;
 
 import net.minecraft.client.Minecraft;
@@ -22,6 +25,7 @@ import net.minecraftforge.common.MinecraftForge;
 import mantle.pulsar.config.ForgeCFG;
 import mantle.pulsar.config.IConfiguration;
 import mantle.pulsar.control.PulseManager;
+import moze_intel.projecte.emc.NormalizedSimpleStack;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -48,6 +52,8 @@ public class HECore {
 	public static Random random = new Random();
 	
 	public static File CONFIG_DIR;
+	public static File ASSETS_DIR;
+	public static File MUSIC_DIR;
 
 	@Instance(MODID)
 	public static HECore instance;
@@ -59,14 +65,24 @@ public class HECore {
 	public static PulseManager pulsar;
 	
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent event) {
-		CONFIG_DIR = new File(event.getModConfigurationDirectory(),
-				"HermitCore");
+	public void preInit(FMLPreInitializationEvent event) 
+	{
+		CONFIG_DIR = new File(event.getModConfigurationDirectory(), "HermitCore");
+		ASSETS_DIR = new File(event.getModConfigurationDirectory(), "HermitCore/Assets");
+		MUSIC_DIR = new File(event.getModConfigurationDirectory(), "HermitCore/Assets/Music");
 
-		if (!CONFIG_DIR.exists()) {
+		if (!CONFIG_DIR.exists()) 
+		{
 			CONFIG_DIR.mkdirs();
 		}
-		
+		if (!ASSETS_DIR.exists())
+		{
+			ASSETS_DIR.mkdirs();
+		}
+		if (!MUSIC_DIR.exists())
+		{
+			MUSIC_DIR.mkdirs();
+		}
 		
         pulseCFG = new PulsarCFG(HermitCoreConfig.configFile("Modules.cfg"), "Tinker's Construct Addon: Hermitcraft Core Addon for Tinkers Construct");
         pulseCFG.load();
@@ -97,6 +113,11 @@ public class HECore {
         basinCasting = new LiquidCasting();
         
         pulsar.preInit(event);
+        
+        
+
+
+		
 
 	}
 
@@ -131,10 +152,33 @@ public class HECore {
         pulsar.postInit(event);
 	}
 	
+	
+	/**
+	 * Downloads missing music files
+	 * @param event Server instance
+	 */
 	@Mod.EventHandler
 	public void serverStarting(FMLServerStartingEvent event)
 	{
-		CustomRecordParser.readUserData();
+
+		
+		System.out.println(Minecraft.getMinecraft().toString());
+		
+		for (int i = 0; i < HermitCoreConfig.recordName.length; i++)
+		{
+		//String fileURL = "http://" + event.getServer() + "/" +  HermitCoreConfig.recordName[i] + ".ogg"; //Left out, for now convert the music file to a .ogg and put it on dropbox or somthing
+			String fileURL = HermitCoreConfig.recordURL[i];
+			String saveDir = HECore.MUSIC_DIR.toString();
+		try
+		{
+			MusicDownloader.downloadFile(fileURL, saveDir);
+		}
+		catch (IOException ex)
+		{
+			ex.printStackTrace();
+		}
+		}
+		
 	}
 	
     public static LiquidCasting getTableCasting ()

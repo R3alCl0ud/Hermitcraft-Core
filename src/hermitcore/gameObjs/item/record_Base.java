@@ -1,17 +1,12 @@
 package hermitcore.gameObjs.item;
 
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
 import java.util.List;
 
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import hermitcore.HECore;
-import hermitcore.config.CustomRecordParser;
 import hermitcore.config.HermitCoreConfig;
 import hermitcore.library.HermitRegistry;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -39,10 +34,13 @@ public class record_Base extends ItemRecord
 		this.setCreativeTab(HermitRegistry.recordTab);
 	}
 	
+	/**
+	 * Adds unlocalized names to new records as defined in the config file
+	 */
 	@Override
 	public String getUnlocalizedName(ItemStack stack)
 	{
-		if (stack.getItemDamage() > 5)
+		if (stack.getItemDamage() > HermitCoreConfig.recordName.length)
 		{
 			return "pe.debug.metainvalid";
 		}
@@ -50,13 +48,21 @@ public class record_Base extends ItemRecord
 		return super.getUnlocalizedName()+ "_" + (stack.getItemDamage() + 1);
 	}
 	
+
+	/**
+	 * Adds new records as defined in the config file
+	 * 
+	 * @param item
+	 * @param cTab
+	 * @param list
+	 */
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@SideOnly(Side.CLIENT)
 	public void getSubItems(Item item, CreativeTabs cTab, List list)
 	{
 		for (int i = 0; i < HermitCoreConfig.recordName.length; ++i)
 		{
 			list.add(new ItemStack(item, 1, i));
-			//LanguageRegistry.addName("item.record" + "_" + (i + 1)+ ".name", HermitCoreConfig.recordName[i]);
 		}
 	}
 	
@@ -87,30 +93,8 @@ public class record_Base extends ItemRecord
 		return ("hermitcore:" + folder + "/" + name);
 	}
 	public ResourceLocation getRecordResource(String name)
-	{
-		try
-		{
-			URL songLoc = new URL(CustomRecordParser.Entry.url);
-		    URLConnection myURLConnection = songLoc.openConnection();
-		    myURLConnection.connect();
-		    
-		} 
-		catch (MalformedURLException e) 
-		{
-			
-			e.printStackTrace();
-		} 
-		catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
-		finally
-		{
-			
-		}
-		
-		
-		return new ResourceLocation(HECore.CONFIG_DIR.toString() + "sounds");
+	{				
+		return new ResourceLocation(HECore.MODID, "/sounds");
 	}
 	
 

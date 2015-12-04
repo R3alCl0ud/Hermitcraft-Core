@@ -89,6 +89,15 @@ public final class CustomRecordParser {
 		try
 		{
 			reader = new LineNumberReader(new FileReader(CONFIG));
+			int i = 0;
+			while ((entry = getNextEntry(reader)) != null)
+			{
+				if(!entry.name.contains(":"))
+				{					
+					userValues.put(NormalizedSimpleStack.fromSerializedItem(entry.name) , i);
+					i++;
+				}
+			}
 		}
 		catch (Exception e)
 		{
@@ -98,6 +107,20 @@ public final class CustomRecordParser {
 		{
 			FileHelper.closeStream(reader);
 		}
+	}
+	
+	public static boolean addToFile(String recName, String resUrl)
+	{
+		if (!loaded)
+		{
+			HELogger.logFatal("ERROR: configurations files are not loaded!");
+			return false;
+		}
+		
+		PrintWriter writer = null;
+		boolean result = false;
+		
+		return result;
 	}
 	
 	private static List<String> readAllFile()
@@ -168,6 +191,28 @@ public final class CustomRecordParser {
 			if (line.charAt(0) == 'S')
 			{
 				String name = line.substring(2);
+				int nameIndex = reader.getLineNumber();
+
+				line = getNextLine(reader);
+				
+				if (line == null || line.charAt(0) != 'U')
+				{
+					continue;
+				}
+				
+				String url = "";
+				int urlIndex = reader.getLineNumber();
+				
+				try
+				{
+					url = line.substring(2);
+				}
+				catch (NumberFormatException e)
+				{
+					e.printStackTrace();
+					continue;
+				}
+			return new Entry(name, url);
 			}
 		}
 			
@@ -204,7 +249,7 @@ public final class CustomRecordParser {
 			writer.println(VERSION);
 			writer.println("Custom Records file");
 			writer.println("This file is used for custom record registration");
-			//writer.println("In game commands are avaliable to set custom values. Type /projecte in game for usage info.");
+			
 		}
 		catch (IOException e)
 		{
@@ -216,15 +261,19 @@ public final class CustomRecordParser {
 		}
 	}
 	
-	public static class Entry
+	private static class Entry
 	{
 		public String name;
-		public static String url;
+		public String url;
+		public int nameIndex;
+		public int urlIndex;
 		
 		public Entry (String name, String url)
 		{
 			this.name = name;
 			this.url = url;
+			this.nameIndex = nameIndex;
+			this.urlIndex = urlIndex;
 		}
 	}
 }
