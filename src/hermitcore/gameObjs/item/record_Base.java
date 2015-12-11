@@ -94,7 +94,11 @@ public class record_Base extends ItemRecord
 	}
 	public ResourceLocation getRecordResource(String name)
 	{				
-		return new ResourceLocation(HECore.MODID, "/sounds");
+		//return new ResourceLocation(HECore.MODID, "/sounds");
+		for(int i = 0; i < HermitCoreConfig.recordName.length; i++)
+		{
+		return File(HECore.MUSIC_DIR, + "/" + HermitCoreConfig.recordName[i]);
+		}
 	}
 	
 
